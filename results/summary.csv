@@ -1,0 +1,769 @@
+sweep,x,family,protocol,metric,mean,std
+speed,18,clustering,OBQR,cluster_lifetime,110.1828,8.8766
+speed,36,clustering,OBQR,cluster_lifetime,67.6377,1.9748
+speed,54,clustering,OBQR,cluster_lifetime,51.094,2.337
+speed,72,clustering,OBQR,cluster_lifetime,40.8409,1.1885
+speed,90,clustering,OBQR,cluster_lifetime,36.3073,1.0268
+speed,108,clustering,OBQR,cluster_lifetime,33.0825,0.6944
+speed,18,clustering,OBQR,transitions_per_vehicle,3.07,0.2305
+speed,36,clustering,OBQR,transitions_per_vehicle,5.832,0.2126
+speed,54,clustering,OBQR,transitions_per_vehicle,8.342,0.3485
+speed,72,clustering,OBQR,transitions_per_vehicle,10.654,0.4027
+speed,90,clustering,OBQR,transitions_per_vehicle,12.462,0.2007
+speed,108,clustering,OBQR,transitions_per_vehicle,13.704,0.2395
+speed,18,clustering,OBQR,discovery_msgs,856.6,63.1683
+speed,36,clustering,OBQR,discovery_msgs,1592.4,50.194
+speed,54,clustering,OBQR,discovery_msgs,2245.2,89.7427
+speed,72,clustering,OBQR,discovery_msgs,2888.2,102.0949
+speed,90,clustering,OBQR,discovery_msgs,3357.8,63.37
+speed,108,clustering,OBQR,discovery_msgs,3702.6,65.1448
+speed,18,clustering,OBQR,avg_clusters,54.28,1.4664
+speed,36,clustering,OBQR,avg_clusters,53.8427,1.0583
+speed,54,clustering,OBQR,avg_clusters,54.026,1.2474
+speed,72,clustering,OBQR,avg_clusters,55.4447,0.4982
+speed,90,clustering,OBQR,avg_clusters,55.9673,1.0978
+speed,108,clustering,OBQR,avg_clusters,56.204,0.5713
+speed,18,clustering,OBQR,singleton_frac,0.4916,0.0274
+speed,36,clustering,OBQR,singleton_frac,0.4842,0.0024
+speed,54,clustering,OBQR,singleton_frac,0.485,0.0164
+speed,72,clustering,OBQR,singleton_frac,0.5056,0.0126
+speed,90,clustering,OBQR,singleton_frac,0.5205,0.0174
+speed,108,clustering,OBQR,singleton_frac,0.5159,0.0048
+speed,18,clustering,OBQR,avg_cluster_size,1.8436,0.049
+speed,36,clustering,OBQR,avg_cluster_size,1.858,0.0364
+speed,54,clustering,OBQR,avg_cluster_size,1.8519,0.0423
+speed,72,clustering,OBQR,avg_cluster_size,1.8037,0.0164
+speed,90,clustering,OBQR,avg_cluster_size,1.7875,0.0354
+speed,108,clustering,OBQR,avg_cluster_size,1.7794,0.0182
+speed,18,clustering,Position-based,cluster_lifetime,52.4607,2.1171
+speed,36,clustering,Position-based,cluster_lifetime,31.2473,1.7838
+speed,54,clustering,Position-based,cluster_lifetime,22.1425,1.113
+speed,72,clustering,Position-based,cluster_lifetime,18.7682,0.8318
+speed,90,clustering,Position-based,cluster_lifetime,15.9083,0.7844
+speed,108,clustering,Position-based,cluster_lifetime,14.9759,0.4792
+speed,18,clustering,Position-based,transitions_per_vehicle,6.474,0.3026
+speed,36,clustering,Position-based,transitions_per_vehicle,12.16,0.4456
+speed,54,clustering,Position-based,transitions_per_vehicle,17.318,0.4298
+speed,72,clustering,Position-based,transitions_per_vehicle,21.564,0.6547
+speed,90,clustering,Position-based,transitions_per_vehicle,25.564,0.7901
+speed,108,clustering,Position-based,transitions_per_vehicle,27.474,0.7128
+speed,18,clustering,Position-based,discovery_msgs,1547.0,70.4982
+speed,36,clustering,Position-based,discovery_msgs,2874.6,117.9128
+speed,54,clustering,Position-based,discovery_msgs,4084.6,111.092
+speed,72,clustering,Position-based,discovery_msgs,5065.2,162.098
+speed,90,clustering,Position-based,discovery_msgs,5994.2,169.7803
+speed,108,clustering,Position-based,discovery_msgs,6429.0,169.6844
+speed,18,clustering,Position-based,avg_clusters,24.242,0.1743
+speed,36,clustering,Position-based,avg_clusters,24.3087,0.0863
+speed,54,clustering,Position-based,avg_clusters,23.8387,0.168
+speed,72,clustering,Position-based,avg_clusters,24.3073,0.0975
+speed,90,clustering,Position-based,avg_clusters,24.07,0.3153
+speed,108,clustering,Position-based,avg_clusters,23.9853,0.1094
+speed,18,clustering,Position-based,singleton_frac,0.1175,0.0193
+speed,36,clustering,Position-based,singleton_frac,0.1117,0.0062
+speed,54,clustering,Position-based,singleton_frac,0.1105,0.0041
+speed,72,clustering,Position-based,singleton_frac,0.1055,0.0073
+speed,90,clustering,Position-based,singleton_frac,0.1041,0.0068
+speed,108,clustering,Position-based,singleton_frac,0.1026,0.0077
+speed,18,clustering,Position-based,avg_cluster_size,4.1253,0.0298
+speed,36,clustering,Position-based,avg_cluster_size,4.1138,0.0145
+speed,54,clustering,Position-based,avg_cluster_size,4.1951,0.0296
+speed,72,clustering,Position-based,avg_cluster_size,4.1141,0.0165
+speed,90,clustering,Position-based,avg_cluster_size,4.1553,0.0547
+speed,108,clustering,Position-based,avg_cluster_size,4.1693,0.019
+speed,18,clustering,Speed-based,cluster_lifetime,54.0629,5.0866
+speed,36,clustering,Speed-based,cluster_lifetime,29.3093,1.3772
+speed,54,clustering,Speed-based,cluster_lifetime,12.3149,0.546
+speed,72,clustering,Speed-based,cluster_lifetime,10.0514,0.1202
+speed,90,clustering,Speed-based,cluster_lifetime,9.3912,0.1073
+speed,108,clustering,Speed-based,cluster_lifetime,9.0989,0.1507
+speed,18,clustering,Speed-based,transitions_per_vehicle,6.432,0.3359
+speed,36,clustering,Speed-based,transitions_per_vehicle,12.22,0.1753
+speed,54,clustering,Speed-based,transitions_per_vehicle,28.264,0.8909
+speed,72,clustering,Speed-based,transitions_per_vehicle,40.932,0.7546
+speed,90,clustering,Speed-based,transitions_per_vehicle,48.92,0.4122
+speed,108,clustering,Speed-based,transitions_per_vehicle,53.37,0.8697
+speed,18,clustering,Speed-based,discovery_msgs,1532.8,90.0875
+speed,36,clustering,Speed-based,discovery_msgs,2920.4,37.5585
+speed,54,clustering,Speed-based,discovery_msgs,7044.6,231.2199
+speed,72,clustering,Speed-based,discovery_msgs,10372.8,172.5125
+speed,90,clustering,Speed-based,discovery_msgs,12539.4,109.8209
+speed,108,clustering,Speed-based,discovery_msgs,13846.8,230.2637
+speed,18,clustering,Speed-based,avg_clusters,24.2413,0.3273
+speed,36,clustering,Speed-based,avg_clusters,24.522,0.2704
+speed,54,clustering,Speed-based,avg_clusters,29.1873,0.2415
+speed,72,clustering,Speed-based,avg_clusters,37.3927,0.374
+speed,90,clustering,Speed-based,avg_clusters,43.9067,0.6418
+speed,108,clustering,Speed-based,avg_clusters,48.8933,0.3851
+speed,18,clustering,Speed-based,singleton_frac,0.1262,0.0135
+speed,36,clustering,Speed-based,singleton_frac,0.1298,0.0086
+speed,54,clustering,Speed-based,singleton_frac,0.2185,0.0057
+speed,72,clustering,Speed-based,singleton_frac,0.3441,0.0093
+speed,90,clustering,Speed-based,singleton_frac,0.4054,0.0122
+speed,108,clustering,Speed-based,singleton_frac,0.4549,0.0071
+speed,18,clustering,Speed-based,avg_cluster_size,4.1259,0.0555
+speed,36,clustering,Speed-based,avg_cluster_size,4.0785,0.0445
+speed,54,clustering,Speed-based,avg_cluster_size,3.4264,0.0283
+speed,72,clustering,Speed-based,avg_cluster_size,2.6746,0.0269
+speed,90,clustering,Speed-based,avg_cluster_size,2.278,0.033
+speed,108,clustering,Speed-based,avg_cluster_size,2.0454,0.0159
+speed,18,clustering,Lowest-ID,cluster_lifetime,51.3082,1.5713
+speed,36,clustering,Lowest-ID,cluster_lifetime,27.8902,0.4941
+speed,54,clustering,Lowest-ID,cluster_lifetime,21.0155,0.389
+speed,72,clustering,Lowest-ID,cluster_lifetime,17.6812,1.0007
+speed,90,clustering,Lowest-ID,cluster_lifetime,15.144,0.6769
+speed,108,clustering,Lowest-ID,cluster_lifetime,14.4265,0.6495
+speed,18,clustering,Lowest-ID,transitions_per_vehicle,6.652,0.2241
+speed,36,clustering,Lowest-ID,transitions_per_vehicle,13.308,0.4346
+speed,54,clustering,Lowest-ID,transitions_per_vehicle,18.44,0.7367
+speed,72,clustering,Lowest-ID,transitions_per_vehicle,23.292,0.8361
+speed,90,clustering,Lowest-ID,transitions_per_vehicle,27.292,0.7839
+speed,108,clustering,Lowest-ID,transitions_per_vehicle,29.104,0.7884
+speed,18,clustering,Lowest-ID,discovery_msgs,1592.0,50.0839
+speed,36,clustering,Lowest-ID,discovery_msgs,3157.4,94.2011
+speed,54,clustering,Lowest-ID,discovery_msgs,4353.2,158.767
+speed,72,clustering,Lowest-ID,discovery_msgs,5469.8,214.4336
+speed,90,clustering,Lowest-ID,discovery_msgs,6396.8,200.0884
+speed,108,clustering,Lowest-ID,discovery_msgs,6808.8,197.6182
+speed,18,clustering,Lowest-ID,avg_clusters,24.5187,0.3773
+speed,36,clustering,Lowest-ID,avg_clusters,24.306,0.2137
+speed,54,clustering,Lowest-ID,avg_clusters,24.2107,0.3242
+speed,72,clustering,Lowest-ID,avg_clusters,24.6193,0.2573
+speed,90,clustering,Lowest-ID,avg_clusters,24.3313,0.2057
+speed,108,clustering,Lowest-ID,avg_clusters,24.3753,0.1307
+speed,18,clustering,Lowest-ID,singleton_frac,0.1198,0.0094
+speed,36,clustering,Lowest-ID,singleton_frac,0.1138,0.0132
+speed,54,clustering,Lowest-ID,singleton_frac,0.1036,0.0063
+speed,72,clustering,Lowest-ID,singleton_frac,0.1079,0.0111
+speed,90,clustering,Lowest-ID,singleton_frac,0.0998,0.0056
+speed,108,clustering,Lowest-ID,singleton_frac,0.0968,0.0085
+speed,18,clustering,Lowest-ID,avg_cluster_size,4.0795,0.0626
+speed,36,clustering,Lowest-ID,avg_cluster_size,4.1145,0.0366
+speed,54,clustering,Lowest-ID,avg_cluster_size,4.1311,0.0551
+speed,72,clustering,Lowest-ID,avg_cluster_size,4.0623,0.0426
+speed,90,clustering,Lowest-ID,avg_cluster_size,4.1102,0.0347
+speed,108,clustering,Lowest-ID,avg_cluster_size,4.1026,0.022
+speed,18,routing,OBQR,pdr,0.3988,0.1018
+speed,36,routing,OBQR,pdr,0.3459,0.0668
+speed,54,routing,OBQR,pdr,0.3187,0.0582
+speed,72,routing,OBQR,pdr,0.3275,0.0288
+speed,90,routing,OBQR,pdr,0.3276,0.0274
+speed,108,routing,OBQR,pdr,0.3473,0.0899
+speed,18,routing,OBQR,throughput_kbps,65.3312,16.6857
+speed,36,routing,OBQR,throughput_kbps,56.6711,10.9509
+speed,54,routing,OBQR,throughput_kbps,52.2094,9.5412
+speed,72,routing,OBQR,throughput_kbps,53.6605,4.7161
+speed,90,routing,OBQR,throughput_kbps,53.6664,4.4967
+speed,108,routing,OBQR,throughput_kbps,56.8964,14.7329
+speed,18,routing,OBQR,avg_delay_ms,36.2888,6.4451
+speed,36,routing,OBQR,avg_delay_ms,43.6444,5.3533
+speed,54,routing,OBQR,avg_delay_ms,51.2864,9.8297
+speed,72,routing,OBQR,avg_delay_ms,52.2902,7.7337
+speed,90,routing,OBQR,avg_delay_ms,51.2298,7.9137
+speed,108,routing,OBQR,avg_delay_ms,50.9759,9.77
+speed,18,routing,OBQR,routing_overhead,15.7051,6.6846
+speed,36,routing,OBQR,routing_overhead,22.5459,5.7973
+speed,54,routing,OBQR,routing_overhead,29.6216,7.6328
+speed,72,routing,OBQR,routing_overhead,30.7587,5.5953
+speed,90,routing,OBQR,routing_overhead,29.5256,4.6621
+speed,108,routing,OBQR,routing_overhead,30.1749,8.8517
+speed,18,routing,OBQR,ctrl_msgs,62558.8,11234.974
+speed,36,routing,OBQR,ctrl_msgs,83112.2,7115.9563
+speed,54,routing,OBQR,ctrl_msgs,101006.4,8021.4178
+speed,72,routing,OBQR,ctrl_msgs,111544.4,14302.2647
+speed,90,routing,OBQR,ctrl_msgs,106952.2,7387.8855
+speed,108,routing,OBQR,ctrl_msgs,108611.8,9317.571
+speed,18,routing,OBQR,discoveries,1400.8,304.4118
+speed,36,routing,OBQR,discoveries,1751.0,199.876
+speed,54,routing,OBQR,discoveries,1952.4,173.2081
+speed,72,routing,OBQR,discoveries,2027.4,83.7773
+speed,90,routing,OBQR,discoveries,2079.8,90.6938
+speed,108,routing,OBQR,discoveries,2070.8,238.8283
+speed,18,routing,OBQR,avg_hops,6.9699,0.9922
+speed,36,routing,OBQR,avg_hops,6.7367,0.7227
+speed,54,routing,OBQR,avg_hops,6.7291,1.061
+speed,72,routing,OBQR,avg_hops,6.2268,0.7059
+speed,90,routing,OBQR,avg_hops,5.8787,0.6798
+speed,108,routing,OBQR,avg_hops,5.8405,0.7892
+speed,18,routing,OBQR,route_breaks,224.2,24.9752
+speed,36,routing,OBQR,route_breaks,400.0,56.6569
+speed,54,routing,OBQR,route_breaks,547.4,31.1487
+speed,72,routing,OBQR,route_breaks,649.6,70.3096
+speed,90,routing,OBQR,route_breaks,698.2,38.3635
+speed,108,routing,OBQR,route_breaks,743.2,89.3138
+speed,18,routing,AODV (min-hop),pdr,0.3744,0.0986
+speed,36,routing,AODV (min-hop),pdr,0.3266,0.0642
+speed,54,routing,AODV (min-hop),pdr,0.3019,0.0597
+speed,72,routing,AODV (min-hop),pdr,0.3128,0.0284
+speed,90,routing,AODV (min-hop),pdr,0.3147,0.0291
+speed,108,routing,AODV (min-hop),pdr,0.3338,0.0915
+speed,18,routing,AODV (min-hop),throughput_kbps,61.3435,16.1572
+speed,36,routing,AODV (min-hop),throughput_kbps,53.5084,10.5232
+speed,54,routing,AODV (min-hop),throughput_kbps,49.4592,9.7825
+speed,72,routing,AODV (min-hop),throughput_kbps,51.2527,4.6472
+speed,90,routing,AODV (min-hop),throughput_kbps,51.5657,4.7699
+speed,108,routing,AODV (min-hop),throughput_kbps,54.6875,14.9943
+speed,18,routing,AODV (min-hop),avg_delay_ms,40.6382,8.1171
+speed,36,routing,AODV (min-hop),avg_delay_ms,49.5852,6.5395
+speed,54,routing,AODV (min-hop),avg_delay_ms,58.2102,12.0502
+speed,72,routing,AODV (min-hop),avg_delay_ms,56.932,9.0815
+speed,90,routing,AODV (min-hop),avg_delay_ms,55.6995,8.5875
+speed,108,routing,AODV (min-hop),avg_delay_ms,55.5188,11.0144
+speed,18,routing,AODV (min-hop),routing_overhead,19.2323,7.8506
+speed,36,routing,AODV (min-hop),routing_overhead,26.0497,6.6627
+speed,54,routing,AODV (min-hop),routing_overhead,33.4811,8.7679
+speed,72,routing,AODV (min-hop),routing_overhead,32.9968,6.3104
+speed,90,routing,AODV (min-hop),routing_overhead,31.397,5.1101
+speed,108,routing,AODV (min-hop),routing_overhead,31.9132,9.4999
+speed,18,routing,AODV (min-hop),ctrl_msgs,72032.4,10520.393
+speed,36,routing,AODV (min-hop),ctrl_msgs,90711.6,6638.757
+speed,54,routing,AODV (min-hop),ctrl_msgs,107715.2,7663.0126
+speed,72,routing,AODV (min-hop),ctrl_msgs,114059.4,14976.3971
+speed,90,routing,AODV (min-hop),ctrl_msgs,109105.4,7691.8346
+speed,108,routing,AODV (min-hop),ctrl_msgs,109786.8,8022.2518
+speed,18,routing,AODV (min-hop),discoveries,1538.2,294.7347
+speed,36,routing,AODV (min-hop),discoveries,1914.2,181.481
+speed,54,routing,AODV (min-hop),discoveries,2131.8,162.7481
+speed,72,routing,AODV (min-hop),discoveries,2188.8,92.1464
+speed,90,routing,AODV (min-hop),discoveries,2245.6,86.7954
+speed,108,routing,AODV (min-hop),discoveries,2235.0,217.4415
+speed,18,routing,AODV (min-hop),avg_hops,6.2897,0.9534
+speed,36,routing,AODV (min-hop),avg_hops,6.1497,0.6371
+speed,54,routing,AODV (min-hop),avg_hops,6.1737,0.9919
+speed,72,routing,AODV (min-hop),avg_hops,5.713,0.6158
+speed,90,routing,AODV (min-hop),avg_hops,5.4639,0.6018
+speed,108,routing,AODV (min-hop),avg_hops,5.4278,0.7117
+speed,18,routing,AODV (min-hop),route_breaks,319.8,27.6724
+speed,36,routing,AODV (min-hop),route_breaks,503.4,60.3543
+speed,54,routing,AODV (min-hop),route_breaks,641.8,38.8299
+speed,72,routing,AODV (min-hop),route_breaks,722.2,86.6589
+speed,90,routing,AODV (min-hop),route_breaks,762.2,45.8144
+speed,108,routing,AODV (min-hop),route_breaks,795.8,85.8543
+speed,18,routing,Greedy geographic,pdr,0.2471,0.0986
+speed,36,routing,Greedy geographic,pdr,0.2075,0.0591
+speed,54,routing,Greedy geographic,pdr,0.1943,0.0591
+speed,72,routing,Greedy geographic,pdr,0.2121,0.0334
+speed,90,routing,Greedy geographic,pdr,0.2208,0.0327
+speed,108,routing,Greedy geographic,pdr,0.2373,0.082
+speed,18,routing,Greedy geographic,throughput_kbps,40.4919,16.1513
+speed,36,routing,Greedy geographic,throughput_kbps,33.9968,9.6866
+speed,54,routing,Greedy geographic,throughput_kbps,31.8405,9.679
+speed,72,routing,Greedy geographic,throughput_kbps,34.7429,5.4694
+speed,90,routing,Greedy geographic,throughput_kbps,36.1823,5.3648
+speed,108,routing,Greedy geographic,throughput_kbps,38.874,13.4277
+speed,18,routing,Greedy geographic,avg_delay_ms,19.9394,3.2411
+speed,36,routing,Greedy geographic,avg_delay_ms,17.0672,2.4478
+speed,54,routing,Greedy geographic,avg_delay_ms,18.9041,3.9954
+speed,72,routing,Greedy geographic,avg_delay_ms,15.702,2.5054
+speed,90,routing,Greedy geographic,avg_delay_ms,15.1155,1.8857
+speed,108,routing,Greedy geographic,avg_delay_ms,16.0368,2.3086
+speed,18,routing,Greedy geographic,routing_overhead,0.0,0.0
+speed,36,routing,Greedy geographic,routing_overhead,0.0,0.0
+speed,54,routing,Greedy geographic,routing_overhead,0.0,0.0
+speed,72,routing,Greedy geographic,routing_overhead,0.0,0.0
+speed,90,routing,Greedy geographic,routing_overhead,0.0,0.0
+speed,108,routing,Greedy geographic,routing_overhead,0.0,0.0
+speed,18,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+speed,36,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+speed,54,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+speed,72,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+speed,90,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+speed,108,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+speed,18,routing,Greedy geographic,discoveries,0.0,0.0
+speed,36,routing,Greedy geographic,discoveries,0.0,0.0
+speed,54,routing,Greedy geographic,discoveries,0.0,0.0
+speed,72,routing,Greedy geographic,discoveries,0.0,0.0
+speed,90,routing,Greedy geographic,discoveries,0.0,0.0
+speed,108,routing,Greedy geographic,discoveries,0.0,0.0
+speed,18,routing,Greedy geographic,avg_hops,4.4037,0.7263
+speed,36,routing,Greedy geographic,avg_hops,3.9247,0.4755
+speed,54,routing,Greedy geographic,avg_hops,4.2119,0.8752
+speed,72,routing,Greedy geographic,avg_hops,3.6624,0.4724
+speed,90,routing,Greedy geographic,avg_hops,3.5635,0.3859
+speed,108,routing,Greedy geographic,avg_hops,3.7254,0.5672
+speed,18,routing,Greedy geographic,route_breaks,0.0,0.0
+speed,36,routing,Greedy geographic,route_breaks,0.0,0.0
+speed,54,routing,Greedy geographic,route_breaks,0.0,0.0
+speed,72,routing,Greedy geographic,route_breaks,0.0,0.0
+speed,90,routing,Greedy geographic,route_breaks,0.0,0.0
+speed,108,routing,Greedy geographic,route_breaks,0.0,0.0
+range,100,clustering,OBQR,cluster_lifetime,73.1019,1.6854
+range,150,clustering,OBQR,cluster_lifetime,62.0808,2.3872
+range,200,clustering,OBQR,cluster_lifetime,55.0436,1.8935
+range,250,clustering,OBQR,cluster_lifetime,51.094,2.337
+range,300,clustering,OBQR,cluster_lifetime,47.0077,1.719
+range,100,clustering,OBQR,transitions_per_vehicle,5.564,0.1176
+range,150,clustering,OBQR,transitions_per_vehicle,6.694,0.2143
+range,200,clustering,OBQR,transitions_per_vehicle,7.616,0.2323
+range,250,clustering,OBQR,transitions_per_vehicle,8.342,0.3485
+range,300,clustering,OBQR,transitions_per_vehicle,9.086,0.2741
+range,100,clustering,OBQR,discovery_msgs,1639.8,30.8117
+range,150,clustering,OBQR,discovery_msgs,1904.8,57.2343
+range,200,clustering,OBQR,discovery_msgs,2107.0,57.5951
+range,250,clustering,OBQR,discovery_msgs,2245.2,89.7427
+range,300,clustering,OBQR,discovery_msgs,2398.6,63.7796
+range,100,clustering,OBQR,avg_clusters,73.1193,1.1861
+range,150,clustering,OBQR,avg_clusters,65.43,1.1182
+range,200,clustering,OBQR,avg_clusters,59.2093,1.1182
+range,250,clustering,OBQR,avg_clusters,54.026,1.2474
+range,300,clustering,OBQR,avg_clusters,49.7273,1.3226
+range,100,clustering,OBQR,singleton_frac,0.7144,0.0119
+range,150,clustering,OBQR,singleton_frac,0.6239,0.0142
+range,200,clustering,OBQR,singleton_frac,0.5508,0.0136
+range,250,clustering,OBQR,singleton_frac,0.485,0.0164
+range,300,clustering,OBQR,singleton_frac,0.4393,0.0145
+range,100,clustering,OBQR,avg_cluster_size,1.368,0.0217
+range,150,clustering,OBQR,avg_cluster_size,1.5288,0.0258
+range,200,clustering,OBQR,avg_cluster_size,1.6895,0.0317
+range,250,clustering,OBQR,avg_cluster_size,1.8519,0.0423
+range,300,clustering,OBQR,avg_cluster_size,2.0124,0.0528
+range,100,clustering,Position-based,cluster_lifetime,21.2705,0.574
+range,150,clustering,Position-based,cluster_lifetime,20.3923,0.8008
+range,200,clustering,Position-based,cluster_lifetime,19.5515,1.0624
+range,250,clustering,Position-based,cluster_lifetime,22.1425,1.113
+range,300,clustering,Position-based,cluster_lifetime,24.04,1.1373
+range,100,clustering,Position-based,transitions_per_vehicle,20.634,0.617
+range,150,clustering,Position-based,transitions_per_vehicle,19.504,0.7049
+range,200,clustering,Position-based,transitions_per_vehicle,18.568,0.5686
+range,250,clustering,Position-based,transitions_per_vehicle,17.318,0.4298
+range,300,clustering,Position-based,transitions_per_vehicle,16.254,0.4418
+range,100,clustering,Position-based,discovery_msgs,5540.4,167.7362
+range,150,clustering,Position-based,discovery_msgs,5024.0,190.493
+range,200,clustering,Position-based,discovery_msgs,4612.4,163.4596
+range,250,clustering,Position-based,discovery_msgs,4084.6,111.092
+range,300,clustering,Position-based,discovery_msgs,3729.4,84.0348
+range,100,clustering,Position-based,avg_clusters,52.04,0.4543
+range,150,clustering,Position-based,avg_clusters,39.5847,0.2496
+range,200,clustering,Position-based,avg_clusters,30.2993,0.1741
+range,250,clustering,Position-based,avg_clusters,23.8387,0.168
+range,300,clustering,Position-based,avg_clusters,20.0133,0.2037
+range,100,clustering,Position-based,singleton_frac,0.4647,0.0053
+range,150,clustering,Position-based,singleton_frac,0.3091,0.0045
+range,200,clustering,Position-based,singleton_frac,0.1939,0.0079
+range,250,clustering,Position-based,singleton_frac,0.1105,0.0041
+range,300,clustering,Position-based,singleton_frac,0.0727,0.0064
+range,100,clustering,Position-based,avg_cluster_size,1.9217,0.0167
+range,150,clustering,Position-based,avg_cluster_size,2.5263,0.016
+range,200,clustering,Position-based,avg_cluster_size,3.3005,0.0191
+range,250,clustering,Position-based,avg_cluster_size,4.1951,0.0296
+range,300,clustering,Position-based,avg_cluster_size,4.9972,0.0509
+range,100,clustering,Speed-based,cluster_lifetime,17.6532,0.6245
+range,150,clustering,Speed-based,cluster_lifetime,15.1346,0.552
+range,200,clustering,Speed-based,cluster_lifetime,12.8144,0.5093
+range,250,clustering,Speed-based,cluster_lifetime,12.3149,0.546
+range,300,clustering,Speed-based,cluster_lifetime,11.8923,0.6998
+range,100,clustering,Speed-based,transitions_per_vehicle,24.628,0.8872
+range,150,clustering,Speed-based,transitions_per_vehicle,26.588,1.1548
+range,200,clustering,Speed-based,transitions_per_vehicle,28.466,0.9753
+range,250,clustering,Speed-based,transitions_per_vehicle,28.264,0.8909
+range,300,clustering,Speed-based,transitions_per_vehicle,27.624,0.8044
+range,100,clustering,Speed-based,discovery_msgs,6755.8,247.6565
+range,150,clustering,Speed-based,discovery_msgs,7016.6,299.8497
+range,200,clustering,Speed-based,discovery_msgs,7314.6,247.2324
+range,250,clustering,Speed-based,discovery_msgs,7044.6,231.2199
+range,300,clustering,Speed-based,discovery_msgs,6772.8,225.4501
+range,100,clustering,Speed-based,avg_clusters,55.5767,0.4404
+range,150,clustering,Speed-based,avg_clusters,44.0753,0.2957
+range,200,clustering,Speed-based,avg_clusters,35.45,0.2126
+range,250,clustering,Speed-based,avg_clusters,29.1873,0.2415
+range,300,clustering,Speed-based,avg_clusters,25.2167,0.3876
+range,100,clustering,Speed-based,singleton_frac,0.5156,0.005
+range,150,clustering,Speed-based,singleton_frac,0.3851,0.0028
+range,200,clustering,Speed-based,singleton_frac,0.2899,0.0067
+range,250,clustering,Speed-based,singleton_frac,0.2185,0.0057
+range,300,clustering,Speed-based,singleton_frac,0.1961,0.0144
+range,100,clustering,Speed-based,avg_cluster_size,1.7994,0.0143
+range,150,clustering,Speed-based,avg_cluster_size,2.2689,0.0153
+range,200,clustering,Speed-based,avg_cluster_size,2.821,0.017
+range,250,clustering,Speed-based,avg_cluster_size,3.4264,0.0283
+range,300,clustering,Speed-based,avg_cluster_size,3.9666,0.0612
+range,100,clustering,Lowest-ID,cluster_lifetime,19.3837,0.7085
+range,150,clustering,Lowest-ID,cluster_lifetime,18.7608,0.7878
+range,200,clustering,Lowest-ID,cluster_lifetime,17.8264,0.4489
+range,250,clustering,Lowest-ID,cluster_lifetime,21.0155,0.389
+range,300,clustering,Lowest-ID,cluster_lifetime,23.0716,0.8664
+range,100,clustering,Lowest-ID,transitions_per_vehicle,23.736,0.8985
+range,150,clustering,Lowest-ID,transitions_per_vehicle,22.52,0.8849
+range,200,clustering,Lowest-ID,transitions_per_vehicle,21.092,0.8853
+range,250,clustering,Lowest-ID,transitions_per_vehicle,18.44,0.7367
+range,300,clustering,Lowest-ID,transitions_per_vehicle,16.898,0.6553
+range,100,clustering,Lowest-ID,discovery_msgs,6325.4,243.9538
+range,150,clustering,Lowest-ID,discovery_msgs,5752.4,236.4205
+range,200,clustering,Lowest-ID,discovery_msgs,5224.4,206.1442
+range,250,clustering,Lowest-ID,discovery_msgs,4353.2,158.767
+range,300,clustering,Lowest-ID,discovery_msgs,3888.0,135.7439
+range,100,clustering,Lowest-ID,avg_clusters,52.74,0.4547
+range,150,clustering,Lowest-ID,avg_clusters,40.314,0.2442
+range,200,clustering,Lowest-ID,avg_clusters,30.858,0.369
+range,250,clustering,Lowest-ID,avg_clusters,24.2107,0.3242
+range,300,clustering,Lowest-ID,avg_clusters,20.396,0.2652
+range,100,clustering,Lowest-ID,singleton_frac,0.4634,0.0058
+range,150,clustering,Lowest-ID,singleton_frac,0.3078,0.0041
+range,200,clustering,Lowest-ID,singleton_frac,0.1919,0.0078
+range,250,clustering,Lowest-ID,singleton_frac,0.1036,0.0063
+range,300,clustering,Lowest-ID,singleton_frac,0.0723,0.0085
+range,100,clustering,Lowest-ID,avg_cluster_size,1.8962,0.0162
+range,150,clustering,Lowest-ID,avg_cluster_size,2.4806,0.0151
+range,200,clustering,Lowest-ID,avg_cluster_size,3.2411,0.0393
+range,250,clustering,Lowest-ID,avg_cluster_size,4.1311,0.0551
+range,300,clustering,Lowest-ID,avg_cluster_size,4.9038,0.0641
+range,100,routing,OBQR,pdr,0.0476,0.0106
+range,150,routing,OBQR,pdr,0.0976,0.0264
+range,200,routing,OBQR,pdr,0.1666,0.0661
+range,250,routing,OBQR,pdr,0.3187,0.0582
+range,300,routing,OBQR,pdr,0.6051,0.0589
+range,100,routing,OBQR,throughput_kbps,7.797,1.73
+range,150,routing,OBQR,throughput_kbps,15.9978,4.3331
+range,200,routing,OBQR,throughput_kbps,27.2911,10.8367
+range,250,routing,OBQR,throughput_kbps,52.2094,9.5412
+range,300,routing,OBQR,throughput_kbps,99.132,9.6485
+range,100,routing,OBQR,avg_delay_ms,8.147,1.2126
+range,150,routing,OBQR,avg_delay_ms,9.9484,0.6562
+range,200,routing,OBQR,avg_delay_ms,24.1619,5.837
+range,250,routing,OBQR,avg_delay_ms,51.2864,9.8297
+range,300,routing,OBQR,avg_delay_ms,46.208,6.9571
+range,100,routing,OBQR,routing_overhead,19.3464,3.7513
+range,150,routing,OBQR,routing_overhead,15.202,3.4795
+range,200,routing,OBQR,routing_overhead,25.2424,11.6324
+range,250,routing,OBQR,routing_overhead,29.6216,7.6328
+range,300,routing,OBQR,routing_overhead,15.376,3.5191
+range,100,routing,OBQR,ctrl_msgs,9885.6,962.7404
+range,150,routing,OBQR,ctrl_msgs,15682.8,1253.369
+range,200,routing,OBQR,ctrl_msgs,38765.6,4003.694
+range,250,routing,OBQR,ctrl_msgs,101006.4,8021.4178
+range,300,routing,OBQR,ctrl_msgs,101892.2,13173.3297
+range,100,routing,OBQR,discoveries,2683.4,27.1632
+range,150,routing,OBQR,discoveries,2548.8,71.7367
+range,200,routing,OBQR,discoveries,2369.2,179.068
+range,250,routing,OBQR,discoveries,1952.4,173.2081
+range,300,routing,OBQR,discoveries,1064.2,174.7975
+range,100,routing,OBQR,avg_hops,2.1617,0.2527
+range,150,routing,OBQR,avg_hops,2.5086,0.1844
+range,200,routing,OBQR,avg_hops,4.1513,0.6263
+range,250,routing,OBQR,avg_hops,6.7291,1.061
+range,300,routing,OBQR,avg_hops,6.4578,0.8095
+range,100,routing,OBQR,route_breaks,36.2,7.3593
+range,150,routing,OBQR,route_breaks,64.8,11.5135
+range,200,routing,OBQR,route_breaks,178.6,47.8773
+range,250,routing,OBQR,route_breaks,547.4,31.1487
+range,300,routing,OBQR,route_breaks,800.4,61.1902
+range,100,routing,AODV (min-hop),pdr,0.0474,0.0103
+range,150,routing,AODV (min-hop),pdr,0.0969,0.0264
+range,200,routing,AODV (min-hop),pdr,0.1639,0.0657
+range,250,routing,AODV (min-hop),pdr,0.3019,0.0597
+range,300,routing,AODV (min-hop),pdr,0.5691,0.0594
+range,100,routing,AODV (min-hop),throughput_kbps,7.7619,1.6892
+range,150,routing,AODV (min-hop),throughput_kbps,15.8808,4.3279
+range,200,routing,AODV (min-hop),throughput_kbps,26.8493,10.7723
+range,250,routing,AODV (min-hop),throughput_kbps,49.4592,9.7825
+range,300,routing,AODV (min-hop),throughput_kbps,93.2337,9.7375
+range,100,routing,AODV (min-hop),avg_delay_ms,9.0518,1.3349
+range,150,routing,AODV (min-hop),avg_delay_ms,10.8544,0.6043
+range,200,routing,AODV (min-hop),avg_delay_ms,27.0897,6.1611
+range,250,routing,AODV (min-hop),avg_delay_ms,58.2102,12.0502
+range,300,routing,AODV (min-hop),avg_delay_ms,53.0382,8.9939
+range,100,routing,AODV (min-hop),routing_overhead,20.5904,3.9882
+range,150,routing,AODV (min-hop),routing_overhead,15.9554,3.7067
+range,200,routing,AODV (min-hop),routing_overhead,26.2475,11.9094
+range,250,routing,AODV (min-hop),routing_overhead,33.4811,8.7679
+range,300,routing,AODV (min-hop),routing_overhead,20.5562,4.5028
+range,100,routing,AODV (min-hop),ctrl_msgs,10486.4,1034.8381
+range,150,routing,AODV (min-hop),ctrl_msgs,16315.2,1325.5108
+range,200,routing,AODV (min-hop),ctrl_msgs,39668.6,3725.8629
+range,250,routing,AODV (min-hop),ctrl_msgs,107715.2,7663.0126
+range,300,routing,AODV (min-hop),ctrl_msgs,128085.2,14838.0276
+range,100,routing,AODV (min-hop),discoveries,2692.2,27.3452
+range,150,routing,AODV (min-hop),discoveries,2565.8,67.446
+range,200,routing,AODV (min-hop),discoveries,2423.2,162.3162
+range,250,routing,AODV (min-hop),discoveries,2131.8,162.7481
+range,300,routing,AODV (min-hop),discoveries,1415.8,186.5984
+range,100,routing,AODV (min-hop),avg_hops,2.0882,0.2623
+range,150,routing,AODV (min-hop),avg_hops,2.3563,0.1384
+range,200,routing,AODV (min-hop),avg_hops,3.9457,0.6178
+range,250,routing,AODV (min-hop),avg_hops,6.1737,0.9919
+range,300,routing,AODV (min-hop),avg_hops,5.8632,0.7196
+range,100,routing,AODV (min-hop),route_breaks,35.6,6.2801
+range,150,routing,AODV (min-hop),route_breaks,66.2,12.8592
+range,200,routing,AODV (min-hop),route_breaks,194.0,51.703
+range,250,routing,AODV (min-hop),route_breaks,641.8,38.8299
+range,300,routing,AODV (min-hop),route_breaks,1002.6,93.6645
+range,100,routing,Greedy geographic,pdr,0.0476,0.0107
+range,150,routing,Greedy geographic,pdr,0.0964,0.0253
+range,200,routing,Greedy geographic,pdr,0.1449,0.0637
+range,250,routing,Greedy geographic,pdr,0.1943,0.0591
+range,300,routing,Greedy geographic,pdr,0.3847,0.0744
+range,100,routing,Greedy geographic,throughput_kbps,7.7912,1.7605
+range,150,routing,Greedy geographic,throughput_kbps,15.7959,4.1408
+range,200,routing,Greedy geographic,throughput_kbps,23.7422,10.4436
+range,250,routing,Greedy geographic,throughput_kbps,31.8405,9.679
+range,300,routing,Greedy geographic,throughput_kbps,63.0287,12.1894
+range,100,routing,Greedy geographic,avg_delay_ms,4.8888,0.8696
+range,150,routing,Greedy geographic,avg_delay_ms,6.3281,0.6217
+range,200,routing,Greedy geographic,avg_delay_ms,10.9779,0.9224
+range,250,routing,Greedy geographic,avg_delay_ms,18.9041,3.9954
+range,300,routing,Greedy geographic,avg_delay_ms,22.8076,3.3243
+range,100,routing,Greedy geographic,routing_overhead,0.0,0.0
+range,150,routing,Greedy geographic,routing_overhead,0.0,0.0
+range,200,routing,Greedy geographic,routing_overhead,0.0,0.0
+range,250,routing,Greedy geographic,routing_overhead,0.0,0.0
+range,300,routing,Greedy geographic,routing_overhead,0.0,0.0
+range,100,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+range,150,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+range,200,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+range,250,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+range,300,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+range,100,routing,Greedy geographic,discoveries,0.0,0.0
+range,150,routing,Greedy geographic,discoveries,0.0,0.0
+range,200,routing,Greedy geographic,discoveries,0.0,0.0
+range,250,routing,Greedy geographic,discoveries,0.0,0.0
+range,300,routing,Greedy geographic,discoveries,0.0,0.0
+range,100,routing,Greedy geographic,avg_hops,1.8407,0.2696
+range,150,routing,Greedy geographic,avg_hops,2.0712,0.148
+range,200,routing,Greedy geographic,avg_hops,3.0449,0.2853
+range,250,routing,Greedy geographic,avg_hops,4.2119,0.8752
+range,300,routing,Greedy geographic,avg_hops,4.4191,0.642
+range,100,routing,Greedy geographic,route_breaks,0.0,0.0
+range,150,routing,Greedy geographic,route_breaks,0.0,0.0
+range,200,routing,Greedy geographic,route_breaks,0.0,0.0
+range,250,routing,Greedy geographic,route_breaks,0.0,0.0
+range,300,routing,Greedy geographic,route_breaks,0.0,0.0
+density,25,clustering,OBQR,cluster_lifetime,112.9293,11.0461
+density,50,clustering,OBQR,cluster_lifetime,70.6487,2.6202
+density,100,clustering,OBQR,cluster_lifetime,51.094,2.337
+density,150,clustering,OBQR,cluster_lifetime,44.2599,0.9877
+density,200,clustering,OBQR,cluster_lifetime,37.964,1.4767
+density,25,clustering,OBQR,transitions_per_vehicle,3.24,0.4301
+density,50,clustering,OBQR,transitions_per_vehicle,5.864,0.3203
+density,100,clustering,OBQR,transitions_per_vehicle,8.342,0.3485
+density,150,clustering,OBQR,transitions_per_vehicle,9.616,0.0974
+density,200,clustering,OBQR,transitions_per_vehicle,10.659,0.3805
+density,25,clustering,OBQR,discovery_msgs,254.6,30.4013
+density,50,clustering,OBQR,discovery_msgs,847.6,34.8459
+density,100,clustering,OBQR,discovery_msgs,2245.2,89.7427
+density,150,clustering,OBQR,discovery_msgs,3714.2,43.4622
+density,200,clustering,OBQR,discovery_msgs,5324.6,188.7608
+density,25,clustering,OBQR,avg_clusters,21.3793,0.6374
+density,50,clustering,OBQR,avg_clusters,35.0547,1.0983
+density,100,clustering,OBQR,avg_clusters,54.026,1.2474
+density,150,clustering,OBQR,avg_clusters,66.012,0.3504
+density,200,clustering,OBQR,avg_clusters,71.8787,1.066
+density,25,clustering,OBQR,singleton_frac,0.8482,0.025
+density,50,clustering,OBQR,singleton_frac,0.6842,0.0242
+density,100,clustering,OBQR,singleton_frac,0.485,0.0164
+density,150,clustering,OBQR,singleton_frac,0.3758,0.0026
+density,200,clustering,OBQR,singleton_frac,0.2888,0.0151
+density,25,clustering,OBQR,avg_cluster_size,1.1704,0.0346
+density,50,clustering,OBQR,avg_cluster_size,1.4277,0.0448
+density,100,clustering,OBQR,avg_cluster_size,1.8519,0.0423
+density,150,clustering,OBQR,avg_cluster_size,2.2724,0.012
+density,200,clustering,OBQR,avg_cluster_size,2.7831,0.041
+density,25,clustering,Position-based,cluster_lifetime,50.1827,1.8697
+density,50,clustering,Position-based,cluster_lifetime,30.7896,1.3439
+density,100,clustering,Position-based,cluster_lifetime,22.1425,1.113
+density,150,clustering,Position-based,cluster_lifetime,18.9032,0.8914
+density,200,clustering,Position-based,cluster_lifetime,17.3834,0.8488
+density,25,clustering,Position-based,transitions_per_vehicle,8.848,0.3234
+density,50,clustering,Position-based,transitions_per_vehicle,13.096,0.306
+density,100,clustering,Position-based,transitions_per_vehicle,17.318,0.4298
+density,150,clustering,Position-based,transitions_per_vehicle,19.628,0.5398
+density,200,clustering,Position-based,transitions_per_vehicle,21.109,0.498
+density,25,clustering,Position-based,discovery_msgs,604.2,20.4098
+density,50,clustering,Position-based,discovery_msgs,1669.6,45.4603
+density,100,clustering,Position-based,discovery_msgs,4084.6,111.092
+density,150,clustering,Position-based,discovery_msgs,6679.6,197.504
+density,200,clustering,Position-based,discovery_msgs,9344.6,213.6039
+density,25,clustering,Position-based,avg_clusters,14.754,0.2882
+density,50,clustering,Position-based,avg_clusters,19.576,0.4418
+density,100,clustering,Position-based,avg_clusters,23.8387,0.168
+density,150,clustering,Position-based,avg_clusters,25.802,0.0993
+density,200,clustering,Position-based,avg_clusters,26.8907,0.0923
+density,25,clustering,Position-based,singleton_frac,0.5307,0.0162
+density,50,clustering,Position-based,singleton_frac,0.2879,0.0128
+density,100,clustering,Position-based,singleton_frac,0.1105,0.0041
+density,150,clustering,Position-based,singleton_frac,0.062,0.0059
+density,200,clustering,Position-based,singleton_frac,0.0429,0.0046
+density,25,clustering,Position-based,avg_cluster_size,1.6951,0.0333
+density,50,clustering,Position-based,avg_cluster_size,2.5554,0.0576
+density,100,clustering,Position-based,avg_cluster_size,4.1951,0.0296
+density,150,clustering,Position-based,avg_cluster_size,5.8136,0.0224
+density,200,clustering,Position-based,avg_cluster_size,7.4376,0.0255
+density,25,clustering,Speed-based,cluster_lifetime,29.4124,2.6457
+density,50,clustering,Speed-based,cluster_lifetime,18.5255,0.8315
+density,100,clustering,Speed-based,cluster_lifetime,12.3149,0.546
+density,150,clustering,Speed-based,cluster_lifetime,10.0755,0.322
+density,200,clustering,Speed-based,cluster_lifetime,8.8105,0.2082
+density,25,clustering,Speed-based,transitions_per_vehicle,15.408,1.1699
+density,50,clustering,Speed-based,transitions_per_vehicle,21.576,0.8782
+density,100,clustering,Speed-based,transitions_per_vehicle,28.264,0.8909
+density,150,clustering,Speed-based,transitions_per_vehicle,32.0573,0.8678
+density,200,clustering,Speed-based,transitions_per_vehicle,34.181,0.872
+density,25,clustering,Speed-based,discovery_msgs,1085.6,83.0292
+density,50,clustering,Speed-based,discovery_msgs,2871.6,108.6676
+density,100,clustering,Speed-based,discovery_msgs,7044.6,231.2199
+density,150,clustering,Speed-based,discovery_msgs,11527.0,332.0361
+density,200,clustering,Speed-based,discovery_msgs,15995.4,428.0998
+density,25,clustering,Speed-based,avg_clusters,16.176,0.2167
+density,50,clustering,Speed-based,avg_clusters,22.852,0.5982
+density,100,clustering,Speed-based,avg_clusters,29.1873,0.2415
+density,150,clustering,Speed-based,avg_clusters,32.6247,0.469
+density,200,clustering,Speed-based,avg_clusters,34.6847,0.5192
+density,25,clustering,Speed-based,singleton_frac,0.6113,0.0181
+density,50,clustering,Speed-based,singleton_frac,0.3945,0.0151
+density,100,clustering,Speed-based,singleton_frac,0.2185,0.0057
+density,150,clustering,Speed-based,singleton_frac,0.1666,0.0051
+density,200,clustering,Speed-based,singleton_frac,0.1401,0.0075
+density,25,clustering,Speed-based,avg_cluster_size,1.5458,0.0208
+density,50,clustering,Speed-based,avg_cluster_size,2.1895,0.0568
+density,100,clustering,Speed-based,avg_cluster_size,3.4264,0.0283
+density,150,clustering,Speed-based,avg_cluster_size,4.5987,0.0662
+density,200,clustering,Speed-based,avg_cluster_size,5.7675,0.0863
+density,25,clustering,Lowest-ID,cluster_lifetime,44.9638,2.8377
+density,50,clustering,Lowest-ID,cluster_lifetime,28.8077,1.7188
+density,100,clustering,Lowest-ID,cluster_lifetime,21.0155,0.389
+density,150,clustering,Lowest-ID,cluster_lifetime,18.2688,0.7424
+density,200,clustering,Lowest-ID,cluster_lifetime,16.6718,0.5801
+density,25,clustering,Lowest-ID,transitions_per_vehicle,9.984,0.6195
+density,50,clustering,Lowest-ID,transitions_per_vehicle,14.58,0.7479
+density,100,clustering,Lowest-ID,transitions_per_vehicle,18.44,0.7367
+density,150,clustering,Lowest-ID,transitions_per_vehicle,20.664,0.9042
+density,200,clustering,Lowest-ID,transitions_per_vehicle,21.417,0.3945
+density,25,clustering,Lowest-ID,discovery_msgs,683.6,44.089
+density,50,clustering,Lowest-ID,discovery_msgs,1854.0,98.1937
+density,100,clustering,Lowest-ID,discovery_msgs,4353.2,158.767
+density,150,clustering,Lowest-ID,discovery_msgs,7032.6,305.9167
+density,200,clustering,Lowest-ID,discovery_msgs,9517.4,187.1092
+density,25,clustering,Lowest-ID,avg_clusters,14.914,0.3212
+density,50,clustering,Lowest-ID,avg_clusters,20.006,0.4238
+density,100,clustering,Lowest-ID,avg_clusters,24.2107,0.3242
+density,150,clustering,Lowest-ID,avg_clusters,26.188,0.2323
+density,200,clustering,Lowest-ID,avg_clusters,27.224,0.139
+density,25,clustering,Lowest-ID,singleton_frac,0.532,0.016
+density,50,clustering,Lowest-ID,singleton_frac,0.2825,0.0118
+density,100,clustering,Lowest-ID,singleton_frac,0.1036,0.0063
+density,150,clustering,Lowest-ID,singleton_frac,0.0621,0.0074
+density,200,clustering,Lowest-ID,singleton_frac,0.0452,0.0036
+density,25,clustering,Lowest-ID,avg_cluster_size,1.6771,0.0365
+density,50,clustering,Lowest-ID,avg_cluster_size,2.5004,0.0528
+density,100,clustering,Lowest-ID,avg_cluster_size,4.1311,0.0551
+density,150,clustering,Lowest-ID,avg_cluster_size,5.7283,0.0506
+density,200,clustering,Lowest-ID,avg_cluster_size,7.3467,0.0377
+density,25,routing,OBQR,pdr,0.0946,0.0145
+density,50,routing,OBQR,pdr,0.1947,0.0475
+density,100,routing,OBQR,pdr,0.3187,0.0582
+density,150,routing,OBQR,pdr,0.5929,0.0403
+density,200,routing,OBQR,pdr,0.6804,0.0228
+density,25,routing,OBQR,throughput_kbps,15.4975,2.3804
+density,50,routing,OBQR,throughput_kbps,31.902,7.7838
+density,100,routing,OBQR,throughput_kbps,52.2094,9.5412
+density,150,routing,OBQR,throughput_kbps,97.1337,6.6045
+density,200,routing,OBQR,throughput_kbps,111.4697,3.7419
+density,25,routing,OBQR,avg_delay_ms,6.243,1.0084
+density,50,routing,OBQR,avg_delay_ms,11.5603,2.9559
+density,100,routing,OBQR,avg_delay_ms,51.2864,9.8297
+density,150,routing,OBQR,avg_delay_ms,62.705,8.2586
+density,200,routing,OBQR,avg_delay_ms,61.4785,4.6103
+density,25,routing,OBQR,routing_overhead,6.881,0.9141
+density,50,routing,OBQR,routing_overhead,8.2547,2.4629
+density,100,routing,OBQR,routing_overhead,29.6216,7.6328
+density,150,routing,OBQR,routing_overhead,28.3117,4.3946
+density,200,routing,OBQR,routing_overhead,26.7558,2.8513
+density,25,routing,OBQR,ctrl_msgs,7159.2,618.7408
+density,50,routing,OBQR,ctrl_msgs,16850.6,1814.566
+density,100,routing,OBQR,ctrl_msgs,101006.4,8021.4178
+density,150,routing,OBQR,ctrl_msgs,186013.8,16461.3663
+density,200,routing,OBQR,ctrl_msgs,203167.4,15496.3442
+density,25,routing,OBQR,discoveries,2545.6,37.7391
+density,50,routing,OBQR,discoveries,2263.0,134.9252
+density,100,routing,OBQR,discoveries,1952.4,173.2081
+density,150,routing,OBQR,discoveries,1187.4,105.3975
+density,200,routing,OBQR,discoveries,905.6,81.468
+density,25,routing,OBQR,avg_hops,1.9095,0.2282
+density,50,routing,OBQR,avg_hops,2.7897,0.3513
+density,100,routing,OBQR,avg_hops,6.7291,1.061
+density,150,routing,OBQR,avg_hops,7.3787,0.8168
+density,200,routing,OBQR,avg_hops,6.9874,0.3349
+density,25,routing,OBQR,route_breaks,37.6,11.3243
+density,50,routing,OBQR,route_breaks,107.8,29.1301
+density,100,routing,OBQR,route_breaks,547.4,31.1487
+density,150,routing,OBQR,route_breaks,1038.0,76.7463
+density,200,routing,OBQR,route_breaks,997.6,47.7728
+density,25,routing,AODV (min-hop),pdr,0.0946,0.0145
+density,50,routing,AODV (min-hop),pdr,0.1941,0.0478
+density,100,routing,AODV (min-hop),pdr,0.3019,0.0597
+density,150,routing,AODV (min-hop),pdr,0.5401,0.042
+density,200,routing,AODV (min-hop),pdr,0.6032,0.0252
+density,25,routing,AODV (min-hop),throughput_kbps,15.4917,2.3828
+density,50,routing,AODV (min-hop),throughput_kbps,31.8025,7.8342
+density,100,routing,AODV (min-hop),throughput_kbps,49.4592,9.7825
+density,150,routing,AODV (min-hop),throughput_kbps,88.4882,6.8733
+density,200,routing,AODV (min-hop),throughput_kbps,98.8248,4.1318
+density,25,routing,AODV (min-hop),avg_delay_ms,6.5585,0.9671
+density,50,routing,AODV (min-hop),avg_delay_ms,12.526,3.4232
+density,100,routing,AODV (min-hop),avg_delay_ms,58.2102,12.0502
+density,150,routing,AODV (min-hop),avg_delay_ms,71.6956,10.6593
+density,200,routing,AODV (min-hop),avg_delay_ms,72.6664,5.9146
+density,25,routing,AODV (min-hop),routing_overhead,7.0672,0.8541
+density,50,routing,AODV (min-hop),routing_overhead,8.4401,2.5589
+density,100,routing,AODV (min-hop),routing_overhead,33.4811,8.7679
+density,150,routing,AODV (min-hop),routing_overhead,40.035,6.3727
+density,200,routing,AODV (min-hop),routing_overhead,48.6372,4.8204
+density,25,routing,AODV (min-hop),ctrl_msgs,7363.0,633.4026
+density,50,routing,AODV (min-hop),ctrl_msgs,17139.2,1900.6404
+density,100,routing,AODV (min-hop),ctrl_msgs,107715.2,7663.0126
+density,150,routing,AODV (min-hop),ctrl_msgs,239178.2,20585.3429
+density,200,routing,AODV (min-hop),ctrl_msgs,327280.4,19697.6254
+density,25,routing,AODV (min-hop),discoveries,2551.2,36.701
+density,50,routing,AODV (min-hop),discoveries,2292.8,131.5498
+density,100,routing,AODV (min-hop),discoveries,2131.8,162.7481
+density,150,routing,AODV (min-hop),discoveries,1644.8,132.759
+density,200,routing,AODV (min-hop),discoveries,1567.6,101.3067
+density,25,routing,AODV (min-hop),avg_hops,1.902,0.225
+density,50,routing,AODV (min-hop),avg_hops,2.6969,0.3272
+density,100,routing,AODV (min-hop),avg_hops,6.1737,0.9919
+density,150,routing,AODV (min-hop),avg_hops,6.415,0.7171
+density,200,routing,AODV (min-hop),avg_hops,5.8663,0.2385
+density,25,routing,AODV (min-hop),route_breaks,40.2,11.4088
+density,50,routing,AODV (min-hop),route_breaks,111.6,29.5608
+density,100,routing,AODV (min-hop),route_breaks,641.8,38.8299
+density,150,routing,AODV (min-hop),route_breaks,1339.8,97.5877
+density,200,routing,AODV (min-hop),route_breaks,1483.6,90.1989
+density,25,routing,Greedy geographic,pdr,0.0932,0.0138
+density,50,routing,Greedy geographic,pdr,0.1829,0.049
+density,100,routing,Greedy geographic,pdr,0.1943,0.0591
+density,150,routing,Greedy geographic,pdr,0.3532,0.0586
+density,200,routing,Greedy geographic,pdr,0.4579,0.0276
+density,25,routing,Greedy geographic,throughput_kbps,15.2752,2.2532
+density,50,routing,Greedy geographic,throughput_kbps,29.9681,8.0242
+density,100,routing,Greedy geographic,throughput_kbps,31.8405,9.679
+density,150,routing,Greedy geographic,throughput_kbps,57.8706,9.6077
+density,200,routing,Greedy geographic,throughput_kbps,75.0212,4.5198
+density,25,routing,Greedy geographic,avg_delay_ms,4.0174,0.543
+density,50,routing,Greedy geographic,avg_delay_ms,6.8562,1.2985
+density,100,routing,Greedy geographic,avg_delay_ms,18.9041,3.9954
+density,150,routing,Greedy geographic,avg_delay_ms,24.787,3.0951
+density,200,routing,Greedy geographic,avg_delay_ms,34.084,2.2545
+density,25,routing,Greedy geographic,routing_overhead,0.0,0.0
+density,50,routing,Greedy geographic,routing_overhead,0.0,0.0
+density,100,routing,Greedy geographic,routing_overhead,0.0,0.0
+density,150,routing,Greedy geographic,routing_overhead,0.0,0.0
+density,200,routing,Greedy geographic,routing_overhead,0.0,0.0
+density,25,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+density,50,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+density,100,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+density,150,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+density,200,routing,Greedy geographic,ctrl_msgs,0.0,0.0
+density,25,routing,Greedy geographic,discoveries,0.0,0.0
+density,50,routing,Greedy geographic,discoveries,0.0,0.0
+density,100,routing,Greedy geographic,discoveries,0.0,0.0
+density,150,routing,Greedy geographic,discoveries,0.0,0.0
+density,200,routing,Greedy geographic,discoveries,0.0,0.0
+density,25,routing,Greedy geographic,avg_hops,1.6591,0.1665
+density,50,routing,Greedy geographic,avg_hops,2.1645,0.2724
+density,100,routing,Greedy geographic,avg_hops,4.2119,0.8752
+density,150,routing,Greedy geographic,avg_hops,4.4778,0.5325
+density,200,routing,Greedy geographic,avg_hops,4.8294,0.2121
+density,25,routing,Greedy geographic,route_breaks,0.0,0.0
+density,50,routing,Greedy geographic,route_breaks,0.0,0.0
+density,100,routing,Greedy geographic,route_breaks,0.0,0.0
+density,150,routing,Greedy geographic,route_breaks,0.0,0.0
+density,200,routing,Greedy geographic,route_breaks,0.0,0.0

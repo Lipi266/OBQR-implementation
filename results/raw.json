@@ -1,0 +1,6482 @@
+[
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 18,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 17.751995952000275,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 49.98,
+    "transitions_per_vehicle": 6.82,
+    "discovery_msgs": 1640,
+    "avg_clusters": 25.07,
+    "singleton_frac": 0.13548913421059847,
+    "avg_cluster_size": 3.9888312724371757
+   },
+   "position": {
+    "cluster_lifetime": 51.52482269503546,
+    "transitions_per_vehicle": 6.48,
+    "discovery_msgs": 1553,
+    "avg_clusters": 24.3,
+    "singleton_frac": 0.1275717518927664,
+    "avg_cluster_size": 4.11522633744856
+   },
+   "speed": {
+    "cluster_lifetime": 52.13380281690141,
+    "transitions_per_vehicle": 6.61,
+    "discovery_msgs": 1582,
+    "avg_clusters": 24.756666666666668,
+    "singleton_frac": 0.13791176021121046,
+    "avg_cluster_size": 4.039316009155783
+   },
+   "obqr": {
+    "cluster_lifetime": 102.81645569620254,
+    "transitions_per_vehicle": 3.3,
+    "discovery_msgs": 922,
+    "avg_clusters": 54.33,
+    "singleton_frac": 0.4738957961845003,
+    "avg_cluster_size": 1.8406037180195105
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.2849107142857143,
+    "throughput_kbps": 46.679771428571435,
+    "avg_delay_ms": 42.86776730189498,
+    "routing_overhead": 26.380758382952052,
+    "ctrl_msgs": 84181,
+    "discoveries": 1806,
+    "avg_hops": 6.711375744280789,
+    "route_breaks": 279
+   },
+   "greedy": {
+    "pdr": 0.14982142857142858,
+    "throughput_kbps": 24.546742857142856,
+    "avg_delay_ms": 20.54194961614998,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.6382598331346845,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.304375,
+    "throughput_kbps": 49.8688,
+    "avg_delay_ms": 38.56907909211757,
+    "routing_overhead": 22.475506013493693,
+    "ctrl_msgs": 76619,
+    "discoveries": 1689,
+    "avg_hops": 7.317395130536815,
+    "route_breaks": 201
+   }
+  },
+  "sweep": "speed",
+  "x": 18
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 18,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 17.523426029333777,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 53.32374100719424,
+    "transitions_per_vehicle": 6.21,
+    "discovery_msgs": 1496,
+    "avg_clusters": 24.786666666666665,
+    "singleton_frac": 0.1182754770457669,
+    "avg_cluster_size": 4.034427111350189
+   },
+   "position": {
+    "cluster_lifetime": 50.310344827586206,
+    "transitions_per_vehicle": 6.43,
+    "discovery_msgs": 1549,
+    "avg_clusters": 24.406666666666666,
+    "singleton_frac": 0.11561977166687308,
+    "avg_cluster_size": 4.09724119093144
+   },
+   "speed": {
+    "cluster_lifetime": 49.033557046979865,
+    "transitions_per_vehicle": 6.87,
+    "discovery_msgs": 1647,
+    "avg_clusters": 24.436666666666667,
+    "singleton_frac": 0.11625015888566613,
+    "avg_cluster_size": 4.092211158095758
+   },
+   "obqr": {
+    "cluster_lifetime": 125.87407407407407,
+    "transitions_per_vehicle": 2.78,
+    "discovery_msgs": 775,
+    "avg_clusters": 56.81333333333333,
+    "singleton_frac": 0.5234352809818984,
+    "avg_cluster_size": 1.7601501994836892
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.39473214285714286,
+    "throughput_kbps": 64.67291428571428,
+    "avg_delay_ms": 42.01660193883469,
+    "routing_overhead": 16.10992988011762,
+    "ctrl_msgs": 71222,
+    "discoveries": 1448,
+    "avg_hops": 6.8859986428409865,
+    "route_breaks": 355
+   },
+   "greedy": {
+    "pdr": 0.22321428571428573,
+    "throughput_kbps": 36.57142857142857,
+    "avg_delay_ms": 24.045403224347453,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 5.3968,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.41794642857142855,
+    "throughput_kbps": 68.47634285714285,
+    "avg_delay_ms": 38.096075855016196,
+    "routing_overhead": 13.217902157658619,
+    "ctrl_msgs": 61873,
+    "discoveries": 1303,
+    "avg_hops": 7.47468489638966,
+    "route_breaks": 261
+   }
+  },
+  "sweep": "speed",
+  "x": 18
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 18,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 17.358222896470878,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 50.27272727272727,
+    "transitions_per_vehicle": 6.71,
+    "discovery_msgs": 1601,
+    "avg_clusters": 24.053333333333335,
+    "singleton_frac": 0.1065653935436544,
+    "avg_cluster_size": 4.157427937915743
+   },
+   "position": {
+    "cluster_lifetime": 55.49612403100775,
+    "transitions_per_vehicle": 6.34,
+    "discovery_msgs": 1500,
+    "avg_clusters": 23.95,
+    "singleton_frac": 0.08687262471827689,
+    "avg_cluster_size": 4.175365344467641
+   },
+   "speed": {
+    "cluster_lifetime": 51.56521739130435,
+    "transitions_per_vehicle": 6.44,
+    "discovery_msgs": 1540,
+    "avg_clusters": 23.8,
+    "singleton_frac": 0.10439839291143638,
+    "avg_cluster_size": 4.201680672268908
+   },
+   "obqr": {
+    "cluster_lifetime": 100.59493670886076,
+    "transitions_per_vehicle": 3.36,
+    "discovery_msgs": 934,
+    "avg_clusters": 53.16,
+    "singleton_frac": 0.44753011683813704,
+    "avg_cluster_size": 1.8811136192626037
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.5077678571428571,
+    "throughput_kbps": 83.19268571428572,
+    "avg_delay_ms": 29.60738752240746,
+    "routing_overhead": 9.72991032178653,
+    "ctrl_msgs": 55334,
+    "discoveries": 1183,
+    "avg_hops": 4.733602954105855,
+    "route_breaks": 335
+   },
+   "greedy": {
+    "pdr": 0.37526785714285715,
+    "throughput_kbps": 61.48388571428572,
+    "avg_delay_ms": 15.02330309690423,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.242445871996193,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.5355357142857143,
+    "throughput_kbps": 87.74217142857142,
+    "avg_delay_ms": 27.254633013595775,
+    "routing_overhead": 7.572190730243414,
+    "ctrl_msgs": 45418,
+    "discoveries": 1039,
+    "avg_hops": 5.41463821273758,
+    "route_breaks": 240
+   }
+  },
+  "sweep": "speed",
+  "x": 18
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 18,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 17.685915340686645,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 49.84137931034483,
+    "transitions_per_vehicle": 6.78,
+    "discovery_msgs": 1621,
+    "avg_clusters": 24.173333333333332,
+    "singleton_frac": 0.12207130625681349,
+    "avg_cluster_size": 4.136789851075566
+   },
+   "position": {
+    "cluster_lifetime": 54.44776119402985,
+    "transitions_per_vehicle": 6.1,
+    "discovery_msgs": 1462,
+    "avg_clusters": 24.406666666666666,
+    "singleton_frac": 0.11171284273965432,
+    "avg_cluster_size": 4.09724119093144
+   },
+   "speed": {
+    "cluster_lifetime": 53.82089552238806,
+    "transitions_per_vehicle": 6.39,
+    "discovery_msgs": 1520,
+    "avg_clusters": 24.126666666666665,
+    "singleton_frac": 0.13667195177340105,
+    "avg_cluster_size": 4.144791378833932
+   },
+   "obqr": {
+    "cluster_lifetime": 110.19594594594595,
+    "transitions_per_vehicle": 3.05,
+    "discovery_msgs": 850,
+    "avg_clusters": 54.55,
+    "singleton_frac": 0.5018847424283879,
+    "avg_cluster_size": 1.8331805682859763
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.4432142857142857,
+    "throughput_kbps": 72.61622857142856,
+    "avg_delay_ms": 35.040106875152496,
+    "routing_overhead": 13.54371474617244,
+    "ctrl_msgs": 67231,
+    "discoveries": 1301,
+    "avg_hops": 5.7087026591458505,
+    "route_breaks": 333
+   },
+   "greedy": {
+    "pdr": 0.34883928571428574,
+    "throughput_kbps": 57.153828571428576,
+    "avg_delay_ms": 17.686156575320947,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.019964166879959,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.47276785714285713,
+    "throughput_kbps": 77.45828571428571,
+    "avg_delay_ms": 31.503437488289165,
+    "routing_overhead": 10.635694050991502,
+    "ctrl_msgs": 56316,
+    "discoveries": 1151,
+    "avg_hops": 6.351841359773371,
+    "route_breaks": 226
+   }
+  },
+  "sweep": "speed",
+  "x": 18
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 18,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 17.122182122527835,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 53.1231884057971,
+    "transitions_per_vehicle": 6.74,
+    "discovery_msgs": 1602,
+    "avg_clusters": 24.51,
+    "singleton_frac": 0.11674622966941807,
+    "avg_cluster_size": 4.079967360261118
+   },
+   "position": {
+    "cluster_lifetime": 50.52447552447553,
+    "transitions_per_vehicle": 7.02,
+    "discovery_msgs": 1671,
+    "avg_clusters": 24.14666666666667,
+    "singleton_frac": 0.14559923736601846,
+    "avg_cluster_size": 4.141358365543898
+   },
+   "speed": {
+    "cluster_lifetime": 63.76106194690266,
+    "transitions_per_vehicle": 5.85,
+    "discovery_msgs": 1375,
+    "avg_clusters": 24.086666666666666,
+    "singleton_frac": 0.13595838474461663,
+    "avg_cluster_size": 4.151674508718517
+   },
+   "obqr": {
+    "cluster_lifetime": 111.43262411347517,
+    "transitions_per_vehicle": 2.86,
+    "discovery_msgs": 802,
+    "avg_clusters": 52.54666666666667,
+    "singleton_frac": 0.5112666187647874,
+    "avg_cluster_size": 1.9030702867292566
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.24142857142857144,
+    "throughput_kbps": 39.55565714285714,
+    "avg_delay_ms": 53.65928742390762,
+    "routing_overhead": 30.397189349112427,
+    "ctrl_msgs": 82194,
+    "discoveries": 1953,
+    "avg_hops": 7.409023668639053,
+    "route_breaks": 297
+   },
+   "greedy": {
+    "pdr": 0.13857142857142857,
+    "throughput_kbps": 22.703542857142857,
+    "avg_delay_ms": 22.400165601379435,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.721005154639175,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.263125,
+    "throughput_kbps": 43.1104,
+    "avg_delay_ms": 46.020803245492694,
+    "routing_overhead": 24.624363759755685,
+    "ctrl_msgs": 72568,
+    "discoveries": 1822,
+    "avg_hops": 8.291143535799117,
+    "route_breaks": 193
+   }
+  },
+  "sweep": "speed",
+  "x": 18
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 36,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 34.38307664282487,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 27.80916030534351,
+    "transitions_per_vehicle": 13.6,
+    "discovery_msgs": 3220,
+    "avg_clusters": 24.366666666666667,
+    "singleton_frac": 0.11529654773567818,
+    "avg_cluster_size": 4.1039671682626535
+   },
+   "position": {
+    "cluster_lifetime": 28.11627906976744,
+    "transitions_per_vehicle": 12.91,
+    "discovery_msgs": 3077,
+    "avg_clusters": 24.25,
+    "singleton_frac": 0.1148794504762271,
+    "avg_cluster_size": 4.123711340206185
+   },
+   "speed": {
+    "cluster_lifetime": 30.932489451476794,
+    "transitions_per_vehicle": 12.34,
+    "discovery_msgs": 2918,
+    "avg_clusters": 24.516666666666666,
+    "singleton_frac": 0.12420804337720877,
+    "avg_cluster_size": 4.078857919782461
+   },
+   "obqr": {
+    "cluster_lifetime": 70.83189655172414,
+    "transitions_per_vehicle": 5.61,
+    "discovery_msgs": 1536,
+    "avg_clusters": 54.943333333333335,
+    "singleton_frac": 0.4877261169444994,
+    "avg_cluster_size": 1.8200570284535582
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.37991071428571427,
+    "throughput_kbps": 62.244571428571426,
+    "avg_delay_ms": 46.148695732593254,
+    "routing_overhead": 22.011515863689777,
+    "ctrl_msgs": 93659,
+    "discoveries": 1774,
+    "avg_hops": 6.009400705052879,
+    "route_breaks": 550
+   },
+   "greedy": {
+    "pdr": 0.25258928571428574,
+    "throughput_kbps": 41.384228571428565,
+    "avg_delay_ms": 19.59720249549577,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.370095440084835,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.40125,
+    "throughput_kbps": 65.74080000000001,
+    "avg_delay_ms": 40.00446684637712,
+    "routing_overhead": 18.735870048954162,
+    "ctrl_msgs": 84199,
+    "discoveries": 1587,
+    "avg_hops": 6.510235870048954,
+    "route_breaks": 443
+   }
+  },
+  "sweep": "speed",
+  "x": 36
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 36,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 34.5194056892323,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 27.473076923076924,
+    "transitions_per_vehicle": 12.96,
+    "discovery_msgs": 3088,
+    "avg_clusters": 23.89,
+    "singleton_frac": 0.09652238443252936,
+    "avg_cluster_size": 4.185851820845542
+   },
+   "position": {
+    "cluster_lifetime": 31.26923076923077,
+    "transitions_per_vehicle": 12.14,
+    "discovery_msgs": 2870,
+    "avg_clusters": 24.476666666666667,
+    "singleton_frac": 0.10361254971544827,
+    "avg_cluster_size": 4.085523627944982
+   },
+   "speed": {
+    "cluster_lifetime": 28.40625,
+    "transitions_per_vehicle": 12.2,
+    "discovery_msgs": 2927,
+    "avg_clusters": 24.323333333333334,
+    "singleton_frac": 0.12123638749685725,
+    "avg_cluster_size": 4.1112786076469785
+   },
+   "obqr": {
+    "cluster_lifetime": 68.4892703862661,
+    "transitions_per_vehicle": 5.99,
+    "discovery_msgs": 1615,
+    "avg_clusters": 53.35666666666667,
+    "singleton_frac": 0.48150939149321204,
+    "avg_cluster_size": 1.8741800462297744
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.4025892857142857,
+    "throughput_kbps": 65.96022857142857,
+    "avg_delay_ms": 41.142670886471315,
+    "routing_overhead": 17.915945886005765,
+    "ctrl_msgs": 80783,
+    "discoveries": 1722,
+    "avg_hops": 5.141494788201375,
+    "route_breaks": 552
+   },
+   "greedy": {
+    "pdr": 0.2907142857142857,
+    "throughput_kbps": 47.630628571428566,
+    "avg_delay_ms": 12.542925393174562,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.048832923832924,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.42580357142857145,
+    "throughput_kbps": 69.76365714285714,
+    "avg_delay_ms": 35.9569295059394,
+    "routing_overhead": 14.729922415600754,
+    "ctrl_msgs": 70247,
+    "discoveries": 1527,
+    "avg_hops": 5.678968337177605,
+    "route_breaks": 422
+   }
+  },
+  "sweep": "speed",
+  "x": 36
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 36,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 34.5025902399229,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 27.40074906367041,
+    "transitions_per_vehicle": 13.98,
+    "discovery_msgs": 3303,
+    "avg_clusters": 24.476666666666667,
+    "singleton_frac": 0.13600236446415856,
+    "avg_cluster_size": 4.085523627944982
+   },
+   "position": {
+    "cluster_lifetime": 31.163090128755364,
+    "transitions_per_vehicle": 12.28,
+    "discovery_msgs": 2897,
+    "avg_clusters": 24.286666666666665,
+    "singleton_frac": 0.12193521645493159,
+    "avg_cluster_size": 4.11748558880044
+   },
+   "speed": {
+    "cluster_lifetime": 28.06513409961686,
+    "transitions_per_vehicle": 12.44,
+    "discovery_msgs": 2986,
+    "avg_clusters": 24.496666666666666,
+    "singleton_frac": 0.145663543005572,
+    "avg_cluster_size": 4.082188052796299
+   },
+   "obqr": {
+    "cluster_lifetime": 64.85714285714286,
+    "transitions_per_vehicle": 6.05,
+    "discovery_msgs": 1650,
+    "avg_clusters": 53.13333333333333,
+    "singleton_frac": 0.4819469605618325,
+    "avg_cluster_size": 1.8820577164366374
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.3435714285714286,
+    "throughput_kbps": 56.29074285714285,
+    "avg_delay_ms": 52.23483886045639,
+    "routing_overhead": 25.083160083160084,
+    "ctrl_msgs": 96520,
+    "discoveries": 1825,
+    "avg_hops": 6.507276507276507,
+    "route_breaks": 555
+   },
+   "greedy": {
+    "pdr": 0.2007142857142857,
+    "throughput_kbps": 32.88502857142857,
+    "avg_delay_ms": 18.290451791723516,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.062277580071174,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3632142857142857,
+    "throughput_kbps": 59.50902857142857,
+    "avg_delay_ms": 48.05462209035971,
+    "routing_overhead": 22.315388397246803,
+    "ctrl_msgs": 90779,
+    "discoveries": 1667,
+    "avg_hops": 7.184365781710914,
+    "route_breaks": 464
+   }
+  },
+  "sweep": "speed",
+  "x": 36
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 36,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 34.0881629663712,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 28.77952755905512,
+    "transitions_per_vehicle": 12.78,
+    "discovery_msgs": 3039,
+    "avg_clusters": 24.45,
+    "singleton_frac": 0.11573159100787786,
+    "avg_cluster_size": 4.08997955010225
+   },
+   "position": {
+    "cluster_lifetime": 32.13716814159292,
+    "transitions_per_vehicle": 11.9,
+    "discovery_msgs": 2808,
+    "avg_clusters": 24.29,
+    "singleton_frac": 0.10832093663457983,
+    "avg_cluster_size": 4.116920543433512
+   },
+   "speed": {
+    "cluster_lifetime": 28.0968992248062,
+    "transitions_per_vehicle": 11.92,
+    "discovery_msgs": 2874,
+    "avg_clusters": 24.25,
+    "singleton_frac": 0.13140414376283943,
+    "avg_cluster_size": 4.123711340206185
+   },
+   "obqr": {
+    "cluster_lifetime": 67.14634146341463,
+    "transitions_per_vehicle": 5.97,
+    "discovery_msgs": 1632,
+    "avg_clusters": 55.24,
+    "singleton_frac": 0.48589335760931507,
+    "avg_cluster_size": 1.8102824040550325
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.27598214285714284,
+    "throughput_kbps": 45.21691428571429,
+    "avg_delay_ms": 47.83083052109494,
+    "routing_overhead": 27.50760271756713,
+    "ctrl_msgs": 85026,
+    "discoveries": 2050,
+    "avg_hops": 6.019734713684891,
+    "route_breaks": 419
+   },
+   "greedy": {
+    "pdr": 0.17008928571428572,
+    "throughput_kbps": 27.867428571428572,
+    "avg_delay_ms": 16.648220566601108,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.8440944881889765,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.2913392857142857,
+    "throughput_kbps": 47.73302857142857,
+    "avg_delay_ms": 43.39031204580664,
+    "routing_overhead": 25.150168556543058,
+    "ctrl_msgs": 82065,
+    "discoveries": 1941,
+    "avg_hops": 6.487588109102053,
+    "route_breaks": 361
+   }
+  },
+  "sweep": "speed",
+  "x": 36
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 36,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 33.59311090133272,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 27.98846153846154,
+    "transitions_per_vehicle": 13.22,
+    "discovery_msgs": 3137,
+    "avg_clusters": 24.346666666666668,
+    "singleton_frac": 0.10543044343721504,
+    "avg_cluster_size": 4.1073384446878425
+   },
+   "position": {
+    "cluster_lifetime": 33.550925925925924,
+    "transitions_per_vehicle": 11.57,
+    "discovery_msgs": 2721,
+    "avg_clusters": 24.24,
+    "singleton_frac": 0.1099480502700143,
+    "avg_cluster_size": 4.125412541254126
+   },
+   "speed": {
+    "cluster_lifetime": 31.04564315352697,
+    "transitions_per_vehicle": 12.2,
+    "discovery_msgs": 2897,
+    "avg_clusters": 25.023333333333333,
+    "singleton_frac": 0.12667504550995304,
+    "avg_cluster_size": 3.9962701478619955
+   },
+   "obqr": {
+    "cluster_lifetime": 66.86382978723404,
+    "transitions_per_vehicle": 5.54,
+    "discovery_msgs": 1529,
+    "avg_clusters": 52.54,
+    "singleton_frac": 0.4838538331267271,
+    "avg_cluster_size": 1.903311762466692
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.23089285714285715,
+    "throughput_kbps": 37.82948571428572,
+    "avg_delay_ms": 60.568953559947325,
+    "routing_overhead": 37.730085073472544,
+    "ctrl_msgs": 97570,
+    "discoveries": 2200,
+    "avg_hops": 7.0707656612529,
+    "route_breaks": 441
+   },
+   "greedy": {
+    "pdr": 0.12339285714285714,
+    "throughput_kbps": 20.216685714285717,
+    "avg_delay_ms": 18.25706393324627,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.298118668596238,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.24785714285714286,
+    "throughput_kbps": 40.608914285714285,
+    "avg_delay_ms": 50.81561973947869,
+    "routing_overhead": 31.797910662824208,
+    "ctrl_msgs": 88271,
+    "discoveries": 2033,
+    "avg_hops": 7.822406340057637,
+    "route_breaks": 310
+   }
+  },
+  "sweep": "speed",
+  "x": 36
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 49.254227079016054,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 21.305232558139537,
+    "transitions_per_vehicle": 19.27,
+    "discovery_msgs": 4517,
+    "avg_clusters": 24.513333333333332,
+    "singleton_frac": 0.10008881864983814,
+    "avg_cluster_size": 4.079412564590699
+   },
+   "position": {
+    "cluster_lifetime": 21.60909090909091,
+    "transitions_per_vehicle": 17.78,
+    "discovery_msgs": 4193,
+    "avg_clusters": 23.846666666666668,
+    "singleton_frac": 0.1143171052511632,
+    "avg_cluster_size": 4.193458205199888
+   },
+   "speed": {
+    "cluster_lifetime": 11.616402116402117,
+    "transitions_per_vehicle": 29.17,
+    "discovery_msgs": 7317,
+    "avg_clusters": 29.37,
+    "singleton_frac": 0.2188587057058739,
+    "avg_cluster_size": 3.404834865509023
+   },
+   "obqr": {
+    "cluster_lifetime": 52.92604501607717,
+    "transitions_per_vehicle": 8.14,
+    "discovery_msgs": 2195,
+    "avg_clusters": 55.05,
+    "singleton_frac": 0.5046385095341831,
+    "avg_cluster_size": 1.8165304268846505
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.2519642857142857,
+    "throughput_kbps": 41.281828571428576,
+    "avg_delay_ms": 59.00035090506911,
+    "routing_overhead": 37.79943302622254,
+    "ctrl_msgs": 106670,
+    "discoveries": 2255,
+    "avg_hops": 5.8703047484053865,
+    "route_breaks": 567
+   },
+   "greedy": {
+    "pdr": 0.16616071428571427,
+    "throughput_kbps": 27.22377142857143,
+    "avg_delay_ms": 17.62802768543089,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.8425577646426654,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.2713392857142857,
+    "throughput_kbps": 44.45622857142857,
+    "avg_delay_ms": 52.33777200729066,
+    "routing_overhead": 33.41296479104969,
+    "ctrl_msgs": 101542,
+    "discoveries": 2099,
+    "avg_hops": 6.528792365909839,
+    "route_breaks": 491
+   }
+  },
+  "sweep": "speed",
+  "x": 54
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 49.20348414089469,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 20.54317548746518,
+    "transitions_per_vehicle": 19.26,
+    "discovery_msgs": 4546,
+    "avg_clusters": 24.663333333333334,
+    "singleton_frac": 0.11587367734251795,
+    "avg_cluster_size": 4.054601973239627
+   },
+   "position": {
+    "cluster_lifetime": 22.147692307692306,
+    "transitions_per_vehicle": 17.21,
+    "discovery_msgs": 4068,
+    "avg_clusters": 24.073333333333334,
+    "singleton_frac": 0.11488487537690437,
+    "avg_cluster_size": 4.153973968429797
+   },
+   "speed": {
+    "cluster_lifetime": 12.064245810055866,
+    "transitions_per_vehicle": 28.9,
+    "discovery_msgs": 7183,
+    "avg_clusters": 28.89,
+    "singleton_frac": 0.21424073775654004,
+    "avg_cluster_size": 3.461405330564209
+   },
+   "obqr": {
+    "cluster_lifetime": 52.594339622641506,
+    "transitions_per_vehicle": 8.04,
+    "discovery_msgs": 2185,
+    "avg_clusters": 55.946666666666665,
+    "singleton_frac": 0.5056337846674424,
+    "avg_cluster_size": 1.7874165872259296
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.328125,
+    "throughput_kbps": 53.76,
+    "avg_delay_ms": 50.910943615193354,
+    "routing_overhead": 28.006530612244898,
+    "ctrl_msgs": 102924,
+    "discoveries": 2050,
+    "avg_hops": 5.73578231292517,
+    "route_breaks": 647
+   },
+   "greedy": {
+    "pdr": 0.2161607142857143,
+    "throughput_kbps": 35.41577142857143,
+    "avg_delay_ms": 16.765084974773277,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.8009087154068566,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3444642857142857,
+    "throughput_kbps": 56.43702857142857,
+    "avg_delay_ms": 44.91667783439939,
+    "routing_overhead": 25.05935717988595,
+    "ctrl_msgs": 96679,
+    "discoveries": 1866,
+    "avg_hops": 6.240539139450492,
+    "route_breaks": 548
+   }
+  },
+  "sweep": "speed",
+  "x": 54
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 48.98509348568497,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 21.27433628318584,
+    "transitions_per_vehicle": 18.4,
+    "discovery_msgs": 4336,
+    "avg_clusters": 24.113333333333333,
+    "singleton_frac": 0.09924856453262251,
+    "avg_cluster_size": 4.1470832181365775
+   },
+   "position": {
+    "cluster_lifetime": 24.271186440677965,
+    "transitions_per_vehicle": 16.57,
+    "discovery_msgs": 3880,
+    "avg_clusters": 23.946666666666665,
+    "singleton_frac": 0.10586287037411476,
+    "avg_cluster_size": 4.1759465478841875
+   },
+   "speed": {
+    "cluster_lifetime": 12.241234221598878,
+    "transitions_per_vehicle": 28.04,
+    "discovery_msgs": 7008,
+    "avg_clusters": 29.18,
+    "singleton_frac": 0.21887849624435593,
+    "avg_cluster_size": 3.427004797806717
+   },
+   "obqr": {
+    "cluster_lifetime": 49.68535825545171,
+    "transitions_per_vehicle": 8.42,
+    "discovery_msgs": 2268,
+    "avg_clusters": 53.35666666666667,
+    "singleton_frac": 0.46990624486527177,
+    "avg_cluster_size": 1.8741800462297744
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.39669642857142856,
+    "throughput_kbps": 64.99474285714285,
+    "avg_delay_ms": 43.97973944599081,
+    "routing_overhead": 23.354940355615575,
+    "ctrl_msgs": 103766,
+    "discoveries": 1882,
+    "avg_hops": 5.059644384424938,
+    "route_breaks": 679
+   },
+   "greedy": {
+    "pdr": 0.28901785714285716,
+    "throughput_kbps": 47.35268571428571,
+    "avg_delay_ms": 15.33549693031356,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.380908248378128,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.4114285714285714,
+    "throughput_kbps": 67.40845714285713,
+    "avg_delay_ms": 39.61470315500122,
+    "routing_overhead": 20.366536458333332,
+    "ctrl_msgs": 93849,
+    "discoveries": 1681,
+    "avg_hops": 5.468315972222222,
+    "route_breaks": 580
+   }
+  },
+  "sweep": "speed",
+  "x": 54
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 48.53341573420701,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 21.41317365269461,
+    "transitions_per_vehicle": 17.47,
+    "discovery_msgs": 4138,
+    "avg_clusters": 23.92,
+    "singleton_frac": 0.10270997876759995,
+    "avg_cluster_size": 4.180602006688963
+   },
+   "position": {
+    "cluster_lifetime": 21.56269113149847,
+    "transitions_per_vehicle": 17.69,
+    "discovery_msgs": 4168,
+    "avg_clusters": 23.583333333333332,
+    "singleton_frac": 0.11202054067778704,
+    "avg_cluster_size": 4.240282685512367
+   },
+   "speed": {
+    "cluster_lifetime": 12.372857142857143,
+    "transitions_per_vehicle": 28.56,
+    "discovery_msgs": 7084,
+    "avg_clusters": 28.963333333333335,
+    "singleton_frac": 0.22866986874635084,
+    "avg_cluster_size": 3.4526412705719873
+   },
+   "obqr": {
+    "cluster_lifetime": 47.14328358208955,
+    "transitions_per_vehicle": 8.99,
+    "discovery_msgs": 2411,
+    "avg_clusters": 52.833333333333336,
+    "singleton_frac": 0.4730479155883808,
+    "avg_cluster_size": 1.8927444794952681
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.30580357142857145,
+    "throughput_kbps": 50.10285714285715,
+    "avg_delay_ms": 57.2981243106356,
+    "routing_overhead": 29.914452554744525,
+    "ctrl_msgs": 102457,
+    "discoveries": 2121,
+    "avg_hops": 6.186569343065694,
+    "route_breaks": 660
+   },
+   "greedy": {
+    "pdr": 0.19089285714285714,
+    "throughput_kbps": 31.275885714285717,
+    "avg_delay_ms": 18.12448030603101,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.141253507951356,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3211607142857143,
+    "throughput_kbps": 52.61897142857143,
+    "avg_delay_ms": 50.81257297353676,
+    "routing_overhead": 26.882123992215735,
+    "ctrl_msgs": 96695,
+    "discoveries": 1946,
+    "avg_hops": 6.739505143174868,
+    "route_breaks": 572
+   }
+  },
+  "sweep": "speed",
+  "x": 54
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 72,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 61.42375537777778,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 18.112469437652813,
+    "transitions_per_vehicle": 23.16,
+    "discovery_msgs": 5426,
+    "avg_clusters": 24.773333333333333,
+    "singleton_frac": 0.11266808414344648,
+    "avg_cluster_size": 4.036598493003229
+   },
+   "position": {
+    "cluster_lifetime": 18.548223350253807,
+    "transitions_per_vehicle": 21.74,
+    "discovery_msgs": 5113,
+    "avg_clusters": 24.436666666666667,
+    "singleton_frac": 0.11076981942827165,
+    "avg_cluster_size": 4.092211158095758
+   },
+   "speed": {
+    "cluster_lifetime": 10.148514851485148,
+    "transitions_per_vehicle": 39.82,
+    "discovery_msgs": 10144,
+    "avg_clusters": 37.723333333333336,
+    "singleton_frac": 0.3546919301192819,
+    "avg_cluster_size": 2.650879208270743
+   },
+   "obqr": {
+    "cluster_lifetime": 40.74938574938575,
+    "transitions_per_vehicle": 10.58,
+    "discovery_msgs": 2879,
+    "avg_clusters": 55.45333333333333,
+    "singleton_frac": 0.5109186292108012,
+    "avg_cluster_size": 1.8033181053137775
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.32142857142857145,
+    "throughput_kbps": 52.66285714285714,
+    "avg_delay_ms": 45.67483488056593,
+    "routing_overhead": 24.850833333333334,
+    "ctrl_msgs": 89463,
+    "discoveries": 2143,
+    "avg_hops": 4.951944444444444,
+    "route_breaks": 598
+   },
+   "greedy": {
+    "pdr": 0.24330357142857142,
+    "throughput_kbps": 39.862857142857145,
+    "avg_delay_ms": 13.504536999608666,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.1871559633027524,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.33089285714285716,
+    "throughput_kbps": 54.21348571428572,
+    "avg_delay_ms": 42.19172532821528,
+    "routing_overhead": 23.58175930922828,
+    "ctrl_msgs": 87394,
+    "discoveries": 2006,
+    "avg_hops": 5.3175930922827845,
+    "route_breaks": 532
+   }
+  },
+  "sweep": "speed",
+  "x": 72
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 48.420309141458546,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 20.54178674351585,
+    "transitions_per_vehicle": 17.8,
+    "discovery_msgs": 4229,
+    "avg_clusters": 23.843333333333334,
+    "singleton_frac": 0.0998672980267183,
+    "avg_cluster_size": 4.194044456871243
+   },
+   "position": {
+    "cluster_lifetime": 21.12202380952381,
+    "transitions_per_vehicle": 17.34,
+    "discovery_msgs": 4114,
+    "avg_clusters": 23.743333333333332,
+    "singleton_frac": 0.1054239830472096,
+    "avg_cluster_size": 4.211708549768356
+   },
+   "speed": {
+    "cluster_lifetime": 13.2796992481203,
+    "transitions_per_vehicle": 26.65,
+    "discovery_msgs": 6631,
+    "avg_clusters": 29.533333333333335,
+    "singleton_frac": 0.21200571397965998,
+    "avg_cluster_size": 3.386004514672686
+   },
+   "obqr": {
+    "cluster_lifetime": 53.12080536912752,
+    "transitions_per_vehicle": 8.12,
+    "discovery_msgs": 2167,
+    "avg_clusters": 52.943333333333335,
+    "singleton_frac": 0.4719302680697861,
+    "avg_cluster_size": 1.8888119372914436
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.22678571428571428,
+    "throughput_kbps": 37.156571428571425,
+    "avg_delay_ms": 79.86183840821813,
+    "routing_overhead": 48.33031496062992,
+    "ctrl_msgs": 122759,
+    "discoveries": 2351,
+    "avg_hops": 8.016141732283465,
+    "route_breaks": 656
+   },
+   "greedy": {
+    "pdr": 0.10946428571428571,
+    "throughput_kbps": 17.934628571428572,
+    "avg_delay_ms": 26.667407223442595,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 5.893964110929853,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.2449107142857143,
+    "throughput_kbps": 40.126171428571425,
+    "avg_delay_ms": 68.75019961169484,
+    "routing_overhead": 42.38680277068902,
+    "ctrl_msgs": 116267,
+    "discoveries": 2170,
+    "avg_hops": 8.66824644549763,
+    "route_breaks": 546
+   }
+  },
+  "sweep": "speed",
+  "x": 54
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 72,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 60.8198992956061,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 16.394273127753305,
+    "transitions_per_vehicle": 24.82,
+    "discovery_msgs": 5848,
+    "avg_clusters": 24.89,
+    "singleton_frac": 0.11579512700544685,
+    "avg_cluster_size": 4.017677782241864
+   },
+   "position": {
+    "cluster_lifetime": 20.412921348314608,
+    "transitions_per_vehicle": 20.28,
+    "discovery_msgs": 4745,
+    "avg_clusters": 24.3,
+    "singleton_frac": 0.10588268658341121,
+    "avg_cluster_size": 4.11522633744856
+   },
+   "speed": {
+    "cluster_lifetime": 10.158658204895739,
+    "transitions_per_vehicle": 40.4,
+    "discovery_msgs": 10250,
+    "avg_clusters": 37.47,
+    "singleton_frac": 0.35391702823883125,
+    "avg_cluster_size": 2.6688017080330932
+   },
+   "obqr": {
+    "cluster_lifetime": 41.28606965174129,
+    "transitions_per_vehicle": 10.52,
+    "discovery_msgs": 2849,
+    "avg_clusters": 55.52,
+    "singleton_frac": 0.5264513892303982,
+    "avg_cluster_size": 1.8011527377521612
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.2710714285714286,
+    "throughput_kbps": 44.41234285714286,
+    "avg_delay_ms": 68.3580800608118,
+    "routing_overhead": 42.52733860342556,
+    "ctrl_msgs": 129113,
+    "discoveries": 2304,
+    "avg_hops": 6.525032938076416,
+    "route_breaks": 744
+   },
+   "greedy": {
+    "pdr": 0.1705357142857143,
+    "throughput_kbps": 27.940571428571428,
+    "avg_delay_ms": 19.299756619160053,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.4209424083769635,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.285625,
+    "throughput_kbps": 46.796800000000005,
+    "avg_delay_ms": 62.28443087411152,
+    "routing_overhead": 39.92997811816193,
+    "ctrl_msgs": 127736,
+    "discoveries": 2143,
+    "avg_hops": 7.116598937167865,
+    "route_breaks": 677
+   }
+  },
+  "sweep": "speed",
+  "x": 72
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 72,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 60.383518503963295,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 17.454117647058823,
+    "transitions_per_vehicle": 23.25,
+    "discovery_msgs": 5474,
+    "avg_clusters": 24.813333333333333,
+    "singleton_frac": 0.11208916411017861,
+    "avg_cluster_size": 4.030091348737238
+   },
+   "position": {
+    "cluster_lifetime": 18.17705735660848,
+    "transitions_per_vehicle": 21.77,
+    "discovery_msgs": 5132,
+    "avg_clusters": 24.376666666666665,
+    "singleton_frac": 0.1008948160535117,
+    "avg_cluster_size": 4.102283604539861
+   },
+   "speed": {
+    "cluster_lifetime": 10.108181818181817,
+    "transitions_per_vehicle": 40.97,
+    "discovery_msgs": 10353,
+    "avg_clusters": 37.2,
+    "singleton_frac": 0.33010235920831643,
+    "avg_cluster_size": 2.6881720430107525
+   },
+   "obqr": {
+    "cluster_lifetime": 42.82820512820513,
+    "transitions_per_vehicle": 10.01,
+    "discovery_msgs": 2723,
+    "avg_clusters": 55.873333333333335,
+    "singleton_frac": 0.5032285367084381,
+    "avg_cluster_size": 1.7897625581672831
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.35642857142857143,
+    "throughput_kbps": 58.39725714285715,
+    "avg_delay_ms": 47.479135217491006,
+    "routing_overhead": 27.588677354709418,
+    "ctrl_msgs": 110134,
+    "discoveries": 2037,
+    "avg_hops": 5.1515531062124245,
+    "route_breaks": 694
+   },
+   "greedy": {
+    "pdr": 0.25839285714285715,
+    "throughput_kbps": 42.33508571428571,
+    "avg_delay_ms": 13.6987061136365,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.31720801658604,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3695535714285714,
+    "throughput_kbps": 60.54765714285714,
+    "avg_delay_ms": 45.2730482389956,
+    "routing_overhead": 26.523556414592896,
+    "ctrl_msgs": 109781,
+    "discoveries": 1897,
+    "avg_hops": 5.671901425465088,
+    "route_breaks": 643
+   }
+  },
+  "sweep": "speed",
+  "x": 72
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 90,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 69.79283282202447,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 14.803212851405622,
+    "transitions_per_vehicle": 27.82,
+    "discovery_msgs": 6535,
+    "avg_clusters": 24.656666666666666,
+    "singleton_frac": 0.09353929835596503,
+    "avg_cluster_size": 4.05569825604975
+   },
+   "position": {
+    "cluster_lifetime": 15.815618221258134,
+    "transitions_per_vehicle": 26.0,
+    "discovery_msgs": 6098,
+    "avg_clusters": 24.383333333333333,
+    "singleton_frac": 0.09922072696492987,
+    "avg_cluster_size": 4.101161995898838
+   },
+   "speed": {
+    "cluster_lifetime": 9.302213001383127,
+    "transitions_per_vehicle": 49.42,
+    "discovery_msgs": 12736,
+    "avg_clusters": 44.97,
+    "singleton_frac": 0.4255775343589934,
+    "avg_cluster_size": 2.2237046920169004
+   },
+   "obqr": {
+    "cluster_lifetime": 35.320247933884296,
+    "transitions_per_vehicle": 12.73,
+    "discovery_msgs": 3454,
+    "avg_clusters": 57.18333333333333,
+    "singleton_frac": 0.5366223110268149,
+    "avg_cluster_size": 1.7487612940833577
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.31857142857142856,
+    "throughput_kbps": 52.194742857142856,
+    "avg_delay_ms": 51.29792031581125,
+    "routing_overhead": 29.37275784753363,
+    "ctrl_msgs": 104802,
+    "discoveries": 2258,
+    "avg_hops": 5.102017937219731,
+    "route_breaks": 745
+   },
+   "greedy": {
+    "pdr": 0.22776785714285713,
+    "throughput_kbps": 37.317485714285716,
+    "avg_delay_ms": 12.53965734665292,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.1716973735789886,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3289285714285714,
+    "throughput_kbps": 53.89165714285714,
+    "avg_delay_ms": 47.2161494028396,
+    "routing_overhead": 27.735342019543975,
+    "ctrl_msgs": 102177,
+    "discoveries": 2089,
+    "avg_hops": 5.4617263843648205,
+    "route_breaks": 676
+   }
+  },
+  "sweep": "speed",
+  "x": 90
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 72,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 61.00817898438273,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 17.098591549295776,
+    "transitions_per_vehicle": 22.95,
+    "discovery_msgs": 5418,
+    "avg_clusters": 24.36,
+    "singleton_frac": 0.11297753885801176,
+    "avg_cluster_size": 4.105090311986864
+   },
+   "position": {
+    "cluster_lifetime": 18.282115869017634,
+    "transitions_per_vehicle": 22.1,
+    "discovery_msgs": 5190,
+    "avg_clusters": 24.273333333333333,
+    "singleton_frac": 0.11536433646591068,
+    "avg_cluster_size": 4.11974732216424
+   },
+   "speed": {
+    "cluster_lifetime": 10.004549590536852,
+    "transitions_per_vehicle": 41.6,
+    "discovery_msgs": 10481,
+    "avg_clusters": 36.77333333333333,
+    "singleton_frac": 0.3424183124971082,
+    "avg_cluster_size": 2.719361856417694
+   },
+   "obqr": {
+    "cluster_lifetime": 39.38164251207729,
+    "transitions_per_vehicle": 11.01,
+    "discovery_msgs": 2981,
+    "avg_clusters": 54.51,
+    "singleton_frac": 0.48915687512015155,
+    "avg_cluster_size": 1.83452577508714
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.31875,
+    "throughput_kbps": 52.224,
+    "avg_delay_ms": 64.93829977573037,
+    "routing_overhead": 36.52072829131653,
+    "ctrl_msgs": 130379,
+    "discoveries": 2212,
+    "avg_hops": 6.2938375350140054,
+    "route_breaks": 866
+   },
+   "greedy": {
+    "pdr": 0.18794642857142857,
+    "throughput_kbps": 30.793142857142858,
+    "avg_delay_ms": 18.173379181575573,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.004275534441805,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.343125,
+    "throughput_kbps": 56.2176,
+    "avg_delay_ms": 59.211405099272596,
+    "routing_overhead": 32.36377829820453,
+    "ctrl_msgs": 124374,
+    "discoveries": 2003,
+    "avg_hops": 6.961488420504814,
+    "route_breaks": 750
+   }
+  },
+  "sweep": "speed",
+  "x": 72
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 72,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 60.595432881539544,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 19.346666666666668,
+    "transitions_per_vehicle": 22.28,
+    "discovery_msgs": 5183,
+    "avg_clusters": 24.26,
+    "singleton_frac": 0.08572637065767999,
+    "avg_cluster_size": 4.122011541632316
+   },
+   "position": {
+    "cluster_lifetime": 18.42091836734694,
+    "transitions_per_vehicle": 21.93,
+    "discovery_msgs": 5146,
+    "avg_clusters": 24.15,
+    "singleton_frac": 0.09464559421458471,
+    "avg_cluster_size": 4.140786749482402
+   },
+   "speed": {
+    "cluster_lifetime": 9.837249782419494,
+    "transitions_per_vehicle": 41.87,
+    "discovery_msgs": 10636,
+    "avg_clusters": 37.79666666666667,
+    "singleton_frac": 0.33922191114039907,
+    "avg_cluster_size": 2.6457359555516358
+   },
+   "obqr": {
+    "cluster_lifetime": 39.95933014354067,
+    "transitions_per_vehicle": 11.15,
+    "discovery_msgs": 3009,
+    "avg_clusters": 55.86666666666667,
+    "singleton_frac": 0.4983341109202779,
+    "avg_cluster_size": 1.7899761336515514
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.29642857142857143,
+    "throughput_kbps": 48.566857142857145,
+    "avg_delay_ms": 58.209420366081524,
+    "routing_overhead": 33.496385542168674,
+    "ctrl_msgs": 111208,
+    "discoveries": 2248,
+    "avg_hops": 5.642469879518072,
+    "route_breaks": 709
+   },
+   "greedy": {
+    "pdr": 0.20008928571428572,
+    "throughput_kbps": 32.78262857142857,
+    "avg_delay_ms": 13.833429024923245,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.3824185631414547,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.30839285714285714,
+    "throughput_kbps": 50.52708571428571,
+    "avg_delay_ms": 52.49059545321023,
+    "routing_overhead": 31.394614939200927,
+    "ctrl_msgs": 108437,
+    "discoveries": 2088,
+    "avg_hops": 6.06658946149392,
+    "route_breaks": 646
+   }
+  },
+  "sweep": "speed",
+  "x": 72
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 90,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 68.37818695161066,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 15.0,
+    "transitions_per_vehicle": 27.14,
+    "discovery_msgs": 6373,
+    "avg_clusters": 24.333333333333332,
+    "singleton_frac": 0.10267183808516957,
+    "avg_cluster_size": 4.109589041095891
+   },
+   "position": {
+    "cluster_lifetime": 15.042462845010617,
+    "transitions_per_vehicle": 24.67,
+    "discovery_msgs": 5851,
+    "avg_clusters": 23.7,
+    "singleton_frac": 0.11128609688754618,
+    "avg_cluster_size": 4.219409282700422
+   },
+   "speed": {
+    "cluster_lifetime": 9.33046594982079,
+    "transitions_per_vehicle": 48.41,
+    "discovery_msgs": 12428,
+    "avg_clusters": 43.53333333333333,
+    "singleton_frac": 0.3984745343638538,
+    "avg_cluster_size": 2.2970903522205206
+   },
+   "obqr": {
+    "cluster_lifetime": 37.90744920993228,
+    "transitions_per_vehicle": 12.15,
+    "discovery_msgs": 3259,
+    "avg_clusters": 56.166666666666664,
+    "singleton_frac": 0.5396125230185848,
+    "avg_cluster_size": 1.7804154302670623
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.3394642857142857,
+    "throughput_kbps": 55.617828571428575,
+    "avg_delay_ms": 48.41197904142551,
+    "routing_overhead": 27.717254076801684,
+    "ctrl_msgs": 105381,
+    "discoveries": 2154,
+    "avg_hops": 4.9379274066280905,
+    "route_breaks": 735
+   },
+   "greedy": {
+    "pdr": 0.25205357142857143,
+    "throughput_kbps": 41.29645714285714,
+    "avg_delay_ms": 14.465381906381886,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.332979100247963,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3500892857142857,
+    "throughput_kbps": 57.35862857142857,
+    "avg_delay_ms": 44.380374183173714,
+    "routing_overhead": 25.98189237439429,
+    "ctrl_msgs": 101875,
+    "discoveries": 1982,
+    "avg_hops": 5.303749043611323,
+    "route_breaks": 675
+   }
+  },
+  "sweep": "speed",
+  "x": 90
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 90,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 69.16379799247545,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 14.639278557114228,
+    "transitions_per_vehicle": 27.8,
+    "discovery_msgs": 6533,
+    "avg_clusters": 24.433333333333334,
+    "singleton_frac": 0.10464149436178422,
+    "avg_cluster_size": 4.092769440654843
+   },
+   "position": {
+    "cluster_lifetime": 17.369928400954652,
+    "transitions_per_vehicle": 24.92,
+    "discovery_msgs": 5795,
+    "avg_clusters": 24.35,
+    "singleton_frac": 0.10906847814021726,
+    "avg_cluster_size": 4.1067761806981515
+   },
+   "speed": {
+    "cluster_lifetime": 9.287544483985766,
+    "transitions_per_vehicle": 48.81,
+    "discovery_msgs": 12532,
+    "avg_clusters": 43.63,
+    "singleton_frac": 0.4015552332584677,
+    "avg_cluster_size": 2.2920009168003666
+   },
+   "obqr": {
+    "cluster_lifetime": 36.88641425389755,
+    "transitions_per_vehicle": 12.46,
+    "discovery_msgs": 3339,
+    "avg_clusters": 55.376666666666665,
+    "singleton_frac": 0.5181254002236041,
+    "avg_cluster_size": 1.8058147234093782
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.3296428571428571,
+    "throughput_kbps": 54.00868571428571,
+    "avg_delay_ms": 48.377895721530386,
+    "routing_overhead": 26.837757313109424,
+    "ctrl_msgs": 99085,
+    "discoveries": 2178,
+    "avg_hops": 4.981852654387866,
+    "route_breaks": 702
+   },
+   "greedy": {
+    "pdr": 0.24428571428571427,
+    "throughput_kbps": 40.02377142857143,
+    "avg_delay_ms": 14.01686182734334,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.263157894736842,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3417857142857143,
+    "throughput_kbps": 55.998171428571425,
+    "avg_delay_ms": 44.83618777218841,
+    "routing_overhead": 25.94226750261233,
+    "ctrl_msgs": 99307,
+    "discoveries": 2043,
+    "avg_hops": 5.313218390804598,
+    "route_breaks": 653
+   }
+  },
+  "sweep": "speed",
+  "x": 90
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 90,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 69.05074226800554,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 14.799180327868852,
+    "transitions_per_vehicle": 27.88,
+    "discovery_msgs": 6527,
+    "avg_clusters": 24.156666666666666,
+    "singleton_frac": 0.0924665933636948,
+    "avg_cluster_size": 4.139643990616807
+   },
+   "position": {
+    "cluster_lifetime": 15.823144104803493,
+    "transitions_per_vehicle": 26.86,
+    "discovery_msgs": 6263,
+    "avg_clusters": 24.24,
+    "singleton_frac": 0.09324072776391618,
+    "avg_cluster_size": 4.125412541254126
+   },
+   "speed": {
+    "cluster_lifetime": 9.557400722021661,
+    "transitions_per_vehicle": 48.58,
+    "discovery_msgs": 12445,
+    "avg_clusters": 44.26,
+    "singleton_frac": 0.41142705458339585,
+    "avg_cluster_size": 2.2593764121102575
+   },
+   "obqr": {
+    "cluster_lifetime": 36.298507462686565,
+    "transitions_per_vehicle": 12.36,
+    "discovery_msgs": 3353,
+    "avg_clusters": 56.93666666666667,
+    "singleton_frac": 0.5175120947066157,
+    "avg_cluster_size": 1.7563374509689127
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.2580357142857143,
+    "throughput_kbps": 42.27657142857143,
+    "avg_delay_ms": 70.7698918278473,
+    "routing_overhead": 40.97128027681661,
+    "ctrl_msgs": 118407,
+    "discoveries": 2402,
+    "avg_hops": 6.489965397923876,
+    "route_breaks": 801
+   },
+   "greedy": {
+    "pdr": 0.15928571428571428,
+    "throughput_kbps": 26.097371428571428,
+    "avg_delay_ms": 16.99282140404276,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.130044843049327,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.274375,
+    "throughput_kbps": 44.9536,
+    "avg_delay_ms": 65.35038511006724,
+    "routing_overhead": 38.47380410022779,
+    "ctrl_msgs": 118230,
+    "discoveries": 2248,
+    "avg_hops": 7.027660266840221,
+    "route_breaks": 734
+   }
+  },
+  "sweep": "speed",
+  "x": 90
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 100,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 49.254227079016054,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 18.765906362545017,
+    "transitions_per_vehicle": 24.62,
+    "discovery_msgs": 6538,
+    "avg_clusters": 52.28,
+    "singleton_frac": 0.46002878170387684,
+    "avg_cluster_size": 1.9127773527161438
+   },
+   "position": {
+    "cluster_lifetime": 20.783892617449663,
+    "transitions_per_vehicle": 20.78,
+    "discovery_msgs": 5594,
+    "avg_clusters": 51.78666666666667,
+    "singleton_frac": 0.4654208719829203,
+    "avg_cluster_size": 1.9309989701338826
+   },
+   "speed": {
+    "cluster_lifetime": 17.47568710359408,
+    "transitions_per_vehicle": 24.37,
+    "discovery_msgs": 6710,
+    "avg_clusters": 55.29333333333334,
+    "singleton_frac": 0.5139522652105702,
+    "avg_cluster_size": 1.808536291294912
+   },
+   "obqr": {
+    "cluster_lifetime": 71.04234527687296,
+    "transitions_per_vehicle": 5.6,
+    "discovery_msgs": 1662,
+    "avg_clusters": 72.94,
+    "singleton_frac": 0.71771816411276,
+    "avg_cluster_size": 1.3709898546750754
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.06053571428571428,
+    "throughput_kbps": 9.918171428571428,
+    "avg_delay_ms": 7.19813325427673,
+    "routing_overhead": 15.188790560471977,
+    "ctrl_msgs": 10298,
+    "discoveries": 2651,
+    "avg_hops": 1.8584070796460177,
+    "route_breaks": 32
+   },
+   "greedy": {
+    "pdr": 0.061517857142857145,
+    "throughput_kbps": 10.079085714285714,
+    "avg_delay_ms": 3.785787773645484,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 1.5065312046444121,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.06160714285714286,
+    "throughput_kbps": 10.093714285714286,
+    "avg_delay_ms": 6.829765151014464,
+    "routing_overhead": 13.994202898550725,
+    "ctrl_msgs": 9656,
+    "discoveries": 2645,
+    "avg_hops": 2.044927536231884,
+    "route_breaks": 31
+   }
+  },
+  "sweep": "range",
+  "x": 100
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 100,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 49.20348414089469,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 18.54398148148148,
+    "transitions_per_vehicle": 24.76,
+    "discovery_msgs": 6626,
+    "avg_clusters": 53.586666666666666,
+    "singleton_frac": 0.4738647221175074,
+    "avg_cluster_size": 1.8661358546902214
+   },
+   "position": {
+    "cluster_lifetime": 20.50453955901427,
+    "transitions_per_vehicle": 21.72,
+    "discovery_msgs": 5834,
+    "avg_clusters": 52.87,
+    "singleton_frac": 0.46906656973652777,
+    "avg_cluster_size": 1.8914318138831097
+   },
+   "speed": {
+    "cluster_lifetime": 16.674950298210735,
+    "transitions_per_vehicle": 26.26,
+    "discovery_msgs": 7208,
+    "avg_clusters": 56.10333333333333,
+    "singleton_frac": 0.5150490975443615,
+    "avg_cluster_size": 1.7824252866734003
+   },
+   "obqr": {
+    "cluster_lifetime": 74.92358803986711,
+    "transitions_per_vehicle": 5.52,
+    "discovery_msgs": 1631,
+    "avg_clusters": 75.42333333333333,
+    "singleton_frac": 0.734069183539712,
+    "avg_cluster_size": 1.3258496486498432
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.05455357142857143,
+    "throughput_kbps": 8.938057142857142,
+    "avg_delay_ms": 8.419803487230379,
+    "routing_overhead": 17.32733224222586,
+    "ctrl_msgs": 10587,
+    "discoveries": 2681,
+    "avg_hops": 1.800327332242226,
+    "route_breaks": 46
+   },
+   "greedy": {
+    "pdr": 0.054910714285714285,
+    "throughput_kbps": 8.99657142857143,
+    "avg_delay_ms": 4.5406571222837515,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 1.7463414634146341,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.05455357142857143,
+    "throughput_kbps": 8.938057142857142,
+    "avg_delay_ms": 7.198325852677912,
+    "routing_overhead": 16.5139116202946,
+    "ctrl_msgs": 10090,
+    "discoveries": 2667,
+    "avg_hops": 1.8494271685761048,
+    "route_breaks": 46
+   }
+  },
+  "sweep": "range",
+  "x": 100
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 100,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 48.98509348568497,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 19.28083028083028,
+    "transitions_per_vehicle": 23.69,
+    "discovery_msgs": 6326,
+    "avg_clusters": 52.803333333333335,
+    "singleton_frac": 0.45866087966391905,
+    "avg_cluster_size": 1.893819834606401
+   },
+   "position": {
+    "cluster_lifetime": 21.50484094052559,
+    "transitions_per_vehicle": 20.1,
+    "discovery_msgs": 5414,
+    "avg_clusters": 52.0,
+    "singleton_frac": 0.4582849687821449,
+    "avg_cluster_size": 1.9230769230769231
+   },
+   "speed": {
+    "cluster_lifetime": 17.610169491525422,
+    "transitions_per_vehicle": 24.68,
+    "discovery_msgs": 6768,
+    "avg_clusters": 55.6,
+    "singleton_frac": 0.5108686096194064,
+    "avg_cluster_size": 1.7985611510791366
+   },
+   "obqr": {
+    "cluster_lifetime": 71.10855263157895,
+    "transitions_per_vehicle": 5.7,
+    "discovery_msgs": 1677,
+    "avg_clusters": 72.29333333333334,
+    "singleton_frac": 0.6978721093385662,
+    "avg_cluster_size": 1.383253412025083
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.04330357142857143,
+    "throughput_kbps": 7.094857142857143,
+    "avg_delay_ms": 8.470316997117129,
+    "routing_overhead": 21.23505154639175,
+    "ctrl_msgs": 10299,
+    "discoveries": 2705,
+    "avg_hops": 1.9814432989690722,
+    "route_breaks": 37
+   },
+   "greedy": {
+    "pdr": 0.043125,
+    "throughput_kbps": 7.065600000000001,
+    "avg_delay_ms": 4.298740028903807,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 1.6521739130434783,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.04330357142857143,
+    "throughput_kbps": 7.094857142857143,
+    "avg_delay_ms": 7.716195557514979,
+    "routing_overhead": 20.189690721649484,
+    "ctrl_msgs": 9792,
+    "discoveries": 2698,
+    "avg_hops": 1.9958762886597938,
+    "route_breaks": 40
+   }
+  },
+  "sweep": "range",
+  "x": 100
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 108,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 75.46481945057532,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 14.174168297455969,
+    "transitions_per_vehicle": 28.72,
+    "discovery_msgs": 6743,
+    "avg_clusters": 24.22,
+    "singleton_frac": 0.1002363802863803,
+    "avg_cluster_size": 4.128819157720892
+   },
+   "position": {
+    "cluster_lifetime": 14.204724409448819,
+    "transitions_per_vehicle": 28.29,
+    "discovery_msgs": 6649,
+    "avg_clusters": 24.136666666666667,
+    "singleton_frac": 0.10967666871507452,
+    "avg_cluster_size": 4.143074161027482
+   },
+   "speed": {
+    "cluster_lifetime": 9.11977886977887,
+    "transitions_per_vehicle": 53.3,
+    "discovery_msgs": 13870,
+    "avg_clusters": 49.64333333333333,
+    "singleton_frac": 0.46854834496649517,
+    "avg_cluster_size": 2.0143691667226213
+   },
+   "obqr": {
+    "cluster_lifetime": 32.88715953307393,
+    "transitions_per_vehicle": 14.11,
+    "discovery_msgs": 3799,
+    "avg_clusters": 56.516666666666666,
+    "singleton_frac": 0.5204865033993329,
+    "avg_cluster_size": 1.7693895606015926
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.25357142857142856,
+    "throughput_kbps": 41.54514285714286,
+    "avg_delay_ms": 57.3099635851969,
+    "routing_overhead": 36.778169014084504,
+    "ctrl_msgs": 104450,
+    "discoveries": 2396,
+    "avg_hops": 5.655281690140845,
+    "route_breaks": 643
+   },
+   "greedy": {
+    "pdr": 0.16857142857142857,
+    "throughput_kbps": 27.618742857142855,
+    "avg_delay_ms": 16.547281399546492,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.9179025423728815,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.26455357142857144,
+    "throughput_kbps": 43.344457142857145,
+    "avg_delay_ms": 52.80766162904417,
+    "routing_overhead": 35.25582180222747,
+    "ctrl_msgs": 104463,
+    "discoveries": 2268,
+    "avg_hops": 6.079986500168748,
+    "route_breaks": 594
+   }
+  },
+  "sweep": "speed",
+  "x": 108
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 100,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 48.420309141458546,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 20.47588005215124,
+    "transitions_per_vehicle": 22.32,
+    "discovery_msgs": 5946,
+    "avg_clusters": 52.52333333333333,
+    "singleton_frac": 0.4590629577203767,
+    "avg_cluster_size": 1.9039157199974615
+   },
+   "position": {
+    "cluster_lifetime": 22.13371266002845,
+    "transitions_per_vehicle": 19.99,
+    "discovery_msgs": 5355,
+    "avg_clusters": 52.03,
+    "singleton_frac": 0.4592585183885849,
+    "avg_cluster_size": 1.9219680953296174
+   },
+   "speed": {
+    "cluster_lifetime": 18.6,
+    "transitions_per_vehicle": 23.61,
+    "discovery_msgs": 6468,
+    "avg_clusters": 55.98,
+    "singleton_frac": 0.5127758445238627,
+    "avg_cluster_size": 1.7863522686673814
+   },
+   "obqr": {
+    "cluster_lifetime": 74.51712328767124,
+    "transitions_per_vehicle": 5.36,
+    "discovery_msgs": 1587,
+    "avg_clusters": 72.76,
+    "singleton_frac": 0.7143803158313216,
+    "avg_cluster_size": 1.3743815283122593
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.048125,
+    "throughput_kbps": 7.8848,
+    "avg_delay_ms": 10.711994849436195,
+    "routing_overhead": 22.712430426716143,
+    "ctrl_msgs": 12242,
+    "discoveries": 2690,
+    "avg_hops": 2.430426716141002,
+    "route_breaks": 36
+   },
+   "greedy": {
+    "pdr": 0.048214285714285716,
+    "throughput_kbps": 7.8994285714285715,
+    "avg_delay_ms": 5.9853009852585135,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.0574074074074074,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.048035714285714286,
+    "throughput_kbps": 7.870171428571429,
+    "avg_delay_ms": 10.164438054622044,
+    "routing_overhead": 21.280669144981413,
+    "ctrl_msgs": 11449,
+    "discoveries": 2682,
+    "avg_hops": 2.5018587360594795,
+    "route_breaks": 39
+   }
+  },
+  "sweep": "range",
+  "x": 100
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 100,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 48.53341573420701,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 19.852085967130215,
+    "transitions_per_vehicle": 23.29,
+    "discovery_msgs": 6191,
+    "avg_clusters": 52.50666666666667,
+    "singleton_frac": 0.46554713838743056,
+    "avg_cluster_size": 1.904520060944642
+   },
+   "position": {
+    "cluster_lifetime": 21.42559109874826,
+    "transitions_per_vehicle": 20.58,
+    "discovery_msgs": 5505,
+    "avg_clusters": 51.513333333333335,
+    "singleton_frac": 0.47170255366135144,
+    "avg_cluster_size": 1.9412449851171216
+   },
+   "speed": {
+    "cluster_lifetime": 17.905125408942205,
+    "transitions_per_vehicle": 24.22,
+    "discovery_msgs": 6625,
+    "avg_clusters": 54.906666666666666,
+    "singleton_frac": 0.5251647742932579,
+    "avg_cluster_size": 1.821272462360369
+   },
+   "obqr": {
+    "cluster_lifetime": 73.91780821917808,
+    "transitions_per_vehicle": 5.64,
+    "discovery_msgs": 1642,
+    "avg_clusters": 72.18,
+    "singleton_frac": 0.7079815742029532,
+    "avg_cluster_size": 1.3854253255749513
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.030357142857142857,
+    "throughput_kbps": 4.973714285714285,
+    "avg_delay_ms": 10.458884179548487,
+    "routing_overhead": 26.488235294117647,
+    "ctrl_msgs": 9006,
+    "discoveries": 2734,
+    "avg_hops": 2.3705882352941177,
+    "route_breaks": 27
+   },
+   "greedy": {
+    "pdr": 0.03,
+    "throughput_kbps": 4.9152,
+    "avg_delay_ms": 5.833597836195899,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.2410714285714284,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.030446428571428572,
+    "throughput_kbps": 4.9883428571428565,
+    "avg_delay_ms": 8.82633869696188,
+    "routing_overhead": 24.75366568914956,
+    "ctrl_msgs": 8441,
+    "discoveries": 2725,
+    "avg_hops": 2.4164222873900294,
+    "route_breaks": 25
+   }
+  },
+  "sweep": "range",
+  "x": 100
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 108,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 74.37998974491691,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 15.477801268498943,
+    "transitions_per_vehicle": 28.37,
+    "discovery_msgs": 6595,
+    "avg_clusters": 24.486666666666668,
+    "singleton_frac": 0.08614814115031506,
+    "avg_cluster_size": 4.083855159270351
+   },
+   "position": {
+    "cluster_lifetime": 14.721881390593047,
+    "transitions_per_vehicle": 28.29,
+    "discovery_msgs": 6612,
+    "avg_clusters": 24.076666666666668,
+    "singleton_frac": 0.09658744122222383,
+    "avg_cluster_size": 4.153398864737643
+   },
+   "speed": {
+    "cluster_lifetime": 9.372586872586872,
+    "transitions_per_vehicle": 51.89,
+    "discovery_msgs": 13439,
+    "avg_clusters": 48.70666666666666,
+    "singleton_frac": 0.4501611021508717,
+    "avg_cluster_size": 2.0531070353134413
+   },
+   "obqr": {
+    "cluster_lifetime": 33.07976653696498,
+    "transitions_per_vehicle": 13.62,
+    "discovery_msgs": 3698,
+    "avg_clusters": 56.85666666666667,
+    "singleton_frac": 0.5202104035437732,
+    "avg_cluster_size": 1.7588087002403705
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.43955357142857143,
+    "throughput_kbps": 72.01645714285713,
+    "avg_delay_ms": 43.25000539156604,
+    "routing_overhead": 20.34511476741824,
+    "ctrl_msgs": 100159,
+    "discoveries": 1963,
+    "avg_hops": 4.6689010765793215,
+    "route_breaks": 866
+   },
+   "greedy": {
+    "pdr": 0.32875,
+    "throughput_kbps": 53.8624,
+    "avg_delay_ms": 13.5887608028768,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.083921781640413,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.45053571428571426,
+    "throughput_kbps": 73.81577142857144,
+    "avg_delay_ms": 40.46802972998708,
+    "routing_overhead": 19.46195005945303,
+    "ctrl_msgs": 98205,
+    "discoveries": 1777,
+    "avg_hops": 5.0426080063416565,
+    "route_breaks": 822
+   }
+  },
+  "sweep": "speed",
+  "x": 108
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 108,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 74.482640165414,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 13.47970479704797,
+    "transitions_per_vehicle": 30.32,
+    "discovery_msgs": 7123,
+    "avg_clusters": 24.436666666666667,
+    "singleton_frac": 0.0921331671549063,
+    "avg_cluster_size": 4.092211158095758
+   },
+   "position": {
+    "cluster_lifetime": 15.256410256410257,
+    "transitions_per_vehicle": 26.91,
+    "discovery_msgs": 6294,
+    "avg_clusters": 23.88,
+    "singleton_frac": 0.09953247970494349,
+    "avg_cluster_size": 4.1876046901172534
+   },
+   "speed": {
+    "cluster_lifetime": 9.040917544947304,
+    "transitions_per_vehicle": 53.78,
+    "discovery_msgs": 13940,
+    "avg_clusters": 48.75,
+    "singleton_frac": 0.44973115114621304,
+    "avg_cluster_size": 2.051282051282051
+   },
+   "obqr": {
+    "cluster_lifetime": 32.594861660079054,
+    "transitions_per_vehicle": 13.67,
+    "discovery_msgs": 3688,
+    "avg_clusters": 55.17,
+    "singleton_frac": 0.5106933919040473,
+    "avg_cluster_size": 1.81257930034439
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.45017857142857143,
+    "throughput_kbps": 73.75725714285714,
+    "avg_delay_ms": 42.564700800162946,
+    "routing_overhead": 20.951408171360573,
+    "ctrl_msgs": 105637,
+    "discoveries": 1978,
+    "avg_hops": 4.519635065450218,
+    "route_breaks": 867
+   },
+   "greedy": {
+    "pdr": 0.3449107142857143,
+    "throughput_kbps": 56.510171428571425,
+    "avg_delay_ms": 13.318909112311061,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.0489257054103027,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.46214285714285713,
+    "throughput_kbps": 75.7174857142857,
+    "avg_delay_ms": 38.86263406631419,
+    "routing_overhead": 19.529945904173108,
+    "ctrl_msgs": 101087,
+    "discoveries": 1781,
+    "avg_hops": 4.802936630602782,
+    "route_breaks": 806
+   }
+  },
+  "sweep": "speed",
+  "x": 108
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 90,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 68.61634254869918,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 16.47826086956522,
+    "transitions_per_vehicle": 25.82,
+    "discovery_msgs": 6016,
+    "avg_clusters": 24.076666666666668,
+    "singleton_frac": 0.10554869687478384,
+    "avg_cluster_size": 4.153398864737643
+   },
+   "position": {
+    "cluster_lifetime": 15.49015317286652,
+    "transitions_per_vehicle": 25.37,
+    "discovery_msgs": 5964,
+    "avg_clusters": 23.676666666666666,
+    "singleton_frac": 0.10775467503510981,
+    "avg_cluster_size": 4.223567506687315
+   },
+   "speed": {
+    "cluster_lifetime": 9.478324761204997,
+    "transitions_per_vehicle": 49.38,
+    "discovery_msgs": 12556,
+    "avg_clusters": 43.14,
+    "singleton_frac": 0.3899186671043203,
+    "avg_cluster_size": 2.3180343069077423
+   },
+   "obqr": {
+    "cluster_lifetime": 35.1236442516269,
+    "transitions_per_vehicle": 12.61,
+    "discovery_msgs": 3384,
+    "avg_clusters": 54.17333333333333,
+    "singleton_frac": 0.4908428791111237,
+    "avg_cluster_size": 1.8459266551809008
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.3279464285714286,
+    "throughput_kbps": 53.73074285714285,
+    "avg_delay_ms": 59.6397503314145,
+    "routing_overhead": 32.08603321535529,
+    "ctrl_msgs": 117852,
+    "discoveries": 2236,
+    "avg_hops": 5.807786550503676,
+    "route_breaks": 828
+   },
+   "greedy": {
+    "pdr": 0.22080357142857143,
+    "throughput_kbps": 36.176457142857146,
+    "avg_delay_ms": 17.562993150223917,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.919530934088152,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3425892857142857,
+    "throughput_kbps": 56.129828571428575,
+    "avg_delay_ms": 54.36612931298596,
+    "routing_overhead": 29.49491790461298,
+    "ctrl_msgs": 113172,
+    "discoveries": 2037,
+    "avg_hops": 6.2869429241595,
+    "route_breaks": 753
+   }
+  },
+  "sweep": "speed",
+  "x": 90
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 150,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 49.254227079016054,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 18.55108359133127,
+    "transitions_per_vehicle": 22.42,
+    "discovery_msgs": 5738,
+    "avg_clusters": 40.07333333333333,
+    "singleton_frac": 0.3152492358664368,
+    "avg_cluster_size": 2.495425054067543
+   },
+   "position": {
+    "cluster_lifetime": 20.61335676625659,
+    "transitions_per_vehicle": 18.86,
+    "discovery_msgs": 4869,
+    "avg_clusters": 39.233333333333334,
+    "singleton_frac": 0.3146888908875448,
+    "avg_cluster_size": 2.548853016142736
+   },
+   "speed": {
+    "cluster_lifetime": 15.028604118993135,
+    "transitions_per_vehicle": 26.31,
+    "discovery_msgs": 6966,
+    "avg_clusters": 43.93,
+    "singleton_frac": 0.3890054416154703,
+    "avg_cluster_size": 2.276348736626451
+   },
+   "obqr": {
+    "cluster_lifetime": 60.506211180124225,
+    "transitions_per_vehicle": 6.69,
+    "discovery_msgs": 1917,
+    "avg_clusters": 65.16,
+    "singleton_frac": 0.6280443840425305,
+    "avg_cluster_size": 1.5346838551258442
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.08482142857142858,
+    "throughput_kbps": 13.897142857142857,
+    "avg_delay_ms": 10.99168515133722,
+    "routing_overhead": 18.306315789473683,
+    "ctrl_msgs": 17391,
+    "discoveries": 2610,
+    "avg_hops": 2.241052631578947,
+    "route_breaks": 73
+   },
+   "greedy": {
+    "pdr": 0.08535714285714285,
+    "throughput_kbps": 13.984914285714286,
+    "avg_delay_ms": 5.8506389364055025,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.0052301255230125,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.08508928571428571,
+    "throughput_kbps": 13.941028571428571,
+    "avg_delay_ms": 9.589146035239578,
+    "routing_overhead": 17.42392444910808,
+    "ctrl_msgs": 16605,
+    "discoveries": 2590,
+    "avg_hops": 2.333683105981112,
+    "route_breaks": 71
+   }
+  },
+  "sweep": "range",
+  "x": 150
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 150,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 49.20348414089469,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 17.440287769784174,
+    "transitions_per_vehicle": 23.96,
+    "discovery_msgs": 6145,
+    "avg_clusters": 40.526666666666664,
+    "singleton_frac": 0.30862614740941485,
+    "avg_cluster_size": 2.4675111037999673
+   },
+   "position": {
+    "cluster_lifetime": 18.859177215189874,
+    "transitions_per_vehicle": 20.8,
+    "discovery_msgs": 5386,
+    "avg_clusters": 39.85666666666667,
+    "singleton_frac": 0.31071110662393636,
+    "avg_cluster_size": 2.50899054946893
+   },
+   "speed": {
+    "cluster_lifetime": 14.204935622317597,
+    "transitions_per_vehicle": 28.82,
+    "discovery_msgs": 7585,
+    "avg_clusters": 44.27333333333333,
+    "singleton_frac": 0.3805941674627522,
+    "avg_cluster_size": 2.2586959795211565
+   },
+   "obqr": {
+    "cluster_lifetime": 66.34210526315789,
+    "transitions_per_vehicle": 6.42,
+    "discovery_msgs": 1821,
+    "avg_clusters": 67.46333333333334,
+    "singleton_frac": 0.6460271637535971,
+    "avg_cluster_size": 1.4822866742427985
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.14535714285714285,
+    "throughput_kbps": 23.815314285714283,
+    "avg_delay_ms": 10.135595289464462,
+    "routing_overhead": 10.11056511056511,
+    "ctrl_msgs": 16460,
+    "discoveries": 2445,
+    "avg_hops": 2.253071253071253,
+    "route_breaks": 85
+   },
+   "greedy": {
+    "pdr": 0.14285714285714285,
+    "throughput_kbps": 23.405714285714286,
+    "avg_delay_ms": 5.600953274190875,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 1.83,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.14625,
+    "throughput_kbps": 23.961599999999997,
+    "avg_delay_ms": 9.428940725099263,
+    "routing_overhead": 9.735653235653235,
+    "ctrl_msgs": 15947,
+    "discoveries": 2422,
+    "avg_hops": 2.5384615384615383,
+    "route_breaks": 82
+   }
+  },
+  "sweep": "range",
+  "x": 150
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 108,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 75.01101672058944,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 14.628282828282828,
+    "transitions_per_vehicle": 28.37,
+    "discovery_msgs": 6640,
+    "avg_clusters": 24.216666666666665,
+    "singleton_frac": 0.09434650277258973,
+    "avg_cluster_size": 4.129387474191328
+   },
+   "position": {
+    "cluster_lifetime": 15.606126914660832,
+    "transitions_per_vehicle": 27.34,
+    "discovery_msgs": 6358,
+    "avg_clusters": 23.85333333333333,
+    "singleton_frac": 0.09376200680693435,
+    "avg_cluster_size": 4.192286193404136
+   },
+   "speed": {
+    "cluster_lifetime": 8.92180818570556,
+    "transitions_per_vehicle": 54.56,
+    "discovery_msgs": 14146,
+    "avg_clusters": 48.81666666666667,
+    "singleton_frac": 0.4510280353953907,
+    "avg_cluster_size": 2.0484807101399793
+   },
+   "obqr": {
+    "cluster_lifetime": 34.4,
+    "transitions_per_vehicle": 13.37,
+    "discovery_msgs": 3598,
+    "avg_clusters": 56.373333333333335,
+    "singleton_frac": 0.5094819102703201,
+    "avg_cluster_size": 1.7738883632923368
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.280625,
+    "throughput_kbps": 45.977599999999995,
+    "avg_delay_ms": 64.94033873041276,
+    "routing_overhead": 37.78237352847598,
+    "ctrl_msgs": 118750,
+    "discoveries": 2382,
+    "avg_hops": 5.9996818326439705,
+    "route_breaks": 843
+   },
+   "greedy": {
+    "pdr": 0.18625,
+    "throughput_kbps": 30.5152,
+    "avg_delay_ms": 17.322420015129715,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.103068072866731,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.29625,
+    "throughput_kbps": 48.5376,
+    "avg_delay_ms": 60.792736207414464,
+    "routing_overhead": 36.67088607594937,
+    "ctrl_msgs": 121674,
+    "discoveries": 2238,
+    "avg_hops": 6.450874020494274,
+    "route_breaks": 808
+   }
+  },
+  "sweep": "speed",
+  "x": 108
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 150,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 48.98509348568497,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 18.682098765432098,
+    "transitions_per_vehicle": 22.87,
+    "discovery_msgs": 5829,
+    "avg_clusters": 40.49,
+    "singleton_frac": 0.3063038895469219,
+    "avg_cluster_size": 2.469745616201531
+   },
+   "position": {
+    "cluster_lifetime": 21.012345679012345,
+    "transitions_per_vehicle": 18.9,
+    "discovery_msgs": 4874,
+    "avg_clusters": 39.846666666666664,
+    "singleton_frac": 0.3082437763824249,
+    "avg_cluster_size": 2.509620210808098
+   },
+   "speed": {
+    "cluster_lifetime": 15.083048919226394,
+    "transitions_per_vehicle": 26.41,
+    "discovery_msgs": 6992,
+    "avg_clusters": 44.35333333333333,
+    "singleton_frac": 0.3864068527888741,
+    "avg_cluster_size": 2.2546219750488503
+   },
+   "obqr": {
+    "cluster_lifetime": 61.5015873015873,
+    "transitions_per_vehicle": 6.58,
+    "discovery_msgs": 1882,
+    "avg_clusters": 64.79,
+    "singleton_frac": 0.6051121659139359,
+    "avg_cluster_size": 1.5434480629726808
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.08616071428571428,
+    "throughput_kbps": 14.11657142857143,
+    "avg_delay_ms": 10.200746512452946,
+    "routing_overhead": 14.496373056994818,
+    "ctrl_msgs": 13989,
+    "discoveries": 2594,
+    "avg_hops": 2.254922279792746,
+    "route_breaks": 65
+   },
+   "greedy": {
+    "pdr": 0.08598214285714285,
+    "throughput_kbps": 14.087314285714287,
+    "avg_delay_ms": 6.1771310404964535,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.121495327102804,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.08642857142857142,
+    "throughput_kbps": 14.160457142857144,
+    "avg_delay_ms": 9.243118388787211,
+    "routing_overhead": 13.851239669421487,
+    "ctrl_msgs": 13408,
+    "discoveries": 2577,
+    "avg_hops": 2.3078512396694215,
+    "route_breaks": 66
+   }
+  },
+  "sweep": "range",
+  "x": 150
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 150,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 48.420309141458546,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 19.477491961414792,
+    "transitions_per_vehicle": 22.05,
+    "discovery_msgs": 5614,
+    "avg_clusters": 40.516666666666666,
+    "singleton_frac": 0.3027856956393297,
+    "avg_cluster_size": 2.4681201151789387
+   },
+   "position": {
+    "cluster_lifetime": 21.040852575488454,
+    "transitions_per_vehicle": 19.37,
+    "discovery_msgs": 4962,
+    "avg_clusters": 39.61333333333334,
+    "singleton_frac": 0.3012429385241062,
+    "avg_cluster_size": 2.524402558061259
+   },
+   "speed": {
+    "cluster_lifetime": 15.51348182883939,
+    "transitions_per_vehicle": 25.69,
+    "discovery_msgs": 6799,
+    "avg_clusters": 44.26,
+    "singleton_frac": 0.3841521530338689,
+    "avg_cluster_size": 2.2593764121102575
+   },
+   "obqr": {
+    "cluster_lifetime": 62.65495207667732,
+    "transitions_per_vehicle": 6.71,
+    "discovery_msgs": 1906,
+    "avg_clusters": 65.57666666666667,
+    "singleton_frac": 0.627859086342449,
+    "avg_cluster_size": 1.524932648808011
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.10080357142857142,
+    "throughput_kbps": 16.515657142857144,
+    "avg_delay_ms": 11.695785736719962,
+    "routing_overhead": 15.728963684676705,
+    "ctrl_msgs": 17758,
+    "discoveries": 2544,
+    "avg_hops": 2.588131089459699,
+    "route_breaks": 62
+   },
+   "greedy": {
+    "pdr": 0.09964285714285714,
+    "throughput_kbps": 16.325485714285715,
+    "avg_delay_ms": 7.348152772411991,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.275089605734767,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.10169642857142858,
+    "throughput_kbps": 16.661942857142858,
+    "avg_delay_ms": 10.777479644525155,
+    "routing_overhead": 14.91747146619842,
+    "ctrl_msgs": 16991,
+    "discoveries": 2525,
+    "avg_hops": 2.820017559262511,
+    "route_breaks": 56
+   }
+  },
+  "sweep": "range",
+  "x": 150
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 150,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 48.53341573420701,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 19.65296052631579,
+    "transitions_per_vehicle": 21.3,
+    "discovery_msgs": 5436,
+    "avg_clusters": 39.96333333333333,
+    "singleton_frac": 0.3062734094781242,
+    "avg_cluster_size": 2.5022937692885145
+   },
+   "position": {
+    "cluster_lifetime": 20.43576388888889,
+    "transitions_per_vehicle": 19.59,
+    "discovery_msgs": 5029,
+    "avg_clusters": 39.373333333333335,
+    "singleton_frac": 0.31084042350329855,
+    "avg_cluster_size": 2.5397900440230274
+   },
+   "speed": {
+    "cluster_lifetime": 15.843065693430656,
+    "transitions_per_vehicle": 25.71,
+    "discovery_msgs": 6741,
+    "avg_clusters": 43.56,
+    "singleton_frac": 0.3855712157710919,
+    "avg_cluster_size": 2.295684113865932
+   },
+   "obqr": {
+    "cluster_lifetime": 59.39938080495356,
+    "transitions_per_vehicle": 7.07,
+    "discovery_msgs": 1998,
+    "avg_clusters": 64.16,
+    "singleton_frac": 0.6123417141536919,
+    "avg_cluster_size": 1.5586034912718205
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.0675,
+    "throughput_kbps": 11.0592,
+    "avg_delay_ms": 11.24828900328653,
+    "routing_overhead": 21.134920634920636,
+    "ctrl_msgs": 15978,
+    "discoveries": 2636,
+    "avg_hops": 2.4444444444444446,
+    "route_breaks": 46
+   },
+   "greedy": {
+    "pdr": 0.06821428571428571,
+    "throughput_kbps": 11.176228571428572,
+    "avg_delay_ms": 6.6634110283073325,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.1243455497382198,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.06875,
+    "throughput_kbps": 11.264,
+    "avg_delay_ms": 10.703106678309034,
+    "routing_overhead": 20.081818181818182,
+    "ctrl_msgs": 15463,
+    "discoveries": 2630,
+    "avg_hops": 2.5428571428571427,
+    "route_breaks": 49
+   }
+  },
+  "sweep": "range",
+  "x": 150
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 108,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 74.6147297824344,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 14.372549019607844,
+    "transitions_per_vehicle": 29.74,
+    "discovery_msgs": 6943,
+    "avg_clusters": 24.516666666666666,
+    "singleton_frac": 0.11127141655982233,
+    "avg_cluster_size": 4.078857919782461
+   },
+   "position": {
+    "cluster_lifetime": 15.090526315789473,
+    "transitions_per_vehicle": 26.54,
+    "discovery_msgs": 6232,
+    "avg_clusters": 23.98,
+    "singleton_frac": 0.11353161730915355,
+    "avg_cluster_size": 4.170141784820684
+   },
+   "speed": {
+    "cluster_lifetime": 9.0392034847542,
+    "transitions_per_vehicle": 53.32,
+    "discovery_msgs": 13839,
+    "avg_clusters": 48.55,
+    "singleton_frac": 0.45526226630158484,
+    "avg_cluster_size": 2.059732234809475
+   },
+   "obqr": {
+    "cluster_lifetime": 32.45067698259188,
+    "transitions_per_vehicle": 13.75,
+    "discovery_msgs": 3730,
+    "avg_clusters": 56.10333333333333,
+    "singleton_frac": 0.5186415204421256,
+    "avg_cluster_size": 1.7824252866734003
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.245,
+    "throughput_kbps": 40.140800000000006,
+    "avg_delay_ms": 69.52883017819016,
+    "routing_overhead": 43.70918367346939,
+    "ctrl_msgs": 119938,
+    "discoveries": 2456,
+    "avg_hops": 6.295553935860059,
+    "route_breaks": 760
+   },
+   "greedy": {
+    "pdr": 0.15785714285714286,
+    "throughput_kbps": 25.863314285714285,
+    "avg_delay_ms": 19.406611260837856,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.47341628959276,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.26285714285714284,
+    "throughput_kbps": 43.066514285714284,
+    "avg_delay_ms": 61.948251474873985,
+    "routing_overhead": 39.95584239130435,
+    "ctrl_msgs": 117630,
+    "discoveries": 2290,
+    "avg_hops": 6.826086956521739,
+    "route_breaks": 686
+   }
+  },
+  "sweep": "speed",
+  "x": 108
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 200,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 49.254227079016054,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 18.35573122529644,
+    "transitions_per_vehicle": 21.21,
+    "discovery_msgs": 5224,
+    "avg_clusters": 31.06,
+    "singleton_frac": 0.19512810924687682,
+    "avg_cluster_size": 3.2195750160978753
+   },
+   "position": {
+    "cluster_lifetime": 19.37100213219616,
+    "transitions_per_vehicle": 18.26,
+    "discovery_msgs": 4559,
+    "avg_clusters": 30.386666666666667,
+    "singleton_frac": 0.20091133923006482,
+    "avg_cluster_size": 3.290917068889864
+   },
+   "speed": {
+    "cluster_lifetime": 12.66984505363528,
+    "transitions_per_vehicle": 28.28,
+    "discovery_msgs": 7300,
+    "avg_clusters": 35.54666666666667,
+    "singleton_frac": 0.29277323271289624,
+    "avg_cluster_size": 2.813203300825206
+   },
+   "obqr": {
+    "cluster_lifetime": 56.79746835443038,
+    "transitions_per_vehicle": 7.44,
+    "discovery_msgs": 2061,
+    "avg_clusters": 60.02333333333333,
+    "singleton_frac": 0.5625880173313633,
+    "avg_cluster_size": 1.6660187704781473
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.13517857142857143,
+    "throughput_kbps": 22.147657142857145,
+    "avg_delay_ms": 24.955679435556092,
+    "routing_overhead": 26.564068692206078,
+    "ctrl_msgs": 40218,
+    "discoveries": 2499,
+    "avg_hops": 3.5198150594451785,
+    "route_breaks": 166
+   },
+   "greedy": {
+    "pdr": 0.12714285714285714,
+    "throughput_kbps": 20.831085714285713,
+    "avg_delay_ms": 10.429871007465804,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.874297752808989,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.13776785714285714,
+    "throughput_kbps": 22.571885714285717,
+    "avg_delay_ms": 21.731880437417974,
+    "routing_overhead": 25.250810110174985,
+    "ctrl_msgs": 38962,
+    "discoveries": 2448,
+    "avg_hops": 3.764095917044718,
+    "route_breaks": 139
+   }
+  },
+  "sweep": "range",
+  "x": 200
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 200,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 49.20348414089469,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 17.234750462107208,
+    "transitions_per_vehicle": 22.33,
+    "discovery_msgs": 5518,
+    "avg_clusters": 31.18,
+    "singleton_frac": 0.20413940035388567,
+    "avg_cluster_size": 3.207184092366902
+   },
+   "position": {
+    "cluster_lifetime": 17.701171875,
+    "transitions_per_vehicle": 19.63,
+    "discovery_msgs": 4917,
+    "avg_clusters": 30.32,
+    "singleton_frac": 0.2045916614020155,
+    "avg_cluster_size": 3.2981530343007917
+   },
+   "speed": {
+    "cluster_lifetime": 12.164542294322132,
+    "transitions_per_vehicle": 30.27,
+    "discovery_msgs": 7744,
+    "avg_clusters": 35.11333333333334,
+    "singleton_frac": 0.28098323412244836,
+    "avg_cluster_size": 2.84792101765711
+   },
+   "obqr": {
+    "cluster_lifetime": 57.27358490566038,
+    "transitions_per_vehicle": 7.3,
+    "discovery_msgs": 2034,
+    "avg_clusters": 60.916666666666664,
+    "singleton_frac": 0.5695340987529685,
+    "avg_cluster_size": 1.6415868673050615
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.22526785714285713,
+    "throughput_kbps": 36.90788571428572,
+    "avg_delay_ms": 21.70262097494322,
+    "routing_overhead": 14.405073325406262,
+    "ctrl_msgs": 36344,
+    "discoveries": 2283,
+    "avg_hops": 3.4320253666270313,
+    "route_breaks": 241
+   },
+   "greedy": {
+    "pdr": 0.20348214285714286,
+    "throughput_kbps": 33.33851428571428,
+    "avg_delay_ms": 9.777047536232342,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.7384817902588856,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.22973214285714286,
+    "throughput_kbps": 37.63931428571429,
+    "avg_delay_ms": 18.638233822846495,
+    "routing_overhead": 13.397590361445783,
+    "ctrl_msgs": 34472,
+    "discoveries": 2201,
+    "avg_hops": 3.6560435289545277,
+    "route_breaks": 211
+   }
+  },
+  "sweep": "range",
+  "x": 200
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 200,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 48.98509348568497,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 17.39513108614232,
+    "transitions_per_vehicle": 21.71,
+    "discovery_msgs": 5379,
+    "avg_clusters": 31.066666666666666,
+    "singleton_frac": 0.1868297394489828,
+    "avg_cluster_size": 3.218884120171674
+   },
+   "position": {
+    "cluster_lifetime": 20.81651376146789,
+    "transitions_per_vehicle": 17.97,
+    "discovery_msgs": 4437,
+    "avg_clusters": 30.35,
+    "singleton_frac": 0.1879159293140825,
+    "avg_cluster_size": 3.2948929159802307
+   },
+   "speed": {
+    "cluster_lifetime": 12.43341121495327,
+    "transitions_per_vehicle": 28.53,
+    "discovery_msgs": 7382,
+    "avg_clusters": 35.596666666666664,
+    "singleton_frac": 0.29697615734859556,
+    "avg_cluster_size": 2.80925180260324
+   },
+   "obqr": {
+    "cluster_lifetime": 55.44654088050314,
+    "transitions_per_vehicle": 7.62,
+    "discovery_msgs": 2099,
+    "avg_clusters": 58.97666666666667,
+    "singleton_frac": 0.5445099056803141,
+    "avg_cluster_size": 1.6955858249025038
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.25741071428571427,
+    "throughput_kbps": 42.17417142857143,
+    "avg_delay_ms": 21.26398363861737,
+    "routing_overhead": 11.995490808185917,
+    "ctrl_msgs": 34583,
+    "discoveries": 2182,
+    "avg_hops": 3.5102323968088798,
+    "route_breaks": 270
+   },
+   "greedy": {
+    "pdr": 0.23294642857142858,
+    "throughput_kbps": 38.16594285714286,
+    "avg_delay_ms": 10.744280446388144,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.8942123418934456,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.2596428571428571,
+    "throughput_kbps": 42.53988571428572,
+    "avg_delay_ms": 19.60822291443787,
+    "routing_overhead": 11.704607977991747,
+    "ctrl_msgs": 34037,
+    "discoveries": 2115,
+    "avg_hops": 3.655089408528198,
+    "route_breaks": 257
+   }
+  },
+  "sweep": "range",
+  "x": 200
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 200,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 48.420309141458546,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 17.886904761904763,
+    "transitions_per_vehicle": 19.96,
+    "discovery_msgs": 4968,
+    "avg_clusters": 30.156666666666666,
+    "singleton_frac": 0.18093404784622152,
+    "avg_cluster_size": 3.316016359014038
+   },
+   "position": {
+    "cluster_lifetime": 20.317460317460316,
+    "transitions_per_vehicle": 18.38,
+    "discovery_msgs": 4528,
+    "avg_clusters": 29.966666666666665,
+    "singleton_frac": 0.1833664689419439,
+    "avg_cluster_size": 3.3370411568409346
+   },
+   "speed": {
+    "cluster_lifetime": 13.307980049875312,
+    "transitions_per_vehicle": 27.47,
+    "discovery_msgs": 7063,
+    "avg_clusters": 35.693333333333335,
+    "singleton_frac": 0.28278442906421647,
+    "avg_cluster_size": 2.8016436309301453
+   },
+   "obqr": {
+    "cluster_lifetime": 53.067278287461775,
+    "transitions_per_vehicle": 7.76,
+    "discovery_msgs": 2148,
+    "avg_clusters": 58.03666666666667,
+    "singleton_frac": 0.5314602202686054,
+    "avg_cluster_size": 1.7230486474068116
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.113125,
+    "throughput_kbps": 18.5344,
+    "avg_delay_ms": 29.6880765493999,
+    "routing_overhead": 35.04656669297553,
+    "ctrl_msgs": 44404,
+    "discoveries": 2549,
+    "avg_hops": 4.2280978689818465,
+    "route_breaks": 153
+   },
+   "greedy": {
+    "pdr": 0.09660714285714286,
+    "throughput_kbps": 15.828114285714285,
+    "avg_delay_ms": 11.472719534339056,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.1792975970425137,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.11455357142857144,
+    "throughput_kbps": 18.768457142857145,
+    "avg_delay_ms": 26.23352777772759,
+    "routing_overhead": 33.98830865159782,
+    "ctrl_msgs": 43607,
+    "discoveries": 2508,
+    "avg_hops": 4.410756040530008,
+    "route_breaks": 152
+   }
+  },
+  "sweep": "range",
+  "x": 200
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 200,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 48.53341573420701,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 18.25940594059406,
+    "transitions_per_vehicle": 20.25,
+    "discovery_msgs": 5033,
+    "avg_clusters": 30.826666666666668,
+    "singleton_frac": 0.19268330875522008,
+    "avg_cluster_size": 3.2439446366782008
+   },
+   "position": {
+    "cluster_lifetime": 19.551502145922747,
+    "transitions_per_vehicle": 18.6,
+    "discovery_msgs": 4621,
+    "avg_clusters": 30.473333333333333,
+    "singleton_frac": 0.19284439477011509,
+    "avg_cluster_size": 3.281557646029315
+   },
+   "speed": {
+    "cluster_lifetime": 13.49616368286445,
+    "transitions_per_vehicle": 27.78,
+    "discovery_msgs": 7084,
+    "avg_clusters": 35.3,
+    "singleton_frac": 0.29607056306906143,
+    "avg_cluster_size": 2.8328611898017
+   },
+   "obqr": {
+    "cluster_lifetime": 52.63333333333333,
+    "transitions_per_vehicle": 7.96,
+    "discovery_msgs": 2193,
+    "avg_clusters": 58.093333333333334,
+    "singleton_frac": 0.5461324902124693,
+    "avg_cluster_size": 1.7213679137020885
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.08839285714285715,
+    "throughput_kbps": 14.482285714285714,
+    "avg_delay_ms": 37.838240538259065,
+    "routing_overhead": 43.226262626262624,
+    "ctrl_msgs": 42794,
+    "discoveries": 2603,
+    "avg_hops": 5.038383838383838,
+    "route_breaks": 140
+   },
+   "greedy": {
+    "pdr": 0.064375,
+    "throughput_kbps": 10.5472,
+    "avg_delay_ms": 12.46536979393008,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.5381414701803053,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.09116071428571429,
+    "throughput_kbps": 14.935771428571428,
+    "avg_delay_ms": 34.59784264094079,
+    "routing_overhead": 41.870714985308524,
+    "ctrl_msgs": 42750,
+    "discoveries": 2574,
+    "avg_hops": 5.270323212536729,
+    "route_breaks": 134
+   }
+  },
+  "sweep": "range",
+  "x": 200
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 49.254227079016054,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 21.305232558139537,
+    "transitions_per_vehicle": 19.27,
+    "discovery_msgs": 4517,
+    "avg_clusters": 24.513333333333332,
+    "singleton_frac": 0.10008881864983814,
+    "avg_cluster_size": 4.079412564590699
+   },
+   "position": {
+    "cluster_lifetime": 21.60909090909091,
+    "transitions_per_vehicle": 17.78,
+    "discovery_msgs": 4193,
+    "avg_clusters": 23.846666666666668,
+    "singleton_frac": 0.1143171052511632,
+    "avg_cluster_size": 4.193458205199888
+   },
+   "speed": {
+    "cluster_lifetime": 11.616402116402117,
+    "transitions_per_vehicle": 29.17,
+    "discovery_msgs": 7317,
+    "avg_clusters": 29.37,
+    "singleton_frac": 0.2188587057058739,
+    "avg_cluster_size": 3.404834865509023
+   },
+   "obqr": {
+    "cluster_lifetime": 52.92604501607717,
+    "transitions_per_vehicle": 8.14,
+    "discovery_msgs": 2195,
+    "avg_clusters": 55.05,
+    "singleton_frac": 0.5046385095341831,
+    "avg_cluster_size": 1.8165304268846505
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.2519642857142857,
+    "throughput_kbps": 41.281828571428576,
+    "avg_delay_ms": 59.00035090506911,
+    "routing_overhead": 37.79943302622254,
+    "ctrl_msgs": 106670,
+    "discoveries": 2255,
+    "avg_hops": 5.8703047484053865,
+    "route_breaks": 567
+   },
+   "greedy": {
+    "pdr": 0.16616071428571427,
+    "throughput_kbps": 27.22377142857143,
+    "avg_delay_ms": 17.62802768543089,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.8425577646426654,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.2713392857142857,
+    "throughput_kbps": 44.45622857142857,
+    "avg_delay_ms": 52.33777200729066,
+    "routing_overhead": 33.41296479104969,
+    "ctrl_msgs": 101542,
+    "discoveries": 2099,
+    "avg_hops": 6.528792365909839,
+    "route_breaks": 491
+   }
+  },
+  "sweep": "range",
+  "x": 250
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 48.98509348568497,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 21.27433628318584,
+    "transitions_per_vehicle": 18.4,
+    "discovery_msgs": 4336,
+    "avg_clusters": 24.113333333333333,
+    "singleton_frac": 0.09924856453262251,
+    "avg_cluster_size": 4.1470832181365775
+   },
+   "position": {
+    "cluster_lifetime": 24.271186440677965,
+    "transitions_per_vehicle": 16.57,
+    "discovery_msgs": 3880,
+    "avg_clusters": 23.946666666666665,
+    "singleton_frac": 0.10586287037411476,
+    "avg_cluster_size": 4.1759465478841875
+   },
+   "speed": {
+    "cluster_lifetime": 12.241234221598878,
+    "transitions_per_vehicle": 28.04,
+    "discovery_msgs": 7008,
+    "avg_clusters": 29.18,
+    "singleton_frac": 0.21887849624435593,
+    "avg_cluster_size": 3.427004797806717
+   },
+   "obqr": {
+    "cluster_lifetime": 49.68535825545171,
+    "transitions_per_vehicle": 8.42,
+    "discovery_msgs": 2268,
+    "avg_clusters": 53.35666666666667,
+    "singleton_frac": 0.46990624486527177,
+    "avg_cluster_size": 1.8741800462297744
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.39669642857142856,
+    "throughput_kbps": 64.99474285714285,
+    "avg_delay_ms": 43.97973944599081,
+    "routing_overhead": 23.354940355615575,
+    "ctrl_msgs": 103766,
+    "discoveries": 1882,
+    "avg_hops": 5.059644384424938,
+    "route_breaks": 679
+   },
+   "greedy": {
+    "pdr": 0.28901785714285716,
+    "throughput_kbps": 47.35268571428571,
+    "avg_delay_ms": 15.33549693031356,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.380908248378128,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.4114285714285714,
+    "throughput_kbps": 67.40845714285713,
+    "avg_delay_ms": 39.61470315500122,
+    "routing_overhead": 20.366536458333332,
+    "ctrl_msgs": 93849,
+    "discoveries": 1681,
+    "avg_hops": 5.468315972222222,
+    "route_breaks": 580
+   }
+  },
+  "sweep": "range",
+  "x": 250
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 49.20348414089469,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 20.54317548746518,
+    "transitions_per_vehicle": 19.26,
+    "discovery_msgs": 4546,
+    "avg_clusters": 24.663333333333334,
+    "singleton_frac": 0.11587367734251795,
+    "avg_cluster_size": 4.054601973239627
+   },
+   "position": {
+    "cluster_lifetime": 22.147692307692306,
+    "transitions_per_vehicle": 17.21,
+    "discovery_msgs": 4068,
+    "avg_clusters": 24.073333333333334,
+    "singleton_frac": 0.11488487537690437,
+    "avg_cluster_size": 4.153973968429797
+   },
+   "speed": {
+    "cluster_lifetime": 12.064245810055866,
+    "transitions_per_vehicle": 28.9,
+    "discovery_msgs": 7183,
+    "avg_clusters": 28.89,
+    "singleton_frac": 0.21424073775654004,
+    "avg_cluster_size": 3.461405330564209
+   },
+   "obqr": {
+    "cluster_lifetime": 52.594339622641506,
+    "transitions_per_vehicle": 8.04,
+    "discovery_msgs": 2185,
+    "avg_clusters": 55.946666666666665,
+    "singleton_frac": 0.5056337846674424,
+    "avg_cluster_size": 1.7874165872259296
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.328125,
+    "throughput_kbps": 53.76,
+    "avg_delay_ms": 50.910943615193354,
+    "routing_overhead": 28.006530612244898,
+    "ctrl_msgs": 102924,
+    "discoveries": 2050,
+    "avg_hops": 5.73578231292517,
+    "route_breaks": 647
+   },
+   "greedy": {
+    "pdr": 0.2161607142857143,
+    "throughput_kbps": 35.41577142857143,
+    "avg_delay_ms": 16.765084974773277,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.8009087154068566,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3444642857142857,
+    "throughput_kbps": 56.43702857142857,
+    "avg_delay_ms": 44.91667783439939,
+    "routing_overhead": 25.05935717988595,
+    "ctrl_msgs": 96679,
+    "discoveries": 1866,
+    "avg_hops": 6.240539139450492,
+    "route_breaks": 548
+   }
+  },
+  "sweep": "range",
+  "x": 250
+ },
+ {
+  "scenario": {
+   "n_vehicles": 25,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 50.21598799004084,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 45.55,
+    "transitions_per_vehicle": 10.4,
+    "discovery_msgs": 706,
+    "avg_clusters": 15.23,
+    "singleton_frac": 0.5609486869196622,
+    "avg_cluster_size": 1.6414970453053184
+   },
+   "position": {
+    "cluster_lifetime": 51.98850574712644,
+    "transitions_per_vehicle": 8.96,
+    "discovery_msgs": 609,
+    "avg_clusters": 15.12,
+    "singleton_frac": 0.5569848471102341,
+    "avg_cluster_size": 1.6534391534391535
+   },
+   "speed": {
+    "cluster_lifetime": 29.42168674698795,
+    "transitions_per_vehicle": 15.56,
+    "discovery_msgs": 1095,
+    "avg_clusters": 16.33,
+    "singleton_frac": 0.6344305031054258,
+    "avg_cluster_size": 1.5309246785058177
+   },
+   "obqr": {
+    "cluster_lifetime": 119.68518518518519,
+    "transitions_per_vehicle": 2.92,
+    "discovery_msgs": 230,
+    "avg_clusters": 21.623333333333335,
+    "singleton_frac": 0.8536708371719811,
+    "avg_cluster_size": 1.1561584707877293
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.10276785714285715,
+    "throughput_kbps": 16.837485714285716,
+    "avg_delay_ms": 6.695982934389409,
+    "routing_overhead": 6.9748045178105995,
+    "ctrl_msgs": 8028,
+    "discoveries": 2531,
+    "avg_hops": 2.0582102519548218,
+    "route_breaks": 43
+   },
+   "greedy": {
+    "pdr": 0.09973214285714285,
+    "throughput_kbps": 16.340114285714286,
+    "avg_delay_ms": 3.753135150605732,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 1.5738585496866606,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.10276785714285715,
+    "throughput_kbps": 16.837485714285716,
+    "avg_delay_ms": 6.523754919217472,
+    "routing_overhead": 6.825369244135534,
+    "ctrl_msgs": 7856,
+    "discoveries": 2526,
+    "avg_hops": 2.0703735881841876,
+    "route_breaks": 39
+   }
+  },
+  "sweep": "density",
+  "x": 25
+ },
+ {
+  "scenario": {
+   "n_vehicles": 25,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 50.95619623409977,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 41.126126126126124,
+    "transitions_per_vehicle": 10.92,
+    "discovery_msgs": 753,
+    "avg_clusters": 15.266666666666667,
+    "singleton_frac": 0.5190795085404218,
+    "avg_cluster_size": 1.6375545851528384
+   },
+   "position": {
+    "cluster_lifetime": 49.27472527472528,
+    "transitions_per_vehicle": 9.12,
+    "discovery_msgs": 623,
+    "avg_clusters": 14.996666666666666,
+    "singleton_frac": 0.5172951153736758,
+    "avg_cluster_size": 1.6670371193598579
+   },
+   "speed": {
+    "cluster_lifetime": 28.31791907514451,
+    "transitions_per_vehicle": 16.2,
+    "discovery_msgs": 1140,
+    "avg_clusters": 16.383333333333333,
+    "singleton_frac": 0.6105063350249109,
+    "avg_cluster_size": 1.5259409969481181
+   },
+   "obqr": {
+    "cluster_lifetime": 128.76923076923077,
+    "transitions_per_vehicle": 2.8,
+    "discovery_msgs": 223,
+    "avg_clusters": 22.39,
+    "singleton_frac": 0.8929560355103833,
+    "avg_cluster_size": 1.1165698972755693
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.09178571428571429,
+    "throughput_kbps": 15.038171428571427,
+    "avg_delay_ms": 4.756448828570645,
+    "routing_overhead": 7.794747081712062,
+    "ctrl_msgs": 8013,
+    "discoveries": 2562,
+    "avg_hops": 1.4815175097276265,
+    "route_breaks": 29
+   },
+   "greedy": {
+    "pdr": 0.09089285714285714,
+    "throughput_kbps": 14.891885714285714,
+    "avg_delay_ms": 3.101399337100065,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 1.3909626719056976,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.09178571428571429,
+    "throughput_kbps": 15.038171428571427,
+    "avg_delay_ms": 4.36712826819413,
+    "routing_overhead": 7.6819066147859925,
+    "ctrl_msgs": 7897,
+    "discoveries": 2555,
+    "avg_hops": 1.485408560311284,
+    "route_breaks": 28
+   }
+  },
+  "sweep": "density",
+  "x": 25
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 48.420309141458546,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 20.54178674351585,
+    "transitions_per_vehicle": 17.8,
+    "discovery_msgs": 4229,
+    "avg_clusters": 23.843333333333334,
+    "singleton_frac": 0.0998672980267183,
+    "avg_cluster_size": 4.194044456871243
+   },
+   "position": {
+    "cluster_lifetime": 21.12202380952381,
+    "transitions_per_vehicle": 17.34,
+    "discovery_msgs": 4114,
+    "avg_clusters": 23.743333333333332,
+    "singleton_frac": 0.1054239830472096,
+    "avg_cluster_size": 4.211708549768356
+   },
+   "speed": {
+    "cluster_lifetime": 13.2796992481203,
+    "transitions_per_vehicle": 26.65,
+    "discovery_msgs": 6631,
+    "avg_clusters": 29.533333333333335,
+    "singleton_frac": 0.21200571397965998,
+    "avg_cluster_size": 3.386004514672686
+   },
+   "obqr": {
+    "cluster_lifetime": 53.12080536912752,
+    "transitions_per_vehicle": 8.12,
+    "discovery_msgs": 2167,
+    "avg_clusters": 52.943333333333335,
+    "singleton_frac": 0.4719302680697861,
+    "avg_cluster_size": 1.8888119372914436
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.22678571428571428,
+    "throughput_kbps": 37.156571428571425,
+    "avg_delay_ms": 79.86183840821813,
+    "routing_overhead": 48.33031496062992,
+    "ctrl_msgs": 122759,
+    "discoveries": 2351,
+    "avg_hops": 8.016141732283465,
+    "route_breaks": 656
+   },
+   "greedy": {
+    "pdr": 0.10946428571428571,
+    "throughput_kbps": 17.934628571428572,
+    "avg_delay_ms": 26.667407223442595,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 5.893964110929853,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.2449107142857143,
+    "throughput_kbps": 40.126171428571425,
+    "avg_delay_ms": 68.75019961169484,
+    "routing_overhead": 42.38680277068902,
+    "ctrl_msgs": 116267,
+    "discoveries": 2170,
+    "avg_hops": 8.66824644549763,
+    "route_breaks": 546
+   }
+  },
+  "sweep": "range",
+  "x": 250
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 48.53341573420701,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 21.41317365269461,
+    "transitions_per_vehicle": 17.47,
+    "discovery_msgs": 4138,
+    "avg_clusters": 23.92,
+    "singleton_frac": 0.10270997876759995,
+    "avg_cluster_size": 4.180602006688963
+   },
+   "position": {
+    "cluster_lifetime": 21.56269113149847,
+    "transitions_per_vehicle": 17.69,
+    "discovery_msgs": 4168,
+    "avg_clusters": 23.583333333333332,
+    "singleton_frac": 0.11202054067778704,
+    "avg_cluster_size": 4.240282685512367
+   },
+   "speed": {
+    "cluster_lifetime": 12.372857142857143,
+    "transitions_per_vehicle": 28.56,
+    "discovery_msgs": 7084,
+    "avg_clusters": 28.963333333333335,
+    "singleton_frac": 0.22866986874635084,
+    "avg_cluster_size": 3.4526412705719873
+   },
+   "obqr": {
+    "cluster_lifetime": 47.14328358208955,
+    "transitions_per_vehicle": 8.99,
+    "discovery_msgs": 2411,
+    "avg_clusters": 52.833333333333336,
+    "singleton_frac": 0.4730479155883808,
+    "avg_cluster_size": 1.8927444794952681
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.30580357142857145,
+    "throughput_kbps": 50.10285714285715,
+    "avg_delay_ms": 57.2981243106356,
+    "routing_overhead": 29.914452554744525,
+    "ctrl_msgs": 102457,
+    "discoveries": 2121,
+    "avg_hops": 6.186569343065694,
+    "route_breaks": 660
+   },
+   "greedy": {
+    "pdr": 0.19089285714285714,
+    "throughput_kbps": 31.275885714285717,
+    "avg_delay_ms": 18.12448030603101,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.141253507951356,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3211607142857143,
+    "throughput_kbps": 52.61897142857143,
+    "avg_delay_ms": 50.81257297353676,
+    "routing_overhead": 26.882123992215735,
+    "ctrl_msgs": 96695,
+    "discoveries": 1946,
+    "avg_hops": 6.739505143174868,
+    "route_breaks": 572
+   }
+  },
+  "sweep": "range",
+  "x": 250
+ },
+ {
+  "scenario": {
+   "n_vehicles": 25,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 50.69212408440881,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 43.97029702970297,
+    "transitions_per_vehicle": 9.88,
+    "discovery_msgs": 679,
+    "avg_clusters": 14.86,
+    "singleton_frac": 0.5183930998625271,
+    "avg_cluster_size": 1.6823687752355316
+   },
+   "position": {
+    "cluster_lifetime": 50.80232558139535,
+    "transitions_per_vehicle": 8.28,
+    "discovery_msgs": 570,
+    "avg_clusters": 14.616666666666667,
+    "singleton_frac": 0.5146117126767281,
+    "avg_cluster_size": 1.710376282782212
+   },
+   "speed": {
+    "cluster_lifetime": 26.10989010989011,
+    "transitions_per_vehicle": 16.44,
+    "discovery_msgs": 1168,
+    "avg_clusters": 15.9,
+    "singleton_frac": 0.5845848252481378,
+    "avg_cluster_size": 1.572327044025157
+   },
+   "obqr": {
+    "cluster_lifetime": 112.6140350877193,
+    "transitions_per_vehicle": 3.08,
+    "discovery_msgs": 247,
+    "avg_clusters": 21.466666666666665,
+    "singleton_frac": 0.8411616207909786,
+    "avg_cluster_size": 1.1645962732919255
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.073125,
+    "throughput_kbps": 11.980799999999999,
+    "avg_delay_ms": 7.127381386228782,
+    "routing_overhead": 7.717948717948718,
+    "ctrl_msgs": 6321,
+    "discoveries": 2608,
+    "avg_hops": 2.076923076923077,
+    "route_breaks": 32
+   },
+   "greedy": {
+    "pdr": 0.07196428571428572,
+    "throughput_kbps": 11.790628571428572,
+    "avg_delay_ms": 4.168995155183707,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 1.7617866004962779,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.073125,
+    "throughput_kbps": 11.980799999999999,
+    "avg_delay_ms": 6.993010691254742,
+    "routing_overhead": 7.722832722832723,
+    "ctrl_msgs": 6325,
+    "discoveries": 2606,
+    "avg_hops": 2.0915750915750917,
+    "route_breaks": 32
+   }
+  },
+  "sweep": "density",
+  "x": 25
+ },
+ {
+  "scenario": {
+   "n_vehicles": 25,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 50.14018250963978,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 49.842696629213485,
+    "transitions_per_vehicle": 9.16,
+    "discovery_msgs": 623,
+    "avg_clusters": 14.83,
+    "singleton_frac": 0.5375180894813248,
+    "avg_cluster_size": 1.6857720836142953
+   },
+   "position": {
+    "cluster_lifetime": 51.858823529411765,
+    "transitions_per_vehicle": 8.72,
+    "discovery_msgs": 594,
+    "avg_clusters": 14.733333333333333,
+    "singleton_frac": 0.5417261624541037,
+    "avg_cluster_size": 1.6968325791855206
+   },
+   "speed": {
+    "cluster_lifetime": 34.18181818181818,
+    "transitions_per_vehicle": 13.16,
+    "discovery_msgs": 929,
+    "avg_clusters": 16.343333333333334,
+    "singleton_frac": 0.6273132598968513,
+    "avg_cluster_size": 1.529675708749745
+   },
+   "obqr": {
+    "cluster_lifetime": 107.5,
+    "transitions_per_vehicle": 3.4,
+    "discovery_msgs": 265,
+    "avg_clusters": 20.85333333333333,
+    "singleton_frac": 0.8346611507650005,
+    "avg_cluster_size": 1.198849104859335
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.08848214285714286,
+    "throughput_kbps": 14.496914285714285,
+    "avg_delay_ms": 6.613181499908477,
+    "routing_overhead": 7.388496468213925,
+    "ctrl_msgs": 7322,
+    "discoveries": 2558,
+    "avg_hops": 1.8536831483350151,
+    "route_breaks": 36
+   },
+   "greedy": {
+    "pdr": 0.08955357142857143,
+    "throughput_kbps": 14.672457142857143,
+    "avg_delay_ms": 4.448730028086577,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 1.690927218344965,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.08866071428571429,
+    "throughput_kbps": 14.526171428571429,
+    "avg_delay_ms": 6.133293939354713,
+    "routing_overhead": 6.971802618328298,
+    "ctrl_msgs": 6923,
+    "discoveries": 2550,
+    "avg_hops": 1.8549848942598188,
+    "route_breaks": 30
+   }
+  },
+  "sweep": "density",
+  "x": 25
+ },
+ {
+  "scenario": {
+   "n_vehicles": 25,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 50.33360335900806,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 44.329896907216494,
+    "transitions_per_vehicle": 9.56,
+    "discovery_msgs": 657,
+    "avg_clusters": 14.383333333333333,
+    "singleton_frac": 0.5242042177092486,
+    "avg_cluster_size": 1.738122827346466
+   },
+   "position": {
+    "cluster_lifetime": 46.989010989010985,
+    "transitions_per_vehicle": 9.16,
+    "discovery_msgs": 625,
+    "avg_clusters": 14.303333333333333,
+    "singleton_frac": 0.5226344055268205,
+    "avg_cluster_size": 1.7478443253320906
+   },
+   "speed": {
+    "cluster_lifetime": 29.03048780487805,
+    "transitions_per_vehicle": 15.68,
+    "discovery_msgs": 1096,
+    "avg_clusters": 15.923333333333334,
+    "singleton_frac": 0.5996763152854484,
+    "avg_cluster_size": 1.570023027004396
+   },
+   "obqr": {
+    "cluster_lifetime": 96.078125,
+    "transitions_per_vehicle": 4.0,
+    "discovery_msgs": 308,
+    "avg_clusters": 20.563333333333333,
+    "singleton_frac": 0.8187808222796781,
+    "avg_cluster_size": 1.2157562003566218
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.11660714285714285,
+    "throughput_kbps": 19.104914285714287,
+    "avg_delay_ms": 7.599609205817265,
+    "routing_overhead": 5.460183767228178,
+    "ctrl_msgs": 7131,
+    "discoveries": 2497,
+    "avg_hops": 2.0398162327718223,
+    "route_breaks": 61
+   },
+   "greedy": {
+    "pdr": 0.11401785714285714,
+    "throughput_kbps": 18.680685714285715,
+    "avg_delay_ms": 4.6145377001579115,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 1.8778386844166015,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.11660714285714285,
+    "throughput_kbps": 19.104914285714287,
+    "avg_delay_ms": 7.1980000617084645,
+    "routing_overhead": 5.202909647779479,
+    "ctrl_msgs": 6795,
+    "discoveries": 2491,
+    "avg_hops": 2.045176110260337,
+    "route_breaks": 59
+   }
+  },
+  "sweep": "density",
+  "x": 25
+ },
+ {
+  "scenario": {
+   "n_vehicles": 50,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 50.74845054877466,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 25.804347826086957,
+    "transitions_per_vehicle": 15.5,
+    "discovery_msgs": 1985,
+    "avg_clusters": 19.866666666666667,
+    "singleton_frac": 0.29368189845431736,
+    "avg_cluster_size": 2.5167785234899327
+   },
+   "position": {
+    "cluster_lifetime": 28.714285714285715,
+    "transitions_per_vehicle": 13.42,
+    "discovery_msgs": 1725,
+    "avg_clusters": 19.506666666666668,
+    "singleton_frac": 0.2963262396688329,
+    "avg_cluster_size": 2.5632262474367735
+   },
+   "speed": {
+    "cluster_lifetime": 17.15089514066496,
+    "transitions_per_vehicle": 22.94,
+    "discovery_msgs": 3049,
+    "avg_clusters": 22.44333333333333,
+    "singleton_frac": 0.395364169863637,
+    "avg_cluster_size": 2.227833061042626
+   },
+   "obqr": {
+    "cluster_lifetime": 68.62091503267973,
+    "transitions_per_vehicle": 6.04,
+    "discovery_msgs": 870,
+    "avg_clusters": 35.13,
+    "singleton_frac": 0.6875777931036776,
+    "avg_cluster_size": 1.4232849416453173
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.23848214285714286,
+    "throughput_kbps": 39.07291428571429,
+    "avg_delay_ms": 10.015764139607148,
+    "routing_overhead": 5.836390864844628,
+    "ctrl_msgs": 15589,
+    "discoveries": 2152,
+    "avg_hops": 2.3545488581055785,
+    "route_breaks": 112
+   },
+   "greedy": {
+    "pdr": 0.23214285714285715,
+    "throughput_kbps": 38.034285714285716,
+    "avg_delay_ms": 5.969502963963947,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 1.9257692307692307,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.23848214285714286,
+    "throughput_kbps": 39.07291428571429,
+    "avg_delay_ms": 9.617447688373352,
+    "routing_overhead": 5.8678397603893675,
+    "ctrl_msgs": 15673,
+    "discoveries": 2132,
+    "avg_hops": 2.41707225758143,
+    "route_breaks": 123
+   }
+  },
+  "sweep": "density",
+  "x": 50
+ },
+ {
+  "scenario": {
+   "n_vehicles": 50,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 50.177194735154195,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 28.03211009174312,
+    "transitions_per_vehicle": 15.18,
+    "discovery_msgs": 1932,
+    "avg_clusters": 20.44333333333333,
+    "singleton_frac": 0.2980441445264974,
+    "avg_cluster_size": 2.4457850970161426
+   },
+   "position": {
+    "cluster_lifetime": 31.0979381443299,
+    "transitions_per_vehicle": 13.24,
+    "discovery_msgs": 1690,
+    "avg_clusters": 20.183333333333334,
+    "singleton_frac": 0.29827212499552314,
+    "avg_cluster_size": 2.477291494632535
+   },
+   "speed": {
+    "cluster_lifetime": 18.64,
+    "transitions_per_vehicle": 21.72,
+    "discovery_msgs": 2897,
+    "avg_clusters": 23.383333333333333,
+    "singleton_frac": 0.3954043970878673,
+    "avg_cluster_size": 2.138275124732716
+   },
+   "obqr": {
+    "cluster_lifetime": 73.17006802721089,
+    "transitions_per_vehicle": 5.84,
+    "discovery_msgs": 843,
+    "avg_clusters": 35.97,
+    "singleton_frac": 0.693589002549379,
+    "avg_cluster_size": 1.3900472616068946
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.2639285714285714,
+    "throughput_kbps": 43.24205714285714,
+    "avg_delay_ms": 11.173463369674899,
+    "routing_overhead": 5.848105548037889,
+    "ctrl_msgs": 17287,
+    "discoveries": 2117,
+    "avg_hops": 2.6427604871447903,
+    "route_breaks": 150
+   },
+   "greedy": {
+    "pdr": 0.24982142857142858,
+    "throughput_kbps": 40.93074285714285,
+    "avg_delay_ms": 6.5169589407463535,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.1336669049320944,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.2642857142857143,
+    "throughput_kbps": 43.30057142857143,
+    "avg_delay_ms": 10.253119065182787,
+    "routing_overhead": 5.709121621621621,
+    "ctrl_msgs": 16899,
+    "discoveries": 2070,
+    "avg_hops": 2.741554054054054,
+    "route_breaks": 145
+   }
+  },
+  "sweep": "density",
+  "x": 50
+ },
+ {
+  "scenario": {
+   "n_vehicles": 50,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 49.69777113642087,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 29.55778894472362,
+    "transitions_per_vehicle": 14.7,
+    "discovery_msgs": 1848,
+    "avg_clusters": 19.673333333333332,
+    "singleton_frac": 0.2726771247689608,
+    "avg_cluster_size": 2.5415113520840396
+   },
+   "position": {
+    "cluster_lifetime": 30.021164021164022,
+    "transitions_per_vehicle": 12.78,
+    "discovery_msgs": 1635,
+    "avg_clusters": 18.983333333333334,
+    "singleton_frac": 0.2792839231837246,
+    "avg_cluster_size": 2.633889376646181
+   },
+   "speed": {
+    "cluster_lifetime": 18.502793296089386,
+    "transitions_per_vehicle": 21.06,
+    "discovery_msgs": 2796,
+    "avg_clusters": 22.166666666666668,
+    "singleton_frac": 0.36639664420671286,
+    "avg_cluster_size": 2.255639097744361
+   },
+   "obqr": {
+    "cluster_lifetime": 69.63013698630137,
+    "transitions_per_vehicle": 5.72,
+    "discovery_msgs": 829,
+    "avg_clusters": 34.00333333333333,
+    "singleton_frac": 0.6577796529485647,
+    "avg_cluster_size": 1.4704440741103815
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.14339285714285716,
+    "throughput_kbps": 23.493485714285715,
+    "avg_delay_ms": 17.44148165091915,
+    "routing_overhead": 12.634495641344957,
+    "ctrl_msgs": 20291,
+    "discoveries": 2427,
+    "avg_hops": 3.223536737235367,
+    "route_breaks": 106
+   },
+   "greedy": {
+    "pdr": 0.12428571428571429,
+    "throughput_kbps": 20.36297142857143,
+    "avg_delay_ms": 7.986683280797918,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.4813218390804597,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.14419642857142856,
+    "throughput_kbps": 23.62514285714286,
+    "avg_delay_ms": 15.893520015259742,
+    "routing_overhead": 12.395046439628484,
+    "ctrl_msgs": 20018,
+    "discoveries": 2402,
+    "avg_hops": 3.303405572755418,
+    "route_breaks": 98
+   }
+  },
+  "sweep": "density",
+  "x": 50
+ },
+ {
+  "scenario": {
+   "n_vehicles": 50,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 49.90638716352007,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 30.300492610837438,
+    "transitions_per_vehicle": 14.1,
+    "discovery_msgs": 1799,
+    "avg_clusters": 20.56,
+    "singleton_frac": 0.26712112786033904,
+    "avg_cluster_size": 2.4319066147859925
+   },
+   "position": {
+    "cluster_lifetime": 31.41578947368421,
+    "transitions_per_vehicle": 13.36,
+    "discovery_msgs": 1698,
+    "avg_clusters": 19.956666666666667,
+    "singleton_frac": 0.2666939363799978,
+    "avg_cluster_size": 2.5054284282612325
+   },
+   "speed": {
+    "cluster_lifetime": 19.771587743732592,
+    "transitions_per_vehicle": 20.3,
+    "discovery_msgs": 2727,
+    "avg_clusters": 23.73,
+    "singleton_frac": 0.4065922072744662,
+    "avg_cluster_size": 2.1070375052675936
+   },
+   "obqr": {
+    "cluster_lifetime": 74.27891156462584,
+    "transitions_per_vehicle": 5.38,
+    "discovery_msgs": 797,
+    "avg_clusters": 36.513333333333335,
+    "singleton_frac": 0.7229827008461052,
+    "avg_cluster_size": 1.369362789848457
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.16169642857142857,
+    "throughput_kbps": 26.492342857142855,
+    "avg_delay_ms": 8.41178930581327,
+    "routing_overhead": 8.183324130314743,
+    "ctrl_msgs": 14820,
+    "discoveries": 2360,
+    "avg_hops": 2.3776918829376035,
+    "route_breaks": 61
+   },
+   "greedy": {
+    "pdr": 0.1549107142857143,
+    "throughput_kbps": 25.38057142857143,
+    "avg_delay_ms": 5.13643982512163,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 1.8155619596541788,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.161875,
+    "throughput_kbps": 26.5216,
+    "avg_delay_ms": 7.949512235976245,
+    "routing_overhead": 8.060672917815776,
+    "ctrl_msgs": 14614,
+    "discoveries": 2346,
+    "avg_hops": 2.4208494208494207,
+    "route_breaks": 58
+   }
+  },
+  "sweep": "density",
+  "x": 50
+ },
+ {
+  "scenario": {
+   "n_vehicles": 50,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 48.955781292625254,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 30.34375,
+    "transitions_per_vehicle": 13.42,
+    "discovery_msgs": 1706,
+    "avg_clusters": 19.486666666666668,
+    "singleton_frac": 0.28109074665855527,
+    "avg_cluster_size": 2.565856996236743
+   },
+   "position": {
+    "cluster_lifetime": 32.69886363636363,
+    "transitions_per_vehicle": 12.68,
+    "discovery_msgs": 1600,
+    "avg_clusters": 19.25,
+    "singleton_frac": 0.29889766055972816,
+    "avg_cluster_size": 2.5974025974025974
+   },
+   "speed": {
+    "cluster_lifetime": 18.56198347107438,
+    "transitions_per_vehicle": 21.86,
+    "discovery_msgs": 2889,
+    "avg_clusters": 22.536666666666665,
+    "singleton_frac": 0.4088949900000256,
+    "avg_cluster_size": 2.218606714982991
+   },
+   "obqr": {
+    "cluster_lifetime": 67.54362416107382,
+    "transitions_per_vehicle": 6.34,
+    "discovery_msgs": 899,
+    "avg_clusters": 33.656666666666666,
+    "singleton_frac": 0.6592377585853316,
+    "avg_cluster_size": 1.4855897791423196
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.16303571428571428,
+    "throughput_kbps": 26.711771428571428,
+    "avg_delay_ms": 15.587630814996093,
+    "routing_overhead": 9.698247535596932,
+    "ctrl_msgs": 17709,
+    "discoveries": 2408,
+    "avg_hops": 2.886089813800657,
+    "route_breaks": 129
+   },
+   "greedy": {
+    "pdr": 0.15339285714285714,
+    "throughput_kbps": 25.131885714285715,
+    "avg_delay_ms": 8.671188811140867,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 2.4662398137369035,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.16473214285714285,
+    "throughput_kbps": 26.989714285714285,
+    "avg_delay_ms": 14.087918631707714,
+    "routing_overhead": 9.240650406504065,
+    "ctrl_msgs": 17049,
+    "discoveries": 2365,
+    "avg_hops": 3.0655826558265584,
+    "route_breaks": 115
+   }
+  },
+  "sweep": "density",
+  "x": 50
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 300,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 49.20348414089469,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 23.375,
+    "transitions_per_vehicle": 17.87,
+    "discovery_msgs": 4080,
+    "avg_clusters": 20.643333333333334,
+    "singleton_frac": 0.06659000817810887,
+    "avg_cluster_size": 4.844178911674471
+   },
+   "position": {
+    "cluster_lifetime": 26.008695652173913,
+    "transitions_per_vehicle": 16.2,
+    "discovery_msgs": 3680,
+    "avg_clusters": 20.006666666666668,
+    "singleton_frac": 0.0845008537127261,
+    "avg_cluster_size": 4.998333888703765
+   },
+   "speed": {
+    "cluster_lifetime": 12.103618421052632,
+    "transitions_per_vehicle": 27.81,
+    "discovery_msgs": 6753,
+    "avg_clusters": 24.613333333333333,
+    "singleton_frac": 0.17503279212611816,
+    "avg_cluster_size": 4.062838569880824
+   },
+   "obqr": {
+    "cluster_lifetime": 49.94516129032258,
+    "transitions_per_vehicle": 8.62,
+    "discovery_msgs": 2290,
+    "avg_clusters": 51.79,
+    "singleton_frac": 0.455638044157697,
+    "avg_cluster_size": 1.9308746862328636
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.633125,
+    "throughput_kbps": 103.7312,
+    "avg_delay_ms": 44.4942476951844,
+    "routing_overhead": 16.290791143703284,
+    "ctrl_msgs": 115518,
+    "discoveries": 1211,
+    "avg_hops": 5.1363700465378646,
+    "route_breaks": 958
+   },
+   "greedy": {
+    "pdr": 0.47901785714285716,
+    "throughput_kbps": 78.48228571428571,
+    "avg_delay_ms": 20.352790831110543,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.8997204100652376,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.6690178571428571,
+    "throughput_kbps": 109.61188571428572,
+    "avg_delay_ms": 39.00494087958948,
+    "routing_overhead": 11.859869211263847,
+    "ctrl_msgs": 88866,
+    "discoveries": 865,
+    "avg_hops": 5.635926865074069,
+    "route_breaks": 765
+   }
+  },
+  "sweep": "range",
+  "x": 300
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 300,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 48.98509348568497,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 23.44106463878327,
+    "transitions_per_vehicle": 16.84,
+    "discovery_msgs": 3873,
+    "avg_clusters": 20.62,
+    "singleton_frac": 0.06602532665656236,
+    "avg_cluster_size": 4.849660523763336
+   },
+   "position": {
+    "cluster_lifetime": 23.46062992125984,
+    "transitions_per_vehicle": 16.07,
+    "discovery_msgs": 3702,
+    "avg_clusters": 19.93,
+    "singleton_frac": 0.07014587606995736,
+    "avg_cluster_size": 5.017561465127948
+   },
+   "speed": {
+    "cluster_lifetime": 10.907380607814762,
+    "transitions_per_vehicle": 28.15,
+    "discovery_msgs": 6988,
+    "avg_clusters": 25.203333333333333,
+    "singleton_frac": 0.21610367482677872,
+    "avg_cluster_size": 3.9677291363576246
+   },
+   "obqr": {
+    "cluster_lifetime": 45.73520249221184,
+    "transitions_per_vehicle": 9.19,
+    "discovery_msgs": 2424,
+    "avg_clusters": 49.123333333333335,
+    "singleton_frac": 0.4326364734544807,
+    "avg_cluster_size": 2.035692474723485
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.6232142857142857,
+    "throughput_kbps": 102.10742857142857,
+    "avg_delay_ms": 46.38777912068476,
+    "routing_overhead": 16.165616045845272,
+    "ctrl_msgs": 112836,
+    "discoveries": 1237,
+    "avg_hops": 5.356446991404011,
+    "route_breaks": 929
+   },
+   "greedy": {
+    "pdr": 0.44625,
+    "throughput_kbps": 73.1136,
+    "avg_delay_ms": 20.40698737895979,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.9435774309723888,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.6588392857142857,
+    "throughput_kbps": 107.94422857142857,
+    "avg_delay_ms": 41.2910779787828,
+    "routing_overhead": 11.84089985092831,
+    "ctrl_msgs": 87374,
+    "discoveries": 906,
+    "avg_hops": 5.961105840899851,
+    "route_breaks": 734
+   }
+  },
+  "sweep": "range",
+  "x": 300
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 300,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 49.254227079016054,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 23.929961089494164,
+    "transitions_per_vehicle": 16.98,
+    "discovery_msgs": 3889,
+    "avg_clusters": 20.57,
+    "singleton_frac": 0.08031254299560935,
+    "avg_cluster_size": 4.861448711716092
+   },
+   "position": {
+    "cluster_lifetime": 24.258064516129032,
+    "transitions_per_vehicle": 16.97,
+    "discovery_msgs": 3869,
+    "avg_clusters": 20.123333333333335,
+    "singleton_frac": 0.07211971771118358,
+    "avg_cluster_size": 4.969355640218652
+   },
+   "speed": {
+    "cluster_lifetime": 11.36661698956781,
+    "transitions_per_vehicle": 28.72,
+    "discovery_msgs": 7061,
+    "avg_clusters": 25.506666666666668,
+    "singleton_frac": 0.1908635763605388,
+    "avg_cluster_size": 3.920543648719289
+   },
+   "obqr": {
+    "cluster_lifetime": 47.72012578616352,
+    "transitions_per_vehicle": 9.08,
+    "discovery_msgs": 2402,
+    "avg_clusters": 50.75,
+    "singleton_frac": 0.4572094031186893,
+    "avg_cluster_size": 1.9704433497536946
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.48410714285714285,
+    "throughput_kbps": 79.31611428571428,
+    "avg_delay_ms": 58.49264353640978,
+    "routing_overhead": 25.746587974917006,
+    "ctrl_msgs": 139598,
+    "discoveries": 1676,
+    "avg_hops": 6.1643305053485795,
+    "route_breaks": 981
+   },
+   "greedy": {
+    "pdr": 0.3040178571428571,
+    "throughput_kbps": 49.81028571428572,
+    "avg_delay_ms": 22.463955853707137,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.43582966226138,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.5147321428571429,
+    "throughput_kbps": 84.3337142857143,
+    "avg_delay_ms": 51.07653468183204,
+    "routing_overhead": 20.351951431049436,
+    "ctrl_msgs": 117329,
+    "discoveries": 1347,
+    "avg_hops": 6.798438855160451,
+    "route_breaks": 788
+   }
+  },
+  "sweep": "range",
+  "x": 300
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 300,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 48.53341573420701,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 23.204633204633204,
+    "transitions_per_vehicle": 15.81,
+    "discovery_msgs": 3659,
+    "avg_clusters": 20.10333333333333,
+    "singleton_frac": 0.08467046284917128,
+    "avg_cluster_size": 4.9742994528270605
+   },
+   "position": {
+    "cluster_lifetime": 22.559386973180075,
+    "transitions_per_vehicle": 15.62,
+    "discovery_msgs": 3625,
+    "avg_clusters": 19.696666666666665,
+    "singleton_frac": 0.07160202151960801,
+    "avg_cluster_size": 5.07700118463361
+   },
+   "speed": {
+    "cluster_lifetime": 12.146103896103897,
+    "transitions_per_vehicle": 26.93,
+    "discovery_msgs": 6592,
+    "avg_clusters": 25.026666666666667,
+    "singleton_frac": 0.20786501761606707,
+    "avg_cluster_size": 3.9957378795950986
+   },
+   "obqr": {
+    "cluster_lifetime": 45.046583850931675,
+    "transitions_per_vehicle": 9.47,
+    "discovery_msgs": 2487,
+    "avg_clusters": 48.52,
+    "singleton_frac": 0.4299744113053119,
+    "avg_cluster_size": 2.061005770816158
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.5901785714285714,
+    "throughput_kbps": 96.69485714285715,
+    "avg_delay_ms": 47.66035335663391,
+    "routing_overhead": 18.35431164901664,
+    "ctrl_msgs": 121322,
+    "discoveries": 1366,
+    "avg_hops": 5.529954614220878,
+    "route_breaks": 958
+   },
+   "greedy": {
+    "pdr": 0.4002678571428571,
+    "throughput_kbps": 65.57988571428572,
+    "avg_delay_ms": 21.54495396357041,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.1713138523310285,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.6215178571428571,
+    "throughput_kbps": 101.82948571428571,
+    "avg_delay_ms": 42.219562110847676,
+    "routing_overhead": 14.161040080448211,
+    "ctrl_msgs": 98575,
+    "discoveries": 1050,
+    "avg_hops": 6.008763108748743,
+    "route_breaks": 801
+   }
+  },
+  "sweep": "range",
+  "x": 300
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 49.254227079016054,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 21.305232558139537,
+    "transitions_per_vehicle": 19.27,
+    "discovery_msgs": 4517,
+    "avg_clusters": 24.513333333333332,
+    "singleton_frac": 0.10008881864983814,
+    "avg_cluster_size": 4.079412564590699
+   },
+   "position": {
+    "cluster_lifetime": 21.60909090909091,
+    "transitions_per_vehicle": 17.78,
+    "discovery_msgs": 4193,
+    "avg_clusters": 23.846666666666668,
+    "singleton_frac": 0.1143171052511632,
+    "avg_cluster_size": 4.193458205199888
+   },
+   "speed": {
+    "cluster_lifetime": 11.616402116402117,
+    "transitions_per_vehicle": 29.17,
+    "discovery_msgs": 7317,
+    "avg_clusters": 29.37,
+    "singleton_frac": 0.2188587057058739,
+    "avg_cluster_size": 3.404834865509023
+   },
+   "obqr": {
+    "cluster_lifetime": 52.92604501607717,
+    "transitions_per_vehicle": 8.14,
+    "discovery_msgs": 2195,
+    "avg_clusters": 55.05,
+    "singleton_frac": 0.5046385095341831,
+    "avg_cluster_size": 1.8165304268846505
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.2519642857142857,
+    "throughput_kbps": 41.281828571428576,
+    "avg_delay_ms": 59.00035090506911,
+    "routing_overhead": 37.79943302622254,
+    "ctrl_msgs": 106670,
+    "discoveries": 2255,
+    "avg_hops": 5.8703047484053865,
+    "route_breaks": 567
+   },
+   "greedy": {
+    "pdr": 0.16616071428571427,
+    "throughput_kbps": 27.22377142857143,
+    "avg_delay_ms": 17.62802768543089,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.8425577646426654,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.2713392857142857,
+    "throughput_kbps": 44.45622857142857,
+    "avg_delay_ms": 52.33777200729066,
+    "routing_overhead": 33.41296479104969,
+    "ctrl_msgs": 101542,
+    "discoveries": 2099,
+    "avg_hops": 6.528792365909839,
+    "route_breaks": 491
+   }
+  },
+  "sweep": "density",
+  "x": 100
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 49.20348414089469,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 20.54317548746518,
+    "transitions_per_vehicle": 19.26,
+    "discovery_msgs": 4546,
+    "avg_clusters": 24.663333333333334,
+    "singleton_frac": 0.11587367734251795,
+    "avg_cluster_size": 4.054601973239627
+   },
+   "position": {
+    "cluster_lifetime": 22.147692307692306,
+    "transitions_per_vehicle": 17.21,
+    "discovery_msgs": 4068,
+    "avg_clusters": 24.073333333333334,
+    "singleton_frac": 0.11488487537690437,
+    "avg_cluster_size": 4.153973968429797
+   },
+   "speed": {
+    "cluster_lifetime": 12.064245810055866,
+    "transitions_per_vehicle": 28.9,
+    "discovery_msgs": 7183,
+    "avg_clusters": 28.89,
+    "singleton_frac": 0.21424073775654004,
+    "avg_cluster_size": 3.461405330564209
+   },
+   "obqr": {
+    "cluster_lifetime": 52.594339622641506,
+    "transitions_per_vehicle": 8.04,
+    "discovery_msgs": 2185,
+    "avg_clusters": 55.946666666666665,
+    "singleton_frac": 0.5056337846674424,
+    "avg_cluster_size": 1.7874165872259296
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.328125,
+    "throughput_kbps": 53.76,
+    "avg_delay_ms": 50.910943615193354,
+    "routing_overhead": 28.006530612244898,
+    "ctrl_msgs": 102924,
+    "discoveries": 2050,
+    "avg_hops": 5.73578231292517,
+    "route_breaks": 647
+   },
+   "greedy": {
+    "pdr": 0.2161607142857143,
+    "throughput_kbps": 35.41577142857143,
+    "avg_delay_ms": 16.765084974773277,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.8009087154068566,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3444642857142857,
+    "throughput_kbps": 56.43702857142857,
+    "avg_delay_ms": 44.91667783439939,
+    "routing_overhead": 25.05935717988595,
+    "ctrl_msgs": 96679,
+    "discoveries": 1866,
+    "avg_hops": 6.240539139450492,
+    "route_breaks": 548
+   }
+  },
+  "sweep": "density",
+  "x": 100
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 48.98509348568497,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 21.27433628318584,
+    "transitions_per_vehicle": 18.4,
+    "discovery_msgs": 4336,
+    "avg_clusters": 24.113333333333333,
+    "singleton_frac": 0.09924856453262251,
+    "avg_cluster_size": 4.1470832181365775
+   },
+   "position": {
+    "cluster_lifetime": 24.271186440677965,
+    "transitions_per_vehicle": 16.57,
+    "discovery_msgs": 3880,
+    "avg_clusters": 23.946666666666665,
+    "singleton_frac": 0.10586287037411476,
+    "avg_cluster_size": 4.1759465478841875
+   },
+   "speed": {
+    "cluster_lifetime": 12.241234221598878,
+    "transitions_per_vehicle": 28.04,
+    "discovery_msgs": 7008,
+    "avg_clusters": 29.18,
+    "singleton_frac": 0.21887849624435593,
+    "avg_cluster_size": 3.427004797806717
+   },
+   "obqr": {
+    "cluster_lifetime": 49.68535825545171,
+    "transitions_per_vehicle": 8.42,
+    "discovery_msgs": 2268,
+    "avg_clusters": 53.35666666666667,
+    "singleton_frac": 0.46990624486527177,
+    "avg_cluster_size": 1.8741800462297744
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.39669642857142856,
+    "throughput_kbps": 64.99474285714285,
+    "avg_delay_ms": 43.97973944599081,
+    "routing_overhead": 23.354940355615575,
+    "ctrl_msgs": 103766,
+    "discoveries": 1882,
+    "avg_hops": 5.059644384424938,
+    "route_breaks": 679
+   },
+   "greedy": {
+    "pdr": 0.28901785714285716,
+    "throughput_kbps": 47.35268571428571,
+    "avg_delay_ms": 15.33549693031356,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.380908248378128,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.4114285714285714,
+    "throughput_kbps": 67.40845714285713,
+    "avg_delay_ms": 39.61470315500122,
+    "routing_overhead": 20.366536458333332,
+    "ctrl_msgs": 93849,
+    "discoveries": 1681,
+    "avg_hops": 5.468315972222222,
+    "route_breaks": 580
+   }
+  },
+  "sweep": "density",
+  "x": 100
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 48.420309141458546,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 20.54178674351585,
+    "transitions_per_vehicle": 17.8,
+    "discovery_msgs": 4229,
+    "avg_clusters": 23.843333333333334,
+    "singleton_frac": 0.0998672980267183,
+    "avg_cluster_size": 4.194044456871243
+   },
+   "position": {
+    "cluster_lifetime": 21.12202380952381,
+    "transitions_per_vehicle": 17.34,
+    "discovery_msgs": 4114,
+    "avg_clusters": 23.743333333333332,
+    "singleton_frac": 0.1054239830472096,
+    "avg_cluster_size": 4.211708549768356
+   },
+   "speed": {
+    "cluster_lifetime": 13.2796992481203,
+    "transitions_per_vehicle": 26.65,
+    "discovery_msgs": 6631,
+    "avg_clusters": 29.533333333333335,
+    "singleton_frac": 0.21200571397965998,
+    "avg_cluster_size": 3.386004514672686
+   },
+   "obqr": {
+    "cluster_lifetime": 53.12080536912752,
+    "transitions_per_vehicle": 8.12,
+    "discovery_msgs": 2167,
+    "avg_clusters": 52.943333333333335,
+    "singleton_frac": 0.4719302680697861,
+    "avg_cluster_size": 1.8888119372914436
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.22678571428571428,
+    "throughput_kbps": 37.156571428571425,
+    "avg_delay_ms": 79.86183840821813,
+    "routing_overhead": 48.33031496062992,
+    "ctrl_msgs": 122759,
+    "discoveries": 2351,
+    "avg_hops": 8.016141732283465,
+    "route_breaks": 656
+   },
+   "greedy": {
+    "pdr": 0.10946428571428571,
+    "throughput_kbps": 17.934628571428572,
+    "avg_delay_ms": 26.667407223442595,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 5.893964110929853,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.2449107142857143,
+    "throughput_kbps": 40.126171428571425,
+    "avg_delay_ms": 68.75019961169484,
+    "routing_overhead": 42.38680277068902,
+    "ctrl_msgs": 116267,
+    "discoveries": 2170,
+    "avg_hops": 8.66824644549763,
+    "route_breaks": 546
+   }
+  },
+  "sweep": "density",
+  "x": 100
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 300,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 48.420309141458546,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 21.40714285714286,
+    "transitions_per_vehicle": 16.99,
+    "discovery_msgs": 3939,
+    "avg_clusters": 20.043333333333333,
+    "singleton_frac": 0.0636910661023765,
+    "avg_cluster_size": 4.989190088142358
+   },
+   "position": {
+    "cluster_lifetime": 23.913385826771652,
+    "transitions_per_vehicle": 16.41,
+    "discovery_msgs": 3771,
+    "avg_clusters": 20.31,
+    "singleton_frac": 0.06516640498790181,
+    "avg_cluster_size": 4.923682914820286
+   },
+   "speed": {
+    "cluster_lifetime": 12.93781512605042,
+    "transitions_per_vehicle": 26.51,
+    "discovery_msgs": 6470,
+    "avg_clusters": 25.733333333333334,
+    "singleton_frac": 0.19049856730285347,
+    "avg_cluster_size": 3.8860103626943006
+   },
+   "obqr": {
+    "cluster_lifetime": 46.59163987138264,
+    "transitions_per_vehicle": 9.07,
+    "discovery_msgs": 2390,
+    "avg_clusters": 48.45333333333333,
+    "singleton_frac": 0.4211351879692655,
+    "avg_cluster_size": 2.0638414969730325
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.5146428571428572,
+    "throughput_kbps": 84.31908571428572,
+    "avg_delay_ms": 68.15611129353597,
+    "routing_overhead": 26.223455933379597,
+    "ctrl_msgs": 151152,
+    "discoveries": 1589,
+    "avg_hops": 7.128903539208883,
+    "route_breaks": 1187
+   },
+   "greedy": {
+    "pdr": 0.29392857142857143,
+    "throughput_kbps": 48.15725714285715,
+    "avg_delay_ms": 29.2692340497637,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 5.645200486026732,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.5611607142857142,
+    "throughput_kbps": 91.94057142857143,
+    "avg_delay_ms": 57.44781549421878,
+    "routing_overhead": 18.66618933969769,
+    "ctrl_msgs": 117317,
+    "discoveries": 1153,
+    "avg_hops": 7.884964200477327,
+    "route_breaks": 914
+   }
+  },
+  "sweep": "range",
+  "x": 300
+ },
+ {
+  "scenario": {
+   "n_vehicles": 100,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 48.53341573420701,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 21.41317365269461,
+    "transitions_per_vehicle": 17.47,
+    "discovery_msgs": 4138,
+    "avg_clusters": 23.92,
+    "singleton_frac": 0.10270997876759995,
+    "avg_cluster_size": 4.180602006688963
+   },
+   "position": {
+    "cluster_lifetime": 21.56269113149847,
+    "transitions_per_vehicle": 17.69,
+    "discovery_msgs": 4168,
+    "avg_clusters": 23.583333333333332,
+    "singleton_frac": 0.11202054067778704,
+    "avg_cluster_size": 4.240282685512367
+   },
+   "speed": {
+    "cluster_lifetime": 12.372857142857143,
+    "transitions_per_vehicle": 28.56,
+    "discovery_msgs": 7084,
+    "avg_clusters": 28.963333333333335,
+    "singleton_frac": 0.22866986874635084,
+    "avg_cluster_size": 3.4526412705719873
+   },
+   "obqr": {
+    "cluster_lifetime": 47.14328358208955,
+    "transitions_per_vehicle": 8.99,
+    "discovery_msgs": 2411,
+    "avg_clusters": 52.833333333333336,
+    "singleton_frac": 0.4730479155883808,
+    "avg_cluster_size": 1.8927444794952681
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.30580357142857145,
+    "throughput_kbps": 50.10285714285715,
+    "avg_delay_ms": 57.2981243106356,
+    "routing_overhead": 29.914452554744525,
+    "ctrl_msgs": 102457,
+    "discoveries": 2121,
+    "avg_hops": 6.186569343065694,
+    "route_breaks": 660
+   },
+   "greedy": {
+    "pdr": 0.19089285714285714,
+    "throughput_kbps": 31.275885714285717,
+    "avg_delay_ms": 18.12448030603101,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.141253507951356,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.3211607142857143,
+    "throughput_kbps": 52.61897142857143,
+    "avg_delay_ms": 50.81257297353676,
+    "routing_overhead": 26.882123992215735,
+    "ctrl_msgs": 96695,
+    "discoveries": 1946,
+    "avg_hops": 6.739505143174868,
+    "route_breaks": 572
+   }
+  },
+  "sweep": "density",
+  "x": 100
+ },
+ {
+  "scenario": {
+   "n_vehicles": 150,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 47.87961407322191,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 18.798076923076923,
+    "transitions_per_vehicle": 20.48,
+    "discovery_msgs": 6949,
+    "avg_clusters": 26.156666666666666,
+    "singleton_frac": 0.06036269769719496,
+    "avg_cluster_size": 5.734675672231426
+   },
+   "position": {
+    "cluster_lifetime": 20.483957219251337,
+    "transitions_per_vehicle": 18.68,
+    "discovery_msgs": 6325,
+    "avg_clusters": 25.626666666666665,
+    "singleton_frac": 0.05692439628781457,
+    "avg_cluster_size": 5.85327783558793
+   },
+   "speed": {
+    "cluster_lifetime": 10.280343716433942,
+    "transitions_per_vehicle": 30.973333333333333,
+    "discovery_msgs": 11123,
+    "avg_clusters": 32.00666666666667,
+    "singleton_frac": 0.16332350004883275,
+    "avg_cluster_size": 4.686523640908144
+   },
+   "obqr": {
+    "cluster_lifetime": 46.21395348837209,
+    "transitions_per_vehicle": 9.466666666666667,
+    "discovery_msgs": 3638,
+    "avg_clusters": 66.44666666666667,
+    "singleton_frac": 0.37145316177603804,
+    "avg_cluster_size": 2.2574495836259656
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.5720535714285714,
+    "throughput_kbps": 93.72525714285715,
+    "avg_delay_ms": 63.42940597085924,
+    "routing_overhead": 35.34025284844701,
+    "ctrl_msgs": 226425,
+    "discoveries": 1554,
+    "avg_hops": 5.948649914156391,
+    "route_breaks": 1284
+   },
+   "greedy": {
+    "pdr": 0.38455357142857144,
+    "throughput_kbps": 63.00525714285715,
+    "avg_delay_ms": 24.123721731523354,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.2472718829811935,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.6270535714285714,
+    "throughput_kbps": 102.73645714285713,
+    "avg_delay_ms": 56.61763106882091,
+    "routing_overhead": 24.996867435568845,
+    "ctrl_msgs": 175553,
+    "discoveries": 1118,
+    "avg_hops": 6.92439128577531,
+    "route_breaks": 1010
+   }
+  },
+  "sweep": "density",
+  "x": 150
+ },
+ {
+  "scenario": {
+   "n_vehicles": 150,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 48.15811191307232,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 18.544364508393286,
+    "transitions_per_vehicle": 20.093333333333334,
+    "discovery_msgs": 6839,
+    "avg_clusters": 25.85333333333333,
+    "singleton_frac": 0.057145377998276556,
+    "avg_cluster_size": 5.801959773078907
+   },
+   "position": {
+    "cluster_lifetime": 18.395238095238096,
+    "transitions_per_vehicle": 20.053333333333335,
+    "discovery_msgs": 6830,
+    "avg_clusters": 25.84,
+    "singleton_frac": 0.05339272419327391,
+    "avg_cluster_size": 5.804953560371517
+   },
+   "speed": {
+    "cluster_lifetime": 10.031282586027112,
+    "transitions_per_vehicle": 31.926666666666666,
+    "discovery_msgs": 11469,
+    "avg_clusters": 32.156666666666666,
+    "singleton_frac": 0.16868512283221884,
+    "avg_cluster_size": 4.664662589406033
+   },
+   "obqr": {
+    "cluster_lifetime": 43.775555555555556,
+    "transitions_per_vehicle": 9.533333333333333,
+    "discovery_msgs": 3694,
+    "avg_clusters": 65.88333333333334,
+    "singleton_frac": 0.3757297549746491,
+    "avg_cluster_size": 2.2767518340500885
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.6011607142857143,
+    "throughput_kbps": 98.49417142857142,
+    "avg_delay_ms": 55.966377740549405,
+    "routing_overhead": 30.55948314272984,
+    "ctrl_msgs": 205757,
+    "discoveries": 1464,
+    "avg_hops": 5.331501559483143,
+    "route_breaks": 1184
+   },
+   "greedy": {
+    "pdr": 0.4348214285714286,
+    "throughput_kbps": 71.24114285714286,
+    "avg_delay_ms": 19.23991523972107,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 3.5542094455852156,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.6457142857142857,
+    "throughput_kbps": 105.79382857142858,
+    "avg_delay_ms": 50.76756424625135,
+    "routing_overhead": 22.40887721238938,
+    "ctrl_msgs": 162061,
+    "discoveries": 1076,
+    "avg_hops": 6.079922566371682,
+    "route_breaks": 924
+   }
+  },
+  "sweep": "density",
+  "x": 150
+ },
+ {
+  "scenario": {
+   "n_vehicles": 150,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 48.64411617658894,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 18.615925058548008,
+    "transitions_per_vehicle": 19.953333333333333,
+    "discovery_msgs": 6814,
+    "avg_clusters": 26.583333333333332,
+    "singleton_frac": 0.05208413360474829,
+    "avg_cluster_size": 5.6426332288401255
+   },
+   "position": {
+    "cluster_lifetime": 17.916666666666668,
+    "transitions_per_vehicle": 20.126666666666665,
+    "discovery_msgs": 6877,
+    "avg_clusters": 25.883333333333333,
+    "singleton_frac": 0.06376025987450275,
+    "avg_cluster_size": 5.795235028976175
+   },
+   "speed": {
+    "cluster_lifetime": 10.109756097560975,
+    "transitions_per_vehicle": 32.92,
+    "discovery_msgs": 11817,
+    "avg_clusters": 33.25,
+    "singleton_frac": 0.16335672531216616,
+    "avg_cluster_size": 4.511278195488722
+   },
+   "obqr": {
+    "cluster_lifetime": 44.011210762331835,
+    "transitions_per_vehicle": 9.68,
+    "discovery_msgs": 3737,
+    "avg_clusters": 65.62666666666667,
+    "singleton_frac": 0.378942343760214,
+    "avg_cluster_size": 2.28565623730191
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.5060714285714286,
+    "throughput_kbps": 82.91474285714285,
+    "avg_delay_ms": 80.3345431515841,
+    "routing_overhead": 45.266584333098095,
+    "ctrl_msgs": 256571,
+    "discoveries": 1726,
+    "avg_hops": 6.90878616796048,
+    "route_breaks": 1410
+   },
+   "greedy": {
+    "pdr": 0.32339285714285715,
+    "throughput_kbps": 52.98468571428571,
+    "avg_delay_ms": 25.33146493931423,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.696024295969078,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.5599107142857143,
+    "throughput_kbps": 91.73577142857143,
+    "avg_delay_ms": 70.3386188998521,
+    "routing_overhead": 32.42991548397385,
+    "ctrl_msgs": 203368,
+    "discoveries": 1253,
+    "avg_hops": 8.104767979588582,
+    "route_breaks": 1101
+   }
+  },
+  "sweep": "density",
+  "x": 150
+ },
+ {
+  "scenario": {
+   "n_vehicles": 150,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 48.469767440879096,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 16.793991416309012,
+    "transitions_per_vehicle": 22.433333333333334,
+    "discovery_msgs": 7636,
+    "avg_clusters": 26.173333333333332,
+    "singleton_frac": 0.07242453850404874,
+    "avg_cluster_size": 5.731023942944473
+   },
+   "position": {
+    "cluster_lifetime": 19.205955334987593,
+    "transitions_per_vehicle": 19.893333333333334,
+    "discovery_msgs": 6745,
+    "avg_clusters": 25.89666666666667,
+    "singleton_frac": 0.06845234430259498,
+    "avg_cluster_size": 5.792251254987772
+   },
+   "speed": {
+    "cluster_lifetime": 9.501449275362319,
+    "transitions_per_vehicle": 33.17333333333333,
+    "discovery_msgs": 11991,
+    "avg_clusters": 32.88333333333333,
+    "singleton_frac": 0.17582811937067083,
+    "avg_cluster_size": 4.5615813482007095
+   },
+   "obqr": {
+    "cluster_lifetime": 43.742290748898675,
+    "transitions_per_vehicle": 9.693333333333333,
+    "discovery_msgs": 3752,
+    "avg_clusters": 66.41,
+    "singleton_frac": 0.37794704298894144,
+    "avg_cluster_size": 2.2586959795211565
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.5345535714285714,
+    "throughput_kbps": 87.58125714285714,
+    "avg_delay_ms": 73.90466053448922,
+    "routing_overhead": 41.046266911641894,
+    "ctrl_msgs": 245744,
+    "discoveries": 1634,
+    "avg_hops": 6.508267913813262,
+    "route_breaks": 1359
+   },
+   "greedy": {
+    "pdr": 0.3626785714285714,
+    "throughput_kbps": 59.421257142857144,
+    "avg_delay_ms": 28.033579902801257,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.831117676021664,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.5941964285714286,
+    "throughput_kbps": 97.35314285714286,
+    "avg_delay_ms": 62.94081086338387,
+    "routing_overhead": 27.638767843726523,
+    "ctrl_msgs": 183936,
+    "discoveries": 1128,
+    "avg_hops": 7.451389932381668,
+    "route_breaks": 1012
+   }
+  },
+  "sweep": "density",
+  "x": 150
+ },
+ {
+  "scenario": {
+   "n_vehicles": 150,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 47.58188256503084,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 18.59144893111639,
+    "transitions_per_vehicle": 20.36,
+    "discovery_msgs": 6925,
+    "avg_clusters": 26.173333333333332,
+    "singleton_frac": 0.06839854041325805,
+    "avg_cluster_size": 5.731023942944473
+   },
+   "position": {
+    "cluster_lifetime": 18.514423076923077,
+    "transitions_per_vehicle": 19.386666666666667,
+    "discovery_msgs": 6621,
+    "avg_clusters": 25.763333333333332,
+    "singleton_frac": 0.06724748303503925,
+    "avg_cluster_size": 5.822227972570837
+   },
+   "speed": {
+    "cluster_lifetime": 10.454739084132056,
+    "transitions_per_vehicle": 31.293333333333333,
+    "discovery_msgs": 11235,
+    "avg_clusters": 32.82666666666667,
+    "singleton_frac": 0.1620134596170436,
+    "avg_cluster_size": 4.569455727051178
+   },
+   "obqr": {
+    "cluster_lifetime": 43.55654101995565,
+    "transitions_per_vehicle": 9.706666666666667,
+    "discovery_msgs": 3750,
+    "avg_clusters": 65.69333333333333,
+    "singleton_frac": 0.37510883423255303,
+    "avg_cluster_size": 2.2833367160543943
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.48660714285714285,
+    "throughput_kbps": 79.72571428571429,
+    "avg_delay_ms": 84.84307623838083,
+    "routing_overhead": 47.962201834862384,
+    "ctrl_msgs": 261394,
+    "discoveries": 1846,
+    "avg_hops": 7.377981651376147,
+    "route_breaks": 1462
+   },
+   "greedy": {
+    "pdr": 0.260625,
+    "throughput_kbps": 42.7008,
+    "avg_delay_ms": 27.20624234380364,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 5.060294621445701,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.5374107142857143,
+    "throughput_kbps": 88.04937142857142,
+    "avg_delay_ms": 72.86041937812027,
+    "routing_overhead": 34.083900980229274,
+    "ctrl_msgs": 205151,
+    "discoveries": 1362,
+    "avg_hops": 8.332779531483634,
+    "route_breaks": 1143
+   }
+  },
+  "sweep": "density",
+  "x": 150
+ },
+ {
+  "scenario": {
+   "n_vehicles": 200,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 2
+  },
+  "mean_speed_kmh_measured": 47.422374843305846,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 15.974509803921569,
+    "transitions_per_vehicle": 21.915,
+    "discovery_msgs": 9759,
+    "avg_clusters": 27.246666666666666,
+    "singleton_frac": 0.0476094188521229,
+    "avg_cluster_size": 7.340347443112307
+   },
+   "position": {
+    "cluster_lifetime": 18.901408450704224,
+    "transitions_per_vehicle": 21.02,
+    "discovery_msgs": 9232,
+    "avg_clusters": 26.933333333333334,
+    "singleton_frac": 0.0369368493529536,
+    "avg_cluster_size": 7.425742574257426
+   },
+   "speed": {
+    "cluster_lifetime": 8.987665198237886,
+    "transitions_per_vehicle": 33.625,
+    "discovery_msgs": 15687,
+    "avg_clusters": 34.11333333333334,
+    "singleton_frac": 0.13202812415588475,
+    "avg_cluster_size": 5.862810240375219
+   },
+   "obqr": {
+    "cluster_lifetime": 39.29107142857143,
+    "transitions_per_vehicle": 10.325,
+    "discovery_msgs": 5177,
+    "avg_clusters": 73.58666666666667,
+    "singleton_frac": 0.30829604261349497,
+    "avg_cluster_size": 2.7178836745787276
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.6433928571428571,
+    "throughput_kbps": 105.41348571428571,
+    "avg_delay_ms": 66.14145140172035,
+    "routing_overhead": 43.07493755203997,
+    "ctrl_msgs": 310398,
+    "discoveries": 1464,
+    "avg_hops": 5.612961421038024,
+    "route_breaks": 1433
+   },
+   "greedy": {
+    "pdr": 0.49276785714285715,
+    "throughput_kbps": 80.73508571428572,
+    "avg_delay_ms": 32.458959019784345,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.625838014132995,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.7208035714285714,
+    "throughput_kbps": 118.09645714285713,
+    "avg_delay_ms": 55.1880528308451,
+    "routing_overhead": 22.38573021181717,
+    "ctrl_msgs": 180720,
+    "discoveries": 790,
+    "avg_hops": 6.636566332218506,
+    "route_breaks": 954
+   }
+  },
+  "sweep": "density",
+  "x": 200
+ },
+ {
+  "scenario": {
+   "n_vehicles": 200,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 0
+  },
+  "mean_speed_kmh_measured": 47.414910723754765,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 17.276955602536997,
+    "transitions_per_vehicle": 20.795,
+    "discovery_msgs": 9237,
+    "avg_clusters": 27.33,
+    "singleton_frac": 0.04300862909944518,
+    "avg_cluster_size": 7.317965605561654
+   },
+   "position": {
+    "cluster_lifetime": 16.911392405063292,
+    "transitions_per_vehicle": 21.04,
+    "discovery_msgs": 9337,
+    "avg_clusters": 26.81,
+    "singleton_frac": 0.04394206161325182,
+    "avg_cluster_size": 7.459903021260724
+   },
+   "speed": {
+    "cluster_lifetime": 8.573553719008265,
+    "transitions_per_vehicle": 35.355,
+    "discovery_msgs": 16528,
+    "avg_clusters": 34.693333333333335,
+    "singleton_frac": 0.1342257078132619,
+    "avg_cluster_size": 5.764796310530361
+   },
+   "obqr": {
+    "cluster_lifetime": 37.14756944444444,
+    "transitions_per_vehicle": 10.8,
+    "discovery_msgs": 5399,
+    "avg_clusters": 71.56666666666666,
+    "singleton_frac": 0.3055854114709083,
+    "avg_cluster_size": 2.794597112249651
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.5771428571428572,
+    "throughput_kbps": 94.55908571428571,
+    "avg_delay_ms": 80.1171436247384,
+    "routing_overhead": 54.165377475247524,
+    "ctrl_msgs": 350125,
+    "discoveries": 1668,
+    "avg_hops": 6.21147896039604,
+    "route_breaks": 1578
+   },
+   "greedy": {
+    "pdr": 0.42098214285714286,
+    "throughput_kbps": 68.9737142857143,
+    "avg_delay_ms": 36.48306097484448,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 5.088016967126193,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.66,
+    "throughput_kbps": 108.1344,
+    "avg_delay_ms": 67.16511001438087,
+    "routing_overhead": 29.836309523809526,
+    "ctrl_msgs": 220550,
+    "discoveries": 974,
+    "avg_hops": 7.367559523809524,
+    "route_breaks": 1054
+   }
+  },
+  "sweep": "density",
+  "x": 200
+ },
+ {
+  "scenario": {
+   "n_vehicles": 200,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 1
+  },
+  "mean_speed_kmh_measured": 46.76024667250689,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 15.964356435643564,
+    "transitions_per_vehicle": 21.73,
+    "discovery_msgs": 9676,
+    "avg_clusters": 26.96,
+    "singleton_frac": 0.0481645497439157,
+    "avg_cluster_size": 7.4183976261127595
+   },
+   "position": {
+    "cluster_lifetime": 17.121794871794872,
+    "transitions_per_vehicle": 20.265,
+    "discovery_msgs": 9017,
+    "avg_clusters": 26.793333333333333,
+    "singleton_frac": 0.050225513550081445,
+    "avg_cluster_size": 7.4645434187608855
+   },
+   "speed": {
+    "cluster_lifetime": 9.072064056939501,
+    "transitions_per_vehicle": 32.885,
+    "discovery_msgs": 15368,
+    "avg_clusters": 34.10333333333333,
+    "singleton_frac": 0.14143150682943145,
+    "avg_cluster_size": 5.864529371517936
+   },
+   "obqr": {
+    "cluster_lifetime": 39.25602968460111,
+    "transitions_per_vehicle": 10.4,
+    "discovery_msgs": 5168,
+    "avg_clusters": 70.76333333333334,
+    "singleton_frac": 0.27624995976024364,
+    "avg_cluster_size": 2.8263224833953555
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.5766071428571429,
+    "throughput_kbps": 94.47131428571429,
+    "avg_delay_ms": 79.40367087415191,
+    "routing_overhead": 54.529266026633636,
+    "ctrl_msgs": 352150,
+    "discoveries": 1698,
+    "avg_hops": 6.091824094146794,
+    "route_breaks": 1607
+   },
+   "greedy": {
+    "pdr": 0.43330357142857145,
+    "throughput_kbps": 70.99245714285713,
+    "avg_delay_ms": 36.79888715199699,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 5.079538429837214,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.6647321428571429,
+    "throughput_kbps": 108.90971428571429,
+    "avg_delay_ms": 66.45745929971791,
+    "routing_overhead": 28.643384822028207,
+    "ctrl_msgs": 213250,
+    "discoveries": 954,
+    "avg_hops": 7.412894560107454,
+    "route_breaks": 1050
+   }
+  },
+  "sweep": "density",
+  "x": 200
+ },
+ {
+  "scenario": {
+   "n_vehicles": 200,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 4
+  },
+  "mean_speed_kmh_measured": 47.52018174155424,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 17.0,
+    "transitions_per_vehicle": 21.44,
+    "discovery_msgs": 9511,
+    "avg_clusters": 27.346666666666668,
+    "singleton_frac": 0.04831269980105723,
+    "avg_cluster_size": 7.313505607020965
+   },
+   "position": {
+    "cluster_lifetime": 17.582608695652173,
+    "transitions_per_vehicle": 21.53,
+    "discovery_msgs": 9506,
+    "avg_clusters": 27.046666666666667,
+    "singleton_frac": 0.04413925804470773,
+    "avg_cluster_size": 7.394626571358146
+   },
+   "speed": {
+    "cluster_lifetime": 8.851727042965459,
+    "transitions_per_vehicle": 34.2,
+    "discovery_msgs": 16020,
+    "avg_clusters": 35.13666666666666,
+    "singleton_frac": 0.1391633392761678,
+    "avg_cluster_size": 5.692059576890239
+   },
+   "obqr": {
+    "cluster_lifetime": 38.672014260249554,
+    "transitions_per_vehicle": 10.425,
+    "discovery_msgs": 5216,
+    "avg_clusters": 72.57,
+    "singleton_frac": 0.2810377942719459,
+    "avg_cluster_size": 2.7559597629874606
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.6165178571428571,
+    "throughput_kbps": 101.01028571428571,
+    "avg_delay_ms": 69.85282445324152,
+    "routing_overhead": 44.523099203475745,
+    "ctrl_msgs": 307432,
+    "discoveries": 1452,
+    "avg_hops": 5.709485879797248,
+    "route_breaks": 1401
+   },
+   "greedy": {
+    "pdr": 0.48276785714285714,
+    "throughput_kbps": 79.09668571428571,
+    "avg_delay_ms": 33.67343483656234,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.737747364527465,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.6904464285714286,
+    "throughput_kbps": 113.12274285714287,
+    "avg_delay_ms": 59.239324753766596,
+    "routing_overhead": 24.41717315401526,
+    "ctrl_msgs": 188818,
+    "discoveries": 825,
+    "avg_hops": 6.825552825552825,
+    "route_breaks": 938
+   }
+  },
+  "sweep": "density",
+  "x": 200
+ },
+ {
+  "scenario": {
+   "n_vehicles": 200,
+   "speed_kmh": 54,
+   "tx_range": 250,
+   "sim_time": 300,
+   "warmup": 20.0,
+   "n_flows": 10,
+   "pkts_per_sec": 4,
+   "seed": 3
+  },
+  "mean_speed_kmh_measured": 47.03998502927196,
+  "clustering": {
+   "lowest_id": {
+    "cluster_lifetime": 17.14315789473684,
+    "transitions_per_vehicle": 21.205,
+    "discovery_msgs": 9404,
+    "avg_clusters": 27.236666666666668,
+    "singleton_frac": 0.039114313360735314,
+    "avg_cluster_size": 7.3430424672622685
+   },
+   "position": {
+    "cluster_lifetime": 16.4,
+    "transitions_per_vehicle": 21.69,
+    "discovery_msgs": 9631,
+    "avg_clusters": 26.87,
+    "singleton_frac": 0.039156274434926634,
+    "avg_cluster_size": 7.44324525493115
+   },
+   "speed": {
+    "cluster_lifetime": 8.567611336032389,
+    "transitions_per_vehicle": 34.84,
+    "discovery_msgs": 16374,
+    "avg_clusters": 35.376666666666665,
+    "singleton_frac": 0.15358640438803314,
+    "avg_cluster_size": 5.653443889569396
+   },
+   "obqr": {
+    "cluster_lifetime": 35.453177257525084,
+    "transitions_per_vehicle": 11.345,
+    "discovery_msgs": 5663,
+    "avg_clusters": 70.90666666666667,
+    "singleton_frac": 0.272856159954078,
+    "avg_cluster_size": 2.8206092515983454
+   }
+  },
+  "routing": {
+   "aodv": {
+    "pdr": 0.6022321428571429,
+    "throughput_kbps": 98.66971428571429,
+    "avg_delay_ms": 67.81694913608983,
+    "routing_overhead": 46.89355077835434,
+    "ctrl_msgs": 316297,
+    "discoveries": 1556,
+    "avg_hops": 5.7058561897702,
+    "route_breaks": 1399
+   },
+   "greedy": {
+    "pdr": 0.45964285714285713,
+    "throughput_kbps": 75.30788571428572,
+    "avg_delay_ms": 31.00541250749603,
+    "routing_overhead": 0.0,
+    "ctrl_msgs": 0,
+    "discoveries": 0,
+    "avg_hops": 4.615967365967366,
+    "route_breaks": 0
+   },
+   "obqr": {
+    "pdr": 0.6658035714285714,
+    "throughput_kbps": 109.08525714285715,
+    "avg_delay_ms": 59.34262007815287,
+    "routing_overhead": 28.496580394260427,
+    "ctrl_msgs": 212499,
+    "discoveries": 985,
+    "avg_hops": 6.69438111841223,
+    "route_breaks": 992
+   }
+  },
+  "sweep": "density",
+  "x": 200
+ }
+]

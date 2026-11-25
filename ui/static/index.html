@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OBQR — live demo</title>
+<style>
+  :root {
+    --bg: #f6f5f2; --card: #ffffff; --ink: #0b0b0b; --ink2: #52514e; --muted: #8b8a85;
+    --line: #e4e3df; --road: #d9d7d0; --accent: #2a78d6; --orange: #eb6834; --aqua: #1baf7a;
+    --bad: #e34948; --good: #008300;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+         background: var(--bg); color: var(--ink); }
+  header { display: flex; align-items: center; gap: 24px; padding: 12px 24px; background: var(--card);
+           border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 5; }
+  header h1 { font-size: 16px; margin: 0; }
+  header h1 span { color: var(--ink2); font-weight: 400; }
+  nav { display: flex; gap: 4px; margin-left: auto; }
+  nav button { border: 0; background: none; padding: 8px 14px; border-radius: 8px; cursor: pointer;
+               font: inherit; color: var(--ink2); }
+  nav button.on { background: #eaf2fc; color: var(--accent); font-weight: 600; }
+  main { padding: 18px 24px; }
+  .page { display: none; } .page.on { display: block; }
+  .live { display: grid; grid-template-columns: minmax(520px, 1fr) 470px; gap: 18px; align-items: start; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .card + .card { margin-top: 14px; }
+  .card h3 { margin: 0 0 10px; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--ink2); }
+  canvas { width: min(100%, calc(100vh - 190px)); margin: 0 auto; aspect-ratio: 1; display: block; background: #fbfaf8; border-radius: 10px; cursor: crosshair; }
+  .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .ctl { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; margin-bottom: 10px; }
+  .ctl label { font-size: 12px; color: var(--ink2); display: flex; flex-direction: column; gap: 2px; }
+  .ctl output { color: var(--ink); font-weight: 600; }
+  input[type=range] { width: 100%; }
+  select, button.b { font: inherit; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line); background: #fff; cursor: pointer; }
+  button.b.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  button.b:disabled { opacity: .5; cursor: default; }
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; font-variant-numeric: tabular-nums; }
+  th { text-align: right; color: var(--ink2); font-weight: 500; padding: 4px 6px; border-bottom: 1px solid var(--line); }
+  td { text-align: right; padding: 4px 6px; border-bottom: 1px solid #f0efec; }
+  th:first-child, td:first-child { text-align: left; }
+  tr.hl td { background: #eaf2fc; font-weight: 600; }
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--ink2); margin-top: 10px; }
+  .legend i { display: inline-block; width: 18px; height: 4px; border-radius: 2px; vertical-align: middle; margin-right: 6px; }
+  .kv { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+  .kv div { background: #f6f5f2; border-radius: 8px; padding: 6px 8px; }
+  .kv b { display: block; font-size: 15px; }
+  .kv span { font-size: 11px; color: var(--ink2); }
+  .tabs2 { display: flex; gap: 4px; margin-bottom: 10px; }
+  .tabs2 button { flex: 1; }
+  .tabs2 button.on { background: #eaf2fc; border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .ok { color: var(--good); font-weight: 600; } .no { color: var(--bad); font-weight: 600; }
+  .hint { color: var(--muted); font-size: 12px; }
+  .scroll { max-height: 270px; overflow: auto; }
+  .figs { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .figs img { width: 100%; border-radius: 8px; border: 1px solid var(--line); background: #fff; }
+  .figs figure { margin: 0; }
+  .figs figcaption { font-size: 13px; color: var(--ink2); margin: 6px 2px 0; }
+  .eq { font-family: "STIX Two Math", "Cambria Math", serif; font-size: 15px; background: #f6f5f2; padding: 8px 12px; border-radius: 8px; margin: 6px 0; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .pill { display: inline-block; padding: 1px 8px; border-radius: 99px; font-size: 11px; background: #f0efec; color: var(--ink2); }
+  .bigstat { font-size: 28px; font-weight: 700; }
+</style>
+</head>
+<body>
+<header>
+  <h1>OBQR <span>· Orientation-Based Source QoS Routing in VANETs</span></h1>
+  <nav>
+    <button data-page="live" class="on">Live simulation</button>
+    <button data-page="how">How it works</button>
+  </nav>
+</header>
+
+<main>
+<!-- ========================================================= LIVE -->
+<section class="page on" id="page-live">
+  <div class="live">
+    <div>
+      <div class="card">
+        <div class="row" style="justify-content:space-between;margin-bottom:8px">
+          <div class="row">
+            <button class="b primary" id="play">▶ Play</button>
+            <button class="b" id="stepBtn">Step 1 s</button>
+            <label class="hint">Sim speed <select id="rate"><option value="1">1×</option><option value="2" selected>2×</option><option value="4">4×</option><option value="8">8×</option></select></label>
+          </div>
+          <div class="hint">t = <b id="tnow">0</b> s · click a vehicle to inspect · <b>shift-click</b> two vehicles to route</div>
+        </div>
+        <canvas id="cv" width="1400" height="1400"></canvas>
+        <div class="legend">
+          <span><svg width="16" height="16"><circle cx="8" cy="8" r="6" fill="#999" stroke="#0b0b0b" stroke-width="2"/></svg> Cluster head</span>
+          <span><svg width="16" height="16"><polygon points="3,13 8,3 13,13" fill="#999"/></svg> Member (points along heading)</span>
+          <span><svg width="16" height="16"><polygon points="3,13 8,3 13,13" fill="#fff" stroke="#999" stroke-width="2"/></svg> Gateway</span>
+          <span><i style="background:var(--accent)"></i>OBQR route (dashed = backups)</span>
+          <span><i style="background:var(--aqua)"></i>AODV route</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card">
+        <h3>Scenario</h3>
+        <div class="ctl">
+          <label>Vehicles <output id="o_n">80</output><input type="range" id="n" min="25" max="200" step="5" value="80"></label>
+          <label>Mean speed (km/h) <output id="o_speed">54</output><input type="range" id="speed" min="18" max="108" step="18" value="54"></label>
+          <label>Tx range (m) <output id="o_range">250</output><input type="range" id="range" min="100" max="300" step="50" value="250"></label>
+          <label>Seed <output id="o_seed">1</output><input type="range" id="seed" min="1" max="20" step="1" value="1"></label>
+        </div>
+        <div class="row">
+          <button class="b primary" id="reset">Apply / reset</button>
+          <label class="hint">Colour clusters by
+            <select id="colour">
+              <option value="obqr">OBQR (direction)</option>
+              <option value="position">Position-based</option>
+              <option value="speed">Speed-based</option>
+              <option value="lowest_id">Lowest-ID</option>
+            </select></label>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Live clustering comparison (same traffic)</h3>
+        <table id="liveTbl"><thead><tr><th>Method</th><th>Clusters</th><th>Transitions</th><th>Head life (s)</th><th>Control msgs</th></tr></thead><tbody></tbody></table>
+      </div>
+
+      <div class="card">
+        <div class="tabs2">
+          <button class="b on" data-insp="veh">Vehicle · Algorithm 1</button>
+          <button class="b" data-insp="route">Route · Algorithm 2</button>
+        </div>
+        <div id="insp-veh">
+          <div class="hint" id="vehEmpty">Click any vehicle on the map.</div>
+          <div id="vehBody" style="display:none">
+            <div class="kv">
+              <div><span>Vehicle</span><b id="v_id"></b></div>
+              <div><span>Speed · heading</span><b id="v_sp"></b></div>
+              <div><span>Role</span><b id="v_role"></b></div>
+              <div><span>Threshold (Eq. 8)</span><b id="v_rho"></b></div>
+              <div><span>Neighbours in range</span><b id="v_nb"></b></div>
+              <div><span>Similar neighbours</span><b id="v_sim"></b></div>
+            </div>
+            <div class="scroll">
+              <table><thead><tr><th>Car</th><th>Distance (m)</th><th>ε</th><th>k̂</th><th>Link life (s)</th><th>Same cluster?</th></tr></thead><tbody id="vehRows"></tbody></table>
+            </div>
+            <p class="hint">ε = cosine similarity of driving direction (Eq. 6), k̂ = 1 − ε (Eq. 7). A neighbour joins the cluster if its k̂ is below the threshold: the average k̂ of the neighbours (Eq. 8), capped at 45° (0.29) so cars on crossing streets are not grouped. Green lines on the map = same cluster.</p>
+          </div>
+        </div>
+        <div id="insp-route" style="display:none">
+          <div class="row" style="margin-bottom:8px">
+            <button class="b" id="randRoute">Random source → destination</button>
+            <span class="hint" id="routeHint">or shift-click two vehicles</span>
+          </div>
+          <div id="routeBody" class="hint">No route yet.</div>
+          <div id="trackBody" style="margin-top:10px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ========================================================= HOW -->
+<section class="page" id="page-how">
+  <div class="two">
+    <div class="card">
+      <h3>Phase 1 — Clustering by direction (Algorithm 1)</h3>
+      <p>Every car sends a beacon with its id, position, speed and direction. For each neighbour j:</p>
+      <div class="eq">ε<sub>ij</sub> = (V<sub>i</sub>·V<sub>j</sub>) / (‖V<sub>i</sub>‖‖V<sub>j</sub>‖) &nbsp;(Eq. 6) — cosine similarity</div>
+      <div class="eq">k̂<sub>ij</sub> = 1 − ε<sub>ij</sub> &nbsp;(Eq. 7) &nbsp;&nbsp; ρ̂<sub>i</sub> = (1/N) Σ k̂<sub>ij</sub> &nbsp;(Eq. 8)</div>
+      <p>Neighbours with k̂ below the threshold ρ̂ are "similar". The car with the lowest cosine distance and the most neighbours becomes the cluster head; the others join it.</p>
+      <p>Same direction: ε = 1 · crossing street: ε = 0 · oncoming lane: ε = −1.</p>
+    </div>
+    <div class="card">
+      <h3>Phase 2 — QoS routing (Algorithm 2)</h3>
+      <p>Each link gets three numbers:</p>
+      <ul>
+        <li><b>Link life</b> (Eq. 12): how long the two cars stay in radio range, from their positions and velocities</li>
+        <li><b>Cost</b> (Eq. 13–14): from a Gaussian link-quality model</li>
+        <li><b>Delay</b>: time to send a packet over the link</li>
+      </ul>
+      <div class="eq">W = α·(life) + β·(cost) + γ·(delay), each scaled to 0–1, α + β + γ = 1 &nbsp;(Eq. 15–16)</div>
+      <p>Longer-lasting, cheaper and faster links get a lower weight. The source finds the 3 paths with the lowest total W: it uses the best and keeps the other two as backups. We use α = 0.4, β = 0.3, γ = 0.3.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
